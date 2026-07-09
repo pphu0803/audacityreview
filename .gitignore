@@ -1,0 +1,12 @@
+# 构建产物（部署时由 Cloudflare 重新生成）
+dist/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
