@@ -21,14 +21,15 @@ const path = require('path');
  * ============================================================ */
 const SITE = {
   name: 'AUDACITY REVIEW',
-  tagline: '左翼思想 · 翻译 · 评论 · 随笔',
+  tagline: '左翼思想 · 解读 · 评论 · 随笔',
   url: 'https://audacityreview.org',
-  description: 'A review of left-wing thought — translations, essays, and critique on politics, economy, society, and philosophy.',
-  colophon: '本刊译介左翼理论与时评，兼发个人随笔。所涉政治、经济、社会、哲学，立场坦白，翻译忠实。',
+  description: 'A review of left-wing thought — readings, essays, and critique on politics, economy, society, and philosophy.',
+  colophon: '本刊解读左翼理论与时评，兼发个人随笔。所涉政治、经济、社会、哲学，立场坦白，议论锋利。',
+  // 导航：label 显示，tag 对应文章 front matter 里的 tag 值；href=/ 全部
   nav: [
     { label: '首页', href: '/' },
-    { label: '翻译', href: '/category/translation.html' },
-    { label: '随笔', href: '/category/essay.html' },
+    { label: '解读', tag: '解读' },
+    { label: '随笔', tag: '随笔' },
     { label: '关于', href: '/about.html' },
   ],
   // 每页卡片数（首页用）
@@ -146,6 +147,23 @@ function mdToHtml(md) {
     if (/^\s*$/.test(line)) { flushPara(); closeList(); i++; continue; }
     if (/^\s*(-{3,}|\*{3,}|_{3,})\s*$/.test(line)) { flushPara(); closeList(); out.push('<hr>'); i++; continue; }
 
+    // 表格（GFM）：表头行 + 分隔行 |---| + 数据行
+    if (/^\s*\|.*\|\s*$/.test(line) && i + 1 < lines.length && /^\s*\|?[\s:|-]+\|?\s*$/.test(lines[i + 1]) && /\|/.test(lines[i + 1])) {
+      flushPara(); closeList();
+      const parseRow = (l) => l.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map(c => inline(c.trim()));
+      const header = parseRow(line);
+      i += 2; // 跳过表头行和分隔行
+      const rows = [];
+      while (i < lines.length && /^\s*\|.*\|\s*$/.test(lines[i])) {
+        rows.push(parseRow(lines[i]));
+        i++;
+      }
+      const thead = `<thead><tr>${header.map(c => `<th>${c}</th>`).join('')}</tr></thead>`;
+      const tbody = `<tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>`;
+      out.push(`<table class="md-table">${thead}${tbody}</table>`);
+      continue;
+    }
+
     const h = /^(#{1,4})\s+(.*)$/.exec(line);
     if (h) {
       flushPara(); closeList();
@@ -200,7 +218,6 @@ function loadPosts() {
       excerpt: data.excerpt || makeExcerpt(body),
       cover: data.cover || '',
       category: data.category || '',
-      type: data.type || 'essay',           // 'translation' | 'essay'
       tags: (data.tags || '').split(',').map(s => s.trim()).filter(Boolean),
       body,
       file: f,
@@ -232,11 +249,13 @@ function byline(p) {
 /* ============================================================
  * 5. 页面外壳
  * ============================================================ */
-function shell({ title, description, bodyHtml, activeHref = '/', extraHead = '' }) {
+function shell({ title, description, bodyHtml, activeHref = '/', activeTag = '', extraHead = '' }) {
   const fullTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
-  const navHtml = SITE.nav.map(n =>
-    `<a href="${n.href}"${n.href === activeHref ? ' class="is-active"' : ''}>${n.label}</a>`
-  ).join('\n      ');
+  const navHtml = SITE.nav.map(n => {
+    const href = n.href || `/tag/${encodeURIComponent(n.tag)}.html`;
+    const isActive = n.href ? (n.href === activeHref) : (n.tag === activeTag);
+    return `<a href="${href}"${isActive ? ' class="is-active"' : ''}>${n.label}</a>`;
+  }).join('\n      ');
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -290,16 +309,20 @@ function coverImg(cover, alt, cls) {
   return `<img class="${cls}" src="${htmlEscape(cover)}" alt="${htmlEscape(alt)}" loading="lazy">`;
 }
 
+function tagHref(tag) { return `/tag/${encodeURIComponent(tag)}.html`; }
+
 function card(p, index) {
-  const typeLabel = p.type === 'translation' ? '翻译' : '随笔';
   const authorLine = byline(p);
+  const tagsLine = p.tags.length
+    ? p.tags.map(t => `<a class="tag" href="${tagHref(t)}">${htmlEscape(t)}</a>`).join('')
+    : '';
   return `
       <article class="card" style="--i:${index}">
         <a class="card__media" href="/post/${p.slug}.html">
           ${coverImg(p.cover, p.title, 'card__img')}
         </a>
         <div class="card__body">
-          <p class="card__type">${typeLabel}${p.category ? ' · ' + htmlEscape(p.category) : ''}</p>
+          ${tagsLine ? `<p class="card__tags">${tagsLine}</p>` : ''}
           <h3 class="card__title"><a href="/post/${p.slug}.html">${htmlEscape(p.title)}</a></h3>
           ${authorLine ? `<p class="card__author">${authorLine}</p>` : ''}
           <p class="card__excerpt">${htmlEscape(p.excerpt)}</p>
@@ -342,16 +365,20 @@ ${cards}
 function buildPostHtml(post, allPosts) {
   const content = mdToHtml(post.body);
 
-  // 推荐栏：同分类优先，否则取最近的其他文章，排除自己，取 5 篇
+  // 推荐栏：tag 重叠数优先，其次同分类，最后取最近；排除自己，取 5 篇
+  const tagSet = new Set(post.tags);
   const related = allPosts
     .filter(p => p.slug !== post.slug)
+    .map(p => ({ p, overlap: p.tags.filter(t => tagSet.has(t)).length }))
     .sort((a, b) => {
-      const aMatch = a.category === post.category ? 0 : 1;
-      const bMatch = b.category === post.category ? 0 : 1;
-      if (aMatch !== bMatch) return aMatch - bMatch;
-      return a.date < b.date ? 1 : -1;
+      if (a.overlap !== b.overlap) return b.overlap - a.overlap;
+      const aCat = a.p.category === post.category ? 0 : 1;
+      const bCat = b.p.category === post.category ? 0 : 1;
+      if (aCat !== bCat) return aCat - bCat;
+      return a.p.date < b.p.date ? 1 : -1;
     })
-    .slice(0, 5);
+    .slice(0, 5)
+    .map(x => x.p);
 
   const relatedHtml = related.map(p => `
           <li class="related__item">
@@ -370,23 +397,23 @@ function buildPostHtml(post, allPosts) {
     sourceBlock = `<p class="article__source">${srcText}</p>`;
   }
 
-  const tagsHtml = post.tags.length
-    ? `<div class="article__tags">${post.tags.map(t => `<a class="tag" href="/">#${htmlEscape(t)}</a>`).join('')}</div>`
+  const tagsLine = post.tags.length
+    ? post.tags.map(t => `<a class="tag" href="${tagHref(t)}">${htmlEscape(t)}</a>`).join('')
     : '';
 
   const bodyHtml = `
     <div class="article-layout">
       <article class="article">
-        <p class="article__type">${post.type === 'translation' ? '翻译' : '随笔'}${post.category ? ' · ' + htmlEscape(post.category) : ''}</p>
+        ${tagsLine ? `<p class="article__tags article__tags--top">${tagsLine}</p>` : ''}
         <h1 class="article__title">${htmlEscape(post.title)}</h1>
-        ${post.author ? `<p class="article__author">${htmlEscape(post.author)}${post.translator ? ' ｜ 译 / ' + htmlEscape(post.translator) : ''}</p>` : (post.translator ? `<p class="article__author">译 / ${htmlEscape(post.translator)}</p>` : '')}
+        ${post.author ? `<p class="article__author">${htmlEscape(post.author)}${post.translator ? ' ｜ 解读 / ' + htmlEscape(post.translator) : ''}</p>` : (post.translator ? `<p class="article__author">解读 / ${htmlEscape(post.translator)}</p>` : '')}
         <p class="article__date"><time datetime="${post.date}">${formatDateCN(post.date)}</time></p>
         ${sourceBlock}
         <div class="article__rule"></div>
         <div class="article__content">
 ${content}
         </div>
-        ${tagsHtml}
+        ${tagsLine ? `<div class="article__tags">${tagsLine}</div>` : ''}
         <p class="article__back"><a href="/">← 返回首页</a></p>
       </article>
 
@@ -400,7 +427,7 @@ ${relatedHtml}
         ${post.tags.length ? `
         <div class="sidebar__block">
           <h4 class="sidebar__head">关键词</h4>
-          <div class="sidebar__tags">${post.tags.map(t => `<a class="tag" href="#">${htmlEscape(t)}</a>`).join('')}</div>
+          <div class="sidebar__tags">${tagsLine}</div>
         </div>` : ''}
         <div class="sidebar__block sidebar__about">
           <h4 class="sidebar__head">关于本刊</h4>
@@ -421,14 +448,16 @@ ${relatedHtml}
 /* ============================================================
  * 9. 分类页
  * ============================================================ */
-function buildCategoryHtml(type, posts) {
-  const filtered = posts.filter(p => p.type === type);
-  const labels = { translation: '翻译', essay: '随笔' };
+/* ============================================================
+ * 9. 标签页（/tag/<name>.html）
+ * ============================================================ */
+function buildTagHtml(tag, posts) {
+  const filtered = posts.filter(p => p.tags.includes(tag));
   const cards = filtered.map((p, i) => card(p, i)).join('');
 
   const bodyHtml = `
     <section class="dateline">
-      <span>${labels[type]}</span>
+      <span>#${htmlEscape(tag)}</span>
       <span class="dateline__issue">共 ${filtered.length} 篇</span>
     </section>
     <section class="grid">
@@ -437,11 +466,18 @@ ${cards || '<p class="empty">暂无内容。</p>'}
   `;
 
   return shell({
-    title: labels[type],
-    description: `${SITE.name} · ${labels[type]}`,
-    activeHref: `/category/${type}.html`,
+    title: `#${tag}`,
+    description: `${SITE.name} · 标签 ${tag}`,
+    activeTag: tag,
     bodyHtml,
   });
+}
+
+/** 收集所有 tag 及其文章数，按数量降序 */
+function collectTags(posts) {
+  const map = {};
+  posts.forEach(p => p.tags.forEach(t => { map[t] = (map[t] || 0) + 1; }));
+  return Object.entries(map).sort((a, b) => b[1] - a[1]);
 }
 
 /* ============================================================
@@ -499,7 +535,7 @@ function build() {
   rmrf(DIST_DIR);
   ensureDir(DIST_DIR);
   ensureDir(path.join(DIST_DIR, 'post'));
-  ensureDir(path.join(DIST_DIR, 'category'));
+  ensureDir(path.join(DIST_DIR, 'tag'));
 
   copyStatic('style.css');
   copyStatic('assets');
@@ -510,14 +546,19 @@ function build() {
   fs.writeFileSync(path.join(DIST_DIR, 'index.html'), buildIndexHtml(posts), 'utf8');
   fs.writeFileSync(path.join(DIST_DIR, 'about.html'), buildAboutHtml(), 'utf8');
   fs.writeFileSync(path.join(DIST_DIR, 'feed.xml'), buildRss(posts), 'utf8');
-  fs.writeFileSync(path.join(DIST_DIR, 'category', 'translation.html'), buildCategoryHtml('translation', posts), 'utf8');
-  fs.writeFileSync(path.join(DIST_DIR, 'category', 'essay.html'), buildCategoryHtml('essay', posts), 'utf8');
+
+  // 生成所有标签页
+  const tags = collectTags(posts);
+  for (const [tag] of tags) {
+    const tagFile = path.join(DIST_DIR, 'tag', `${encodeURIComponent(tag)}.html`);
+    fs.writeFileSync(tagFile, buildTagHtml(tag, posts), 'utf8');
+  }
 
   for (const post of posts) {
     fs.writeFileSync(path.join(DIST_DIR, 'post', `${post.slug}.html`), buildPostHtml(post, posts), 'utf8');
   }
 
-  console.log(`✓ 构建完成：${posts.length} 篇文章，耗时 ${Date.now() - t0}ms → dist/`);
+  console.log(`✓ 构建完成：${posts.length} 篇文章，${tags.length} 个标签，耗时 ${Date.now() - t0}ms → dist/`);
 }
 
 function copyStatic(name) {

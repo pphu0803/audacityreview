@@ -351,6 +351,31 @@ img { max-width: 100%; height: auto; display: block; }
 .article__content ol { margin: 0 0 1.4em; padding-left: 1.5em; }
 .article__content li { margin: 0.3em 0; }
 
+/* —— 表格（GFM）—— */
+.article__content .md-table,
+.md-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.8em 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.md-table th,
+.md-table td {
+  border: 1px solid var(--rule);
+  padding: 0.5em 0.85em;
+  text-align: left;
+  vertical-align: top;
+}
+.md-table thead th {
+  background: var(--paper-tint);
+  font-weight: 700;
+  border-bottom: 2px solid var(--ink);
+}
+.md-table tbody tr:nth-child(even) td {
+  background: rgba(239, 232, 218, 0.35);
+}
+
 .article__content img { margin: 1.8em auto; border: 1px solid var(--rule); }
 .article__content pre {
   background: var(--paper-edge);
@@ -365,17 +390,26 @@ img { max-width: 100%; height: auto; display: block; }
 .article__content hr { border: 0; text-align: center; margin: 2.5em 0; clear: both; }
 .article__content hr::after { content: '❧'; color: var(--red); font-size: 1.2em; }
 
+/* 文章底部 tags（带分隔线） */
 .article__tags { margin: 2.5rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--rule); display: flex; gap: 0.5rem; flex-wrap: wrap; clear: both; }
+/* 文章顶部 tags（标题上方，无分隔线） */
+.article__tags--top { margin: 0 0 0.75rem; padding: 0; border: 0; }
+
+/* 卡片上的 tags */
+.card__tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0 0 0.5rem; }
+
 .tag {
   font-family: var(--caslon);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--ink-soft);
   background: var(--paper-edge);
-  padding: 0.2em 0.7em;
+  padding: 0.15em 0.65em;
   letter-spacing: 0.05em;
   border: 0;
+  display: inline-block;
+  transition: background .15s ease, color .15s ease;
 }
-.tag:hover { color: var(--red); background: var(--paper-tint); }
+.tag:hover { color: var(--red); background: var(--paper-tint); text-decoration: none; }
 
 .article__back {
   text-align: center;
