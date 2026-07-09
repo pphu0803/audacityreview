@@ -275,7 +275,7 @@ function byline(p) {
 /* ============================================================
  * 5. 页面外壳
  * ============================================================ */
-function shell({ title, description, bodyHtml, activeHref = '/', activeTag = '', extraHead = '' }) {
+function shell({ title, description, bodyHtml, activeHref = '/', activeTag = '', extraHead = '', bodyAttr = '' }) {
   const fullTitle = title === SITE.name ? title : `${title} · ${SITE.name}`;
   const navHtml = SITE.nav.map(n => {
     const href = n.href || `/tag/${encodeURIComponent(n.tag)}.html`;
@@ -297,7 +297,7 @@ function shell({ title, description, bodyHtml, activeHref = '/', activeTag = '',
   <link rel="stylesheet" href="${STYLE_HREF}">
   <link rel="icon" type="image/png" href="/assets/logo.png">
 </head>
-<body>
+<body${bodyAttr ? ' ' + bodyAttr : ''}>
   <header class="masthead">
     <div class="masthead__rule"></div>
     <div class="masthead__inner">
@@ -321,9 +321,107 @@ ${bodyHtml}
     <div class="colophon__inner">
       <a href="/" class="colophon__title">${htmlEscape(SITE.name)}</a>
       <p class="colophon__text">${htmlEscape(SITE.colophon)}</p>
-      <p class="colophon__meta">© ${new Date().getFullYear()} ${htmlEscape(SITE.url.replace(/^https?:\/\//, ''))} · 译介仅供参考，版权归原作者所有</p>
+      <form class="subscribe" data-subscribe-form>
+        <input type="email" placeholder="邮箱地址" required>
+        <button type="submit">订阅</button>
+      </form>
+      <p class="subscribe__msg" data-subscribe-msg></p>
+      <p class="colophon__meta">© ${new Date().getFullYear()} ${htmlEscape(SITE.url.replace(/^https?:\/\//, ''))} · 投稿 audacityreview@gmail.com</p>
     </div>
   </footer>
+
+  <script>
+  (function() {
+    // —— 工具 ——
+    var API = '/api';
+    function post(url) { return fetch(url, { method: 'POST' }).then(function(r){return r.json();}).catch(function(){return null;}); }
+    function get(url) { return fetch(url).then(function(r){return r.json();}).catch(function(){return null;}); }
+
+    // —— 文章页：阅读数 + 点赞 ——
+    var articleSlug = document.body.getAttribute('data-slug');
+    if (articleSlug) {
+      // 阅读数 +1（仅文章页）
+      post(API + '/view/' + articleSlug).then(function(d) {
+        if (d && d.views !== undefined) {
+          var el = document.querySelector('[data-views]');
+          if (el) el.textContent = d.views;
+        }
+      });
+
+      // 点赞按钮
+      var likeBtn = document.querySelector('[data-like-btn]');
+      var likeDisplay = document.querySelector('[data-likes]');
+      var liked = localStorage.getItem('liked:' + articleSlug);
+
+      if (likeBtn) {
+        // 先加载当前点赞数
+        get(API + '/like/' + articleSlug).then(function(d) {
+          if (d && d.likes !== undefined && likeDisplay) likeDisplay.textContent = d.likes;
+        });
+
+        if (liked) likeBtn.classList.add('is-liked');
+
+        likeBtn.addEventListener('click', function() {
+          if (liked) return;
+          post(API + '/like/' + articleSlug).then(function(d) {
+            if (d && d.likes !== undefined && likeDisplay) {
+              likeDisplay.textContent = d.likes;
+              likeBtn.classList.add('is-liked');
+              liked = '1';
+              localStorage.setItem('liked:' + articleSlug, '1');
+            }
+          });
+        });
+      }
+    }
+
+    // —— 首页卡片：显示阅读数 ——
+    var cards = document.querySelectorAll('.card[data-card-slug]');
+    if (cards.length) {
+      cards.forEach(function(card) {
+        var slug = card.getAttribute('data-card-slug');
+        get(API + '/view/' + slug).then(function(d) {
+          if (d && d.views !== undefined) {
+            var el = card.querySelector('[data-card-views]');
+            if (el) { el.textContent = d.views; el.parentElement.style.display = ''; }
+          }
+        });
+      });
+    }
+
+    // —— 订阅表单 ——
+    var subForm = document.querySelector('[data-subscribe-form]');
+    if (subForm) {
+      subForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var input = subForm.querySelector('input[type="email"]');
+        var btn = subForm.querySelector('button');
+        var msg = document.querySelector('[data-subscribe-msg]');
+        if (!input || !input.value) return;
+        btn.disabled = true;
+        btn.textContent = '提交中…';
+        post(API + '/subscribe').then(function(){}); // 先占位
+        fetch(API + '/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: input.value })
+        }).then(function(r){return r.json();}).then(function(d) {
+          btn.disabled = false;
+          btn.textContent = '订阅';
+          if (d && d.ok) {
+            subForm.innerHTML = '<p class="sub-ok">✓ 已订阅。有新文章时会通知你。</p>';
+          } else if (msg) {
+            msg.textContent = d && d.error ? d.error : '订阅失败，请稍后重试。';
+          }
+        }).catch(function() {
+          btn.disabled = false;
+          btn.textContent = '订阅';
+          if (msg) msg.textContent = '网络错误，请稍后重试。';
+        });
+      });
+    }
+  })();
+  </script>
 </body>
 </html>`;
 }
@@ -344,7 +442,7 @@ function card(p, index) {
     ? p.tags.map(t => `<a class="tag" href="${tagHref(t)}">${htmlEscape(t)}</a>`).join('')
     : '';
   return `
-      <article class="card" style="--i:${index}">
+      <article class="card" style="--i:${index}" data-card-slug="${htmlEscape(p.slug)}">
         <a class="card__media" href="/post/${p.slug}.html">
           ${coverImg(p.cover, p.title, 'card__img')}
         </a>
@@ -356,6 +454,7 @@ function card(p, index) {
           <p class="card__excerpt">${htmlEscape(p.excerpt)}</p>
           <p class="card__foot">
             <time datetime="${p.date}">${formatDateShort(p.date)}</time>
+            <span class="card__views" style="display:none">阅读 <span data-card-views>0</span></span>
             <a class="readmore" href="/post/${p.slug}.html">+ READ MORE</a>
           </p>
         </div>
@@ -443,6 +542,12 @@ function buildPostHtml(post, allPosts) {
 ${content}
         </div>
         ${tagsLine ? `<div class="article__tags">${tagsLine}</div>` : ''}
+        <div class="article__engage">
+          <span class="engage__views">阅读 <span data-views>0</span></span>
+          <button class="engage__like" data-like-btn>
+            <span class="like__icon">♡</span> <span data-likes>0</span>
+          </button>
+        </div>
         <p class="article__back"><a href="/">← 返回首页</a></p>
       </article>
 
@@ -471,6 +576,7 @@ ${relatedHtml}
     description: post.excerpt,
     activeHref: '/',
     bodyHtml,
+    bodyAttr: `data-slug="${htmlEscape(post.slug)}"`,
   });
 }
 

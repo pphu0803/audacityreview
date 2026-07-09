@@ -494,6 +494,86 @@ img { max-width: 100%; height: auto; display: block; }
 .colophon__meta { font-family: var(--caslon); font-style: italic; color: var(--ink-faint); font-size: 0.8rem; letter-spacing: 0.08em; margin: 0; }
 
 /* ===================================================================
+   订阅表单
+   =================================================================== */
+.subscribe {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 24rem;
+  margin: 0 auto 0.5rem;
+}
+.subscribe input {
+  flex: 1;
+  padding: 0.55em 0.9em;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  color: var(--ink);
+  outline: none;
+}
+.subscribe input:focus { border-color: var(--red); }
+.subscribe button {
+  padding: 0.55em 1.5em;
+  border: 0;
+  background: var(--red);
+  color: #fff;
+  font-family: var(--caslon);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+.subscribe button:hover:not(:disabled) { background: var(--red-deep); }
+.subscribe button:disabled { opacity: 0.6; cursor: default; }
+.subscribe__msg { color: var(--ink-faint); font-size: 0.82rem; margin: 0.25rem 0 1rem; min-height: 1em; }
+.sub-ok { color: var(--red); font-family: var(--caslon); font-style: italic; font-size: 0.9rem; margin: 0.5rem 0 1rem; }
+
+/* ===================================================================
+   文章页：阅读数 + 点赞
+   =================================================================== */
+.article__engage {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  clear: both;
+}
+.engage__views {
+  font-family: var(--caslon);
+  font-style: italic;
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+}
+.engage__like {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: 1px solid var(--rule);
+  padding: 0.3em 1em;
+  font-family: var(--caslon);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.engage__like:hover { border-color: var(--red); color: var(--red); }
+.engage__like.is-liked { border-color: var(--red); color: var(--red); }
+.engage__like.is-liked .like__icon { color: var(--red); }
+.engage__like .like__icon { font-size: 1.05rem; line-height: 1; }
+
+/* 卡片上的阅读数 */
+.card__views {
+  font-family: var(--caslon);
+  font-style: italic;
+  color: var(--ink-faint);
+  font-size: 0.78rem;
+}
+
+/* ===================================================================
    动效
    =================================================================== */
 @keyframes rise {
