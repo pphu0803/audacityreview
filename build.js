@@ -295,6 +295,7 @@ function shell({ title, description, bodyHtml, activeHref = '/', activeTag = '',
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600;700;900&family=Spectral:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
   ${extraHead}
   <link rel="stylesheet" href="${STYLE_HREF}">
+  <link rel="icon" type="image/png" href="/assets/logo.png">
 </head>
 <body>
   <header class="masthead">
