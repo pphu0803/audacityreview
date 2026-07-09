@@ -203,7 +203,7 @@ function mdToHtml(md) {
  * ============================================================ */
 function loadPosts() {
   ensureDir(POSTS_DIR);
-  const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md'));
+  const files = fs.readdirSync(POSTS_DIR).filter(f => f.endsWith('.md')).sort();
   const posts = files.map(f => {
     const { data, body } = parseFrontMatter(readText(path.join(POSTS_DIR, f)));
     const slug = data.slug || f.replace(/\.md$/, '');
@@ -223,7 +223,27 @@ function loadPosts() {
       file: f,
     };
   });
-  posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+
+  // 生成篇号：按日期分组，同日按文件名排序后 001/002/003 递增
+  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const seqByDate = {};
+  const dated = posts
+    .slice()
+    .sort((a, b) => a.date < b.date ? -1 : a.date > b.date ? 1 : a.file < b.file ? -1 : 1);
+  dated.forEach(p => {
+    const d = new Date(p.date + 'T00:00:00');
+    seqByDate[p.date] = (seqByDate[p.date] || 0) + 1;
+    p.seq = seqByDate[p.date];
+    p.id = p.date.replace(/-/g, '') + String(p.seq).padStart(3, '0');   // 排序用: 20260709001
+    const yr = d.getFullYear();
+    const mo = MONTHS[d.getMonth()];
+    const dy = String(d.getDate()).padStart(2, '0');
+    const sq = String(p.seq).padStart(3, '0');
+    p.displayNo = `№ ${yr}.${mo}.${dy}-${sq}`;                          // 显示用: № 2026.Jul.09-001
+  });
+
+  // 最终排序：篇号倒序（新的在前）
+  posts.sort((a, b) => a.id < b.id ? 1 : a.id > b.id ? -1 : 0);
   return posts;
 }
 
@@ -322,6 +342,7 @@ function card(p, index) {
           ${coverImg(p.cover, p.title, 'card__img')}
         </a>
         <div class="card__body">
+          <p class="card__no">${p.displayNo}</p>
           ${tagsLine ? `<p class="card__tags">${tagsLine}</p>` : ''}
           <h3 class="card__title"><a href="/post/${p.slug}.html">${htmlEscape(p.title)}</a></h3>
           ${authorLine ? `<p class="card__author">${authorLine}</p>` : ''}
@@ -404,6 +425,7 @@ function buildPostHtml(post, allPosts) {
   const bodyHtml = `
     <div class="article-layout">
       <article class="article">
+        <p class="article__no">${post.displayNo}</p>
         ${tagsLine ? `<p class="article__tags article__tags--top">${tagsLine}</p>` : ''}
         <h1 class="article__title">${htmlEscape(post.title)}</h1>
         ${post.author ? `<p class="article__author">${htmlEscape(post.author)}${post.translator ? ' ｜ 解读 / ' + htmlEscape(post.translator) : ''}</p>` : (post.translator ? `<p class="article__author">解读 / ${htmlEscape(post.translator)}</p>` : '')}

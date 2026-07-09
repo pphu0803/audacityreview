@@ -7,7 +7,7 @@ source: New Left Review 154, 2025
 sourceUrl: https://newleftreview.org
 category: 法学
 tags: 解读,国际法,资本主义,法治,福柯
-cover: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr154-koskenniemi-laws-that-rule-us.png
 excerpt: 左翼总爱嘲笑国际法的软弱无力——联合国管不了美国，国际法院形同虚设。科斯肯涅米在 NLR 154 说：你没找对地方。真正统治世界的法律，从来不在那些你看得见的大厅里。
 ---
 

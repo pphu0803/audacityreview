@@ -395,6 +395,19 @@ img { max-width: 100%; height: auto; display: block; }
 /* 文章顶部 tags（标题上方，无分隔线） */
 .article__tags--top { margin: 0 0 0.75rem; padding: 0; border: 0; }
 
+/* 篇号 № 001 —— 卡片和文章页通用 */
+.card__no,
+.article__no {
+  font-family: var(--caslon);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--red);
+  letter-spacing: 0.1em;
+  margin: 0 0 0.5rem;
+}
+.card__no { font-size: 0.85rem; }
+.article__no { font-size: 1rem; margin-bottom: 0.75rem; }
+
 /* 卡片上的 tags */
 .card__tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0 0 0.5rem; }
 
