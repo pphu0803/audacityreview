@@ -219,17 +219,23 @@ function loadPosts() {
       cover: data.cover || '',
       category: data.category || '',
       tags: (data.tags || '').split(',').map(s => s.trim()).filter(Boolean),
+      order: data.order !== undefined ? Number(data.order) : 0,
       body,
       file: f,
     };
   });
 
-  // 生成篇号：按日期分组，同日按文件名排序后 001/002/003 递增
+  // 生成篇号：按日期分组，同日按 order 字段排序（默认 0），order 相同再按文件名
   const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   const seqByDate = {};
   const dated = posts
     .slice()
-    .sort((a, b) => a.date < b.date ? -1 : a.date > b.date ? 1 : a.file < b.file ? -1 : 1);
+    .sort((a, b) => {
+      if (a.date < b.date) return -1;
+      if (a.date > b.date) return 1;
+      if (a.order !== b.order) return a.order - b.order;   // order 小的先编号
+      return a.file < b.file ? -1 : 1;
+    });
   dated.forEach(p => {
     const d = new Date(p.date + 'T00:00:00');
     seqByDate[p.date] = (seqByDate[p.date] || 0) + 1;
@@ -572,7 +578,7 @@ function build() {
   // 生成所有标签页
   const tags = collectTags(posts);
   for (const [tag] of tags) {
-    const tagFile = path.join(DIST_DIR, 'tag', `${encodeURIComponent(tag)}.html`);
+    const tagFile = path.join(DIST_DIR, 'tag', `${tag}.html`);
     fs.writeFileSync(tagFile, buildTagHtml(tag, posts), 'utf8');
   }
 
