@@ -121,6 +121,28 @@ img { max-width: 100%; height: auto; display: block; }
 .masthead__nav a:hover { color: var(--red); border-bottom-color: var(--red); }
 .masthead__nav a.is-active { color: var(--red); border-bottom-color: var(--red); }
 
+/* 语言切换器 —— 右上角，用 margin-left:auto 推到最右 */
+.lang-switch {
+  margin-left: auto;
+  font-family: var(--caslon);
+  font-style: italic;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--red);
+  padding: 0.15em 0.75em;
+  border: 1px solid var(--red) !important;
+  border-radius: 2px;
+  transition: background .15s ease, color .15s ease;
+}
+.lang-switch:hover { background: var(--red); color: #fff !important; border-bottom-color: var(--red) !important; text-decoration: none; }
+.lang-switch--disabled {
+  color: var(--ink-faint) !important;
+  border-color: var(--rule) !important;
+  cursor: default;
+  opacity: 0.5;
+}
+.lang-switch--disabled:hover { background: none; color: var(--ink-faint) !important; }
+
 /* ===================================================================
    主版面（加宽）
    =================================================================== */
