@@ -1,0 +1,14 @@
+name = "audacityreview"
+compatibility_date = "2024-09-23"
+
+# 静态资源：Workers Static Assets
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+# Worker 入口
+main = "src/index.ts"
+
+[[kv_namespaces]]
+binding = "AR_KV"
+id = "4d72beb0f08442f691281896c46b7c1f"
