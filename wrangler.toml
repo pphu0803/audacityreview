@@ -1,0 +1,6 @@
+name = "audacityreview"
+compatibility_date = "2024-09-23"
+
+[[kv_namespaces]]
+binding = "AR_KV"
+id = "4d72beb0f08442f691281896c46b7c1f"
