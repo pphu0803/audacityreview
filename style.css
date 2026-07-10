@@ -121,9 +121,14 @@ img { max-width: 100%; height: auto; display: block; }
 .masthead__nav a:hover { color: var(--red); border-bottom-color: var(--red); }
 .masthead__nav a.is-active { color: var(--red); border-bottom-color: var(--red); }
 
-/* 语言切换器 —— 右上角，用 margin-left:auto 推到最右 */
+/* 语言切换器 —— 绝对定位钉在导航栏右侧，不影响导航项居中 */
+.masthead__nav { position: relative; }
+
 .lang-switch {
-  margin-left: auto;
+  position: absolute;
+  right: var(--gutter, 2rem);
+  top: 50%;
+  transform: translateY(-50%);
   font-family: var(--caslon);
   font-style: italic;
   font-size: 0.85rem;
