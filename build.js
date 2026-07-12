@@ -333,10 +333,10 @@ function assignNumbers(zhPosts, enPosts) {
 
 /** 拼出署名行 */
 function byline(p, S) {
-  const parts = [];
-  if (p.author) parts.push(htmlEscape(p.author));
-  if (p.translator) parts.push(`${S.interpBy}${htmlEscape(p.translator)}`);
-  return parts.join(S.byTranslator && p.author && p.translator ? S.byTranslator : '');
+  if (p.author && p.translator) return `${htmlEscape(p.author)}${S.byTranslator}${htmlEscape(p.translator)}`;
+  if (p.author) return htmlEscape(p.author);
+  if (p.translator) return `${S.interpBy}${htmlEscape(p.translator)}`;
+  return '';
 }
 
 /* ============================================================
