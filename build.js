@@ -58,6 +58,9 @@ const I18N = {
       seriesPart: '第',
       seriesPartOf: '篇 · 共',
       seriesParts: '篇',
+      newer: '← 更新',
+      older: '更早 →',
+      page: '页',
     },
   },
   en: {
@@ -98,11 +101,15 @@ const I18N = {
       seriesPart: 'Part',
       seriesPartOf: ' of ',
       seriesParts: '',
+      newer: '← Newer',
+      older: 'Older →',
+      page: 'Page',
     },
   },
 };
 
 const SITE_NAME = 'AUDACITY REVIEW';
+const PER_PAGE = 12;
 const ROOT = __dirname;
 const POSTS_DIR = path.join(ROOT, 'posts');
 const DIST_DIR = path.join(ROOT, 'dist');
@@ -499,12 +506,33 @@ function card(p, index, lang, counterpartExists) {
 }
 
 /* ============================================================
- * 7. 首页
+ * 7. 首页（分页）
  * ============================================================ */
-function buildIndexHtml(posts, lang, slugLookup) {
-  const I = I18N[lang];
-  const cards = posts.slice(0, 12).map((p, i) => card(p, i, lang)).join('');
-  const cUrl = counterpartUrl('index', '', lang, true);  // 首页始终有对岸
+
+/** 首页某页的 URL：第 1 页是 /（或 /en/），第 2+ 页是 /page/N/（或 /en/page/N/） */
+function indexPageUrl(page, lang) {
+  const b = base(lang);
+  return page <= 1 ? `${b}/` : `${b}/page/${page}/`;
+}
+
+function buildIndexHtml(posts, lang, page) {
+  const I = I18N[lang], S = I.strings;
+  const totalPages = Math.ceil(posts.length / PER_PAGE);
+  const pagePosts = posts.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+  const cards = pagePosts.map((p, i) => card(p, i, lang)).join('');
+  const cUrl = counterpartUrl('index', '', lang, true);
+
+  // 分页导航
+  let pagerHtml = '';
+  if (totalPages > 1) {
+    const newer = page > 1
+      ? `<a class="pager__link" href="${indexPageUrl(page - 1, lang)}">${S.newer}</a>`
+      : `<span class="pager__link pager__link--disabled">${S.newer}</span>`;
+    const older = page < totalPages
+      ? `<a class="pager__link" href="${indexPageUrl(page + 1, lang)}">${S.older}</a>`
+      : `<span class="pager__link pager__link--disabled">${S.older}</span>`;
+    pagerHtml = `<nav class="pager">${newer}<span class="pager__count">${page} / ${totalPages}</span>${older}</nav>`;
+  }
 
   const bodyHtml = `
     <section class="dateline">
@@ -512,10 +540,12 @@ function buildIndexHtml(posts, lang, slugLookup) {
       <span class="dateline__issue">${posts.length ? formatDate(posts[0].date, lang) : ''}</span>
     </section>
     <section class="grid">
-${cards || `<p class="empty">${htmlEscape(I.strings.empty)}</p>`}
-    </section>`;
+${cards || `<p class="empty">${htmlEscape(S.empty)}</p>`}
+    </section>
+    ${pagerHtml}`;
 
-  return shell({ title: SITE_NAME, description: I.description, lang, activeHref: '/',
+  const title = page > 1 ? `${SITE_NAME} — ${S.page} ${page}` : SITE_NAME;
+  return shell({ title, description: I.description, lang, activeHref: '/',
     counterpartUrl: cUrl, bodyHtml });
 }
 
@@ -752,7 +782,18 @@ function build() {
   // —— 中文（默认，无前缀）——
   ensureDir(path.join(DIST_DIR, 'post'));
   ensureDir(path.join(DIST_DIR, 'tag'));
-  fs.writeFileSync(path.join(DIST_DIR, 'index.html'), buildIndexHtml(zhPosts, 'zh', slugLookup), 'utf8');
+  // 首页分页
+  const zhTotalPages = Math.max(1, Math.ceil(zhPosts.length / PER_PAGE));
+  for (let page = 1; page <= zhTotalPages; page++) {
+    const html = buildIndexHtml(zhPosts, 'zh', page);
+    if (page === 1) {
+      fs.writeFileSync(path.join(DIST_DIR, 'index.html'), html, 'utf8');
+    } else {
+      const dir = path.join(DIST_DIR, 'page', String(page));
+      ensureDir(dir);
+      fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
+    }
+  }
   fs.writeFileSync(path.join(DIST_DIR, 'about.html'), buildAboutHtml('zh'), 'utf8');
   fs.writeFileSync(path.join(DIST_DIR, 'feed.xml'), buildRss(zhPosts, 'zh'), 'utf8');
   for (const [tag] of collectTags(zhPosts)) {
@@ -768,7 +809,17 @@ function build() {
   if (enPosts.length > 0) {
     ensureDir(path.join(DIST_DIR, 'en', 'post'));
     ensureDir(path.join(DIST_DIR, 'en', 'tag'));
-    fs.writeFileSync(path.join(DIST_DIR, 'en', 'index.html'), buildIndexHtml(enPosts, 'en', slugLookup), 'utf8');
+    const enTotalPages = Math.max(1, Math.ceil(enPosts.length / PER_PAGE));
+    for (let page = 1; page <= enTotalPages; page++) {
+      const html = buildIndexHtml(enPosts, 'en', page);
+      if (page === 1) {
+        fs.writeFileSync(path.join(DIST_DIR, 'en', 'index.html'), html, 'utf8');
+      } else {
+        const dir = path.join(DIST_DIR, 'en', 'page', String(page));
+        ensureDir(dir);
+        fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
+      }
+    }
     fs.writeFileSync(path.join(DIST_DIR, 'en', 'about.html'), buildAboutHtml('en'), 'utf8');
     fs.writeFileSync(path.join(DIST_DIR, 'en', 'feed.xml'), buildRss(enPosts, 'en'), 'utf8');
     for (const [tag] of collectTags(enPosts)) {
