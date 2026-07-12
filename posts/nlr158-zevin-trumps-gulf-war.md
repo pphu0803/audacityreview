@@ -7,7 +7,7 @@ source: New Left Review 158, 2026
 sourceUrl: https://newleftreview.org
 category: 地缘政治
 tags: 解读,特朗普,伊朗战争,帝国主义,霸权
-cover: https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr158-zevin-trumps-gulf-war.png
 excerpt: 一个以"不再打愚蠢战争"上台的人，发动了新保守主义者梦寐以求的对伊战争。泽文在 NLR 158 把这场战争放回历史里——从拿破仑三世的闹剧到两次海湾战争的前车之鉴，从空中力量的迷思到市场操纵成为国家理由。
 ---
 

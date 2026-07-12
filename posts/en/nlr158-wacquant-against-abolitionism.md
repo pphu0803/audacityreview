@@ -7,7 +7,7 @@ source: New Left Review 158, 2026
 sourceUrl: https://newleftreview.org
 category: Sociology
 tags: reading,penality,abolitionism,police,race,bourdieu
-cover: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr158-wacquant-against-abolitionism.png
 excerpt: "Abolish the police" became a fashionable slogan of the American left after 2020. In NLR 158, Wacquant says: your motives I understand, but your program is hollow. Abolitionism is philosophically seductive, sociologically untenable, and politically a dead end — and the communities it would harm most deeply are precisely those most opposed to it.
 ---
 

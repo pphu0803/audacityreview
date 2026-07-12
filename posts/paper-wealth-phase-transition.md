@@ -5,7 +5,7 @@ order: 10
 author: Liutao Hu
 category: 政治哲学
 tags: 思想实验,哲学,不平等,罗尔斯,财产权,寻租,制度俘获
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/paper-wealth-phase-transition.png
 excerpt: 一个人的胃只有那么大，睡眠只有那么长。财富越过某个阈值后，就不再是他活在其中的东西，而变成了约束别人能做什么的东西。这三篇论文论证这条相变线为何存在，越过它之后持有超额财富为何失去了道德保护——但只诊断，不开药方。
 series: 财富相变三部曲
 seriesOrder: 1

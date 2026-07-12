@@ -5,7 +5,7 @@ order: 12
 author: Liutao Hu
 category: 政治哲学
 tags: 思想实验,哲学,制度设计,财产所有民主制,收益权全民化,反俘获,罗尔斯
-cover: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80
+cover: /assets/paper-post-rebellion-design.png
 excerpt: 前两篇完成了诊断与行动的逻辑。本文追问叛乱之后如何防止财富再次相变。苏联的教训表明，革命替换了人但不自动替换结构。本文提出双轨制度设计，并直面核心悖论：任何反俘获机制本身都可能被俘获。
 series: 财富相变三部曲
 seriesOrder: 3

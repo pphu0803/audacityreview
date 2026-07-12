@@ -7,7 +7,7 @@ source: Monthly Review Vol.78 No.3, 2026
 sourceUrl: https://monthlyreview.org/articles/on-the-economic-crisis-of-capitalism/
 category: Political Economy
 tags: reading,capitalism,neoliberalism,imperialism,neo-fascism,global-south
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/mr078-patnaik-economic-crisis-of-capitalism.png
 excerpt: In Monthly Review, Patnaik renders a two-sided diagnosis of capitalism's current crisis: neoliberalism has manufactured a dead end of stagnation, and every exit is sealed off by finance capital. Neo-fascism is one symptom; Trump's "re-colonization" is another — neither solves anything, but both lay bare a deeper structural predicament.
 ---
 

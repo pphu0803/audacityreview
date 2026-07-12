@@ -7,7 +7,7 @@ source: New Left Review 158, 2026
 sourceUrl: https://newleftreview.org
 category: 社会学
 tags: 解读,刑罚,废除主义,警察,种族,布迪厄
-cover: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr158-wacquant-against-abolitionism.png
 excerpt: "废除警察"在2020年之后成了美国左翼的流行口号。瓦康在 NLR 158 说：你们的动机我理解，但方案是空心的。废除主义在哲学上诱人，在社会学上站不住脚，在政治上是一条死胡同——而且受害最深的社区恰恰最反对它。
 ---
 

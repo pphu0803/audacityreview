@@ -7,7 +7,7 @@ source: New Left Review 158, 2026
 sourceUrl: https://newleftreview.org
 category: Geopolitics
 tags: reading,trump,iran-war,imperialism,hegemony
-cover: https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr158-zevin-trumps-gulf-war.png
 excerpt: A man who came to power on "no more stupid wars" has launched the war against Iran that the neoconservatives always dreamed of. In NLR 158, Zevin sets this war back into history — from the farce of Napoleon III to the cautionary precedents of the two Gulf Wars, from the myth of air power to market manipulation become reason of state.
 ---
 

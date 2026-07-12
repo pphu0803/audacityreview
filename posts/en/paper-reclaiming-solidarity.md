@@ -5,7 +5,7 @@ order: 11
 author: Liutao Hu
 category: Political Philosophy
 tags: thought-experiment,philosophy,marxism,solidarity,class-struggle,collective-action,cultural-hegemony
-cover: https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80
+cover: /assets/paper-reclaiming-solidarity.png
 excerpt: The preceding paper diagnosed the injustice of excessive wealth. This paper asks how the dispossessed should act. Individual reclaiming is logically legitimate but in practice highly likely to degenerate into violence, and does not touch the structure itself. Solidarity is the structurally most promising response as institutional capture deepens.
 series: Wealth Phase Transition Trilogy
 seriesOrder: 2

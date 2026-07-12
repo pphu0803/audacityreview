@@ -7,7 +7,7 @@ source: Monthly Review Vol.78 No.3, 2026
 sourceUrl: https://monthlyreview.org/articles/on-the-economic-crisis-of-capitalism/
 category: 政治经济学
 tags: 解读,资本主义,新自由主义,帝国主义,新法西斯主义,全球南方
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/mr078-patnaik-economic-crisis-of-capitalism.png
 excerpt: 帕特奈克在 Monthly Review 给资本主义的当前危机做了两面诊断：新自由主义制造了停滞的死胡同，而所有出路都被金融资本封死了。新法西斯主义是一种症状，特朗普的"再殖民"是另一种——两者都不解决问题，但揭示了一个更深的结构性困境。
 ---
 

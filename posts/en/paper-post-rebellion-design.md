@@ -5,7 +5,7 @@ order: 12
 author: Liutao Hu
 category: Political Philosophy
 tags: thought-experiment,philosophy,institutional-design,property-owning-democracy,anti-capture,rawls
-cover: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80
+cover: /assets/paper-post-rebellion-design.png
 excerpt: The first two papers completed the logic of diagnosis and action. This paper asks how, after rebellion, to prevent wealth from undergoing a phase transition again. The Soviet lesson shows that revolution replaces people but does not automatically replace structure. This paper proposes a dual-track design and confronts the core paradox: any anti-capture mechanism can itself be captured.
 series: Wealth Phase Transition Trilogy
 seriesOrder: 3

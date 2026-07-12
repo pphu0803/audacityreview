@@ -5,7 +5,7 @@ order: 10
 author: Liutao Hu
 category: Political Philosophy
 tags: thought-experiment,philosophy,inequality,rawls,property-rights,rent-seeking,institutional-capture
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/paper-wealth-phase-transition.png
 excerpt: A person's stomach is only so big, their sleep only so long. Once wealth crosses a certain threshold, it is no longer something they live within but something that constrains what others can do. These three papers argue why this phase-transition line exists and why holding excess wealth beyond it forfeits moral protection — a diagnosis only, with no prescription.
 series: Wealth Phase Transition Trilogy
 seriesOrder: 1

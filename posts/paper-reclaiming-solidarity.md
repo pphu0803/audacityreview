@@ -5,7 +5,7 @@ order: 11
 author: Liutao Hu
 category: 政治哲学
 tags: 思想实验,哲学,马克思主义,团结,阶级斗争,集体行动,文化霸权
-cover: https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80
+cover: /assets/paper-reclaiming-solidarity.png
 excerpt: 前文诊断了超额财富的非正义性。本文追问被剥夺者如何行动。个体 reclaiming 逻辑上正当，但实践中高度可能退化为暴力，且不触及结构本身。团结是在制度俘获深化时结构上最有希望的回应。
 series: 财富相变三部曲
 seriesOrder: 2
