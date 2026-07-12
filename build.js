@@ -29,6 +29,7 @@ const I18N = {
       { label: '首页', href: '/' },
       { label: '解读', tag: '解读' },
       { label: '随笔', tag: '随笔' },
+      { label: '思想实验', tag: '思想实验' },
       { label: '关于', href: '/about.html' },
     ],
     strings: {
@@ -53,6 +54,10 @@ const I18N = {
       subscribeNetworkError: '网络错误，请稍后重试。',
       submitEmail: '投稿 audacityreview@gmail.com',
       langSwitchLabel: 'EN',
+      series: '系列',
+      seriesPart: '第',
+      seriesPartOf: '篇 · 共',
+      seriesParts: '篇',
     },
   },
   en: {
@@ -64,6 +69,7 @@ const I18N = {
       { label: 'Home', href: '/' },
       { label: 'Readings', tag: 'reading' },
       { label: 'Essays', tag: 'essay' },
+      { label: 'Thought', tag: 'thought-experiment' },
       { label: 'About', href: '/about.html' },
     ],
     strings: {
@@ -88,6 +94,10 @@ const I18N = {
       subscribeNetworkError: 'Network error. Please try again later.',
       submitEmail: 'Submissions: audacityreview@gmail.com',
       langSwitchLabel: '中文',
+      series: 'Series',
+      seriesPart: 'Part',
+      seriesPartOf: ' of ',
+      seriesParts: '',
     },
   },
 };
@@ -259,6 +269,8 @@ function loadPosts(lang) {
       category: data.category || '',
       tags: (data.tags || '').split(',').map(s => s.trim()).filter(Boolean),
       order: data.order !== undefined ? Number(data.order) : 0,
+      series: data.series || '',
+      seriesOrder: data.seriesOrder !== undefined ? Number(data.seriesOrder) : 0,
       body, file: f,
     };
   });
@@ -510,9 +522,43 @@ ${cards || `<p class="empty">${htmlEscape(I.strings.empty)}</p>`}
 /* ============================================================
  * 8. 文章详情页
  * ============================================================ */
+
+/** 系列导航块：同 series 的文章按 seriesOrder 升序，当前篇高亮 */
+function buildSeriesNav(post, allPosts, lang) {
+  const I = I18N[lang], S = I.strings;
+  if (!post.series) return '';
+  const parts = allPosts
+    .filter(p => p.series === post.series)
+    .sort((a, b) => (a.seriesOrder || 0) - (b.seriesOrder || 0));
+  if (parts.length < 2) return '';  // 单篇不成系列
+  const total = parts.length;
+  const items = parts.map(p => {
+    const isCurrent = p.slug === post.slug;
+    const no = p.seriesOrder || 0;
+    return `        <li class="series__item${isCurrent ? ' is-current' : ''}">
+          <a href="${base(lang)}/post/${p.slug}.html"${isCurrent ? ' aria-current="page"' : ''}>
+            <span class="series__no">${no}</span>
+            <span class="series__title">${htmlEscape(p.title)}</span>
+          </a>
+        </li>`;
+  }).join('\n');
+  return `
+      <nav class="series" aria-label="${htmlEscape(S.series)}">
+        <div class="series__head">
+          <span class="series__label">${htmlEscape(S.series)}</span>
+          <span class="series__name">${htmlEscape(post.series)}</span>
+          <span class="series__counter">${S.seriesPart} ${post.seriesOrder || ''}${S.seriesPartOf}${total}${S.seriesParts}</span>
+        </div>
+        <ol class="series__list">
+${items}
+        </ol>
+      </nav>`;
+}
+
 function buildPostHtml(post, allPosts, lang, counterpartSlugExists) {
   const I = I18N[lang], S = I.strings;
   const content = mdToHtml(post.body);
+  const seriesNav = buildSeriesNav(post, allPosts, lang);
 
   const tagSet = new Set(post.tags);
   const related = allPosts
@@ -559,6 +605,7 @@ function buildPostHtml(post, allPosts, lang, counterpartSlugExists) {
         <p class="article__date"><time datetime="${post.date}">${formatDate(post.date, lang)}</time></p>
         ${sourceBlock}
         <div class="article__rule"></div>
+        ${seriesNav}
         <div class="article__content">
 ${content}
         </div>

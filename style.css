@@ -460,6 +460,85 @@ img { max-width: 100%; height: auto; display: block; }
   clear: both;
 }
 
+/* —— 系列导航块（正文上方）—— */
+.series {
+  max-width: var(--measure);
+  margin: 0 0 2.5rem;
+  background: var(--paper-tint);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--ink);
+  padding: 1rem 1.25rem 1.25rem;
+}
+.series__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+.series__label {
+  font-family: var(--caslon);
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.series__name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.series__counter {
+  margin-left: auto;
+  font-family: var(--caslon);
+  font-style: italic;
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+}
+.series__list { list-style: none; margin: 0; padding: 0; }
+.series__item { border-bottom: 1px dotted var(--rule); }
+.series__item:last-child { border-bottom: 0; }
+.series__item a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding: 0.55rem 0;
+  color: var(--ink-soft);
+}
+.series__item a:hover { text-decoration: none; color: var(--ink); }
+.series__item a:hover .series__title { color: var(--red); }
+.series__item.is-current a { color: var(--ink); }
+.series__item.is-current .series__title { font-weight: 700; }
+.series__item.is-current .series__no {
+  background: var(--red);
+  color: var(--paper);
+  border-color: var(--red);
+}
+.series__no {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-family: var(--caslon);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  line-height: 1;
+}
+.series__title {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-family: var(--serif);
+}
+
 /* —— 关于页（单栏居中）—— */
 .article--single { max-width: var(--measure); margin: 0 auto; }
 

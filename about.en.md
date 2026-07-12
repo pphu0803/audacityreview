@@ -5,8 +5,8 @@
 ## What We Do
 
 - **Readings**: We select incisive articles on politics, economy, society, and philosophy from publications such as *New Left Review*, *Monthly Review*, and the *London Review of Books*, presenting them to a Chinese-reading audience through deep readings rather than literal translation.
-- **Critique**: Independent analysis of current political and economic issues. Plainly stated, not pretending to be "neutral."
-- **Original**: Research papers and essays by our editor and invited authors, spanning politics, economy, society, and philosophy.
+- **Essays**: Essays by our editor and invited authors. Plainly stated, not pretending to be "neutral."
+- **Thought Experiment**: Long-form, continuous thought experiments, formally arguing questions of politics, economy, society, and philosophy. Longer in form, complete in argument, and often presented as a series.
 
 ## Stance
 
