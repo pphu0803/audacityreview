@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: Political Economy
 tags: reading,capitalism,keynes,brenner,financialization,profit-rate
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-moreno-zacares-dynamics-of-american-capitalism.png
 excerpt: Jonathan Levy has written an epic history of American capitalism arguing that the profit motive has never been sufficient to drive long-term development. In NLR 159, Moreno Zacarés says: the instinct is right but the foundations are unsound — you take Keynes's theory of hoarding as the skeleton and fill in the flesh with a Smithian commercial narrative, and the two pull each other apart.
 ---
 

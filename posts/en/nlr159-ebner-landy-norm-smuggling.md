@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: Philosophy
 tags: reading,progress,critical-theory,frankfurt-school,jaeggi
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-ebner-landy-norm-smuggling.png
 excerpt: Rahel Jaeggi has written a book that tries to salvage the concept of "progress" without smuggling in any standard of value. In NLR 159, Ebner-Landy says: the philosophical reasoning is admirable, but the goal is unmet — you show the norm out the front door and smuggle it back in through the rear.
 ---
 

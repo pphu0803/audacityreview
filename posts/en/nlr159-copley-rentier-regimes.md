@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: Political Economy
 tags: reading,capital,rent,monopoly,financialization,mitchell
-cover: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-copley-rentier-regimes.png
 excerpt: Timothy Mitchell says that capital is not saved out of the past but captured from the future. In NLR 159, Copley takes this thesis apart for you — Uber lives not on innovation but on the expectation of monopoly; the valuations of the stock market are not an index of productivity but a plan for the plunder of the future.
 ---
 

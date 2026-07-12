@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: 政治经济学
 tags: 解读,资本主义,凯恩斯,布伦纳,金融化,利润率
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-moreno-zacares-dynamics-of-american-capitalism.png
 excerpt: 乔纳森·利维写了一部史诗级的美国资本主义史，说利润动机从来不足以推动长期发展。莫雷诺·萨卡雷斯在 NLR 159 说：方向对了，但地基不稳——你用凯恩斯的囤积理论当骨架，却用斯密的商业叙事填肉，两者互相拆台。
 ---
 

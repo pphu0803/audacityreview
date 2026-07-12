@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: 文化批评
 tags: 解读,法国,文明,媒介学,记忆,德布雷
-cover: https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-debray-metamorphoses.png
 excerpt: 德布雷写了一篇从二十世纪穿越到二十一世纪的回忆录。他说：做一个法国人，今天有点像柴郡猫——微笑还在，猫不见了。八个变形，一条线索：未来退潮之后，一个文明剩下什么。
 ---
 

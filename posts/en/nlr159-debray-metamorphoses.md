@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: Cultural Criticism
 tags: reading,france,civilization,mediology,memory,debray
-cover: https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-debray-metamorphoses.png
 excerpt: Debray has written a memoir that crosses from the twentieth century into the twenty-first. To be French today, he says, is a little like being the Cheshire Cat — the smile remains, the cat is gone. Eight metamorphoses, one thread: after the future has receded, what is left of a civilization?
 ---
 

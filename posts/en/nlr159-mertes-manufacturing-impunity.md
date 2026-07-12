@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: Political Science
 tags: reading,war-on-terror,imperialism,united-states,arrighi
-cover: https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-mertes-manufacturing-impunity.png
 excerpt: In *Homeland*, Richard Beck argues that the war on terror is not a betrayal of American values but their expression. In NLR 159, Mertes highlights its most insightful strand — that domestic police violence and overseas military violence are one and the same project — but also faults it for underestimating the autonomy of geopolitics and ideology. The war on terror is not a war that needs to be ended; it is a permanent building that will not dismantle itself.
 ---
 

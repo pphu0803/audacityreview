@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: 哲学
 tags: 解读,进步,批判理论,法兰克福学派,耶吉
-cover: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-ebner-landy-norm-smuggling.png
 excerpt: 拉黑尔·耶吉写了一本书，试图在不偷偷塞入任何价值标准的前提下抢救"进步"这个概念。埃布纳-兰迪在 NLR 159 说：哲学推理令人钦佩，但目标没有达成——你从前门赶走了规范，又从后门偷偷运了回来。
 ---
 

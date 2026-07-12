@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: 政治学
 tags: 解读,反恐战争,帝国主义,美国,阿瑞吉
-cover: https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-mertes-manufacturing-impunity.png
 excerpt: 理查德·贝克在《国土》里说，反恐战争不是对美国价值的背叛，而是它们的体现。梅尔特斯在 NLR 159 指出其最有洞见的部分——国内警察暴力和海外军事暴力是同一个项目——但也批评它低估了地缘政治和意识形态的自主性。反恐战争不是一场需要结束的战争，是一栋不会自己消失的永久建筑。
 ---
 

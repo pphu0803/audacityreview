@@ -7,7 +7,7 @@ source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: 政治经济学
 tags: 解读,资本,食利,垄断,金融化,米切尔
-cover: https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=1200&q=80
+cover: /assets/nlr159-copley-rentier-regimes.png
 excerpt: 蒂莫西·米切尔说资本不是从过去储蓄的，而是从未来捕获的。科普利在 NLR 159 把这个论点拆开给你看——Uber 靠的不是创新，是垄断预期；股票市场的估值不是生产力的指数，而是对未来的掠夺计划。
 ---
 
