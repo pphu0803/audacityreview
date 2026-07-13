@@ -20,6 +20,31 @@ function json(data: unknown, status = 200): Response {
   });
 }
 
+// 资源文件后缀：这些请求走 CDN 缓存，计入 PV 会严重虚高，日志里跳过。
+// 只记录 HTML 页面浏览（/, /page/N/, /posts/..., /about.html 等）。
+const ASSET_EXT = /\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp4|webm|mp3|json|xml|txt|webmanifest|map)$/i;
+
+// 结构化访问日志：字段交给 Workers Logs 存储后在 Query Builder 里聚合。
+//   path     — PV 按 path 分组
+//   ip       — UV 按 ip 做 count(distinct)
+//   country  — 国家分布
+function logAccess(request: Request, status: number, ms: number): void {
+  const url = new URL(request.url);
+  if (ASSET_EXT.test(url.pathname)) return;   // 跳过静态资源
+  const cf = (request as Request & { cf?: Record<string, unknown> }).cf;
+  console.log(JSON.stringify({
+    t: 'view',                                 // 事件类型，便于查询时过滤
+    method: request.method,
+    path: url.pathname,
+    status,
+    ms,
+    ip: request.headers.get('CF-Connecting-IP') || '',
+    country: (cf?.country as string) || '',
+    city: (cf?.city as string) || '',
+    ua: request.headers.get('User-Agent') || '',
+  }));
+}
+
 // —— API 路由处理 ——
 async function handleApi(request: Request, env: Env, url: URL): Promise<Response | null> {
   const path = url.pathname;
@@ -60,6 +85,7 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
       const likes = parseInt(raw || '0', 10) + 1;
       await env.AR_KV.put(`likes:${slug}`, String(likes));
       await env.AR_KV.put(dedupKey, '1', { expirationTtl: 86400 });
+      console.log(JSON.stringify({ t: 'like_new', slug, likes }));
       return json({ likes });
     }
   }
@@ -85,6 +111,7 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
       const countRaw = await env.AR_KV.get('sub:count');
       const count = parseInt(countRaw || '0', 10) + 1;
       await env.AR_KV.put('sub:count', String(count));
+      console.log(JSON.stringify({ t: 'sub_new', email, count }));
       return json({ ok: true });
     }
     if (request.method === 'GET') {
@@ -100,18 +127,32 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
 export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+    const start = Date.now();
 
     // 只拦截 /api/ 开头的请求
     if (url.pathname.startsWith('/api/')) {
       try {
         const result = await handleApi(request, env, url);
-        if (result) return result;
+        if (result) {
+          ctx.waitUntil(Promise.resolve().then(() =>
+            logAccess(request, result.status, Date.now() - start)));
+          return result;
+        }
       } catch (err) {
+        console.error(JSON.stringify({
+          t: 'api_error', path: url.pathname,
+          err: err instanceof Error ? err.stack : String(err),
+        }));
+        ctx.waitUntil(Promise.resolve().then(() =>
+          logAccess(request, 500, Date.now() - start)));
         return json({ error: '服务器错误' }, 500);
       }
     }
 
-    // 其余请求交给静态资源处理
-    return env.ASSETS.fetch(request);
+    // 其余请求交给静态资源处理；记录页面浏览（PV/UV/国家）
+    const res = await env.ASSETS.fetch(request);
+    ctx.waitUntil(Promise.resolve().then(() =>
+      logAccess(request, res.status, Date.now() - start)));
+    return res;
   },
 };

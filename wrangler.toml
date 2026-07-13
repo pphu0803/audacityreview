@@ -9,3 +9,10 @@ binding = "ASSETS"
 [[kv_namespaces]]
 binding = "AR_KV"
 id = "4d72beb0f08442f691281896c46b7c1f"
+
+# Observability：开启 Workers Logs，采集请求/错误/CPU 指标，
+# 配合 src/index.ts 里的结构化日志（路径/IP/国家），可在 Cloudflare
+# Query Builder 查 PV / UV / 国家分布。采样率 1 = 全部请求。
+[observability]
+enabled = true
+head_sampling_rate = 1
