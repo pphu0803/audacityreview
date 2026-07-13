@@ -1,5 +1,3 @@
-# About AUDACITY REVIEW
-
 **AUDACITY REVIEW** is an independent left-wing journal of thought. We publish readings of contemporary and classic left-wing theory and political commentary, alongside original research.
 
 ## What We Do
