@@ -1,7 +1,6 @@
 ---
 title: 未来的暴政
-date: 2026-07-12
-order: -1
+date: 2026-07-13
 author: Liutao Hu
 category: 哲学
 tags: 随笔,哲学,未来,合法性,时间政治,长期主义

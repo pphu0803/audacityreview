@@ -298,10 +298,16 @@ function assignNumbers(zhPosts, enPosts) {
   const seqByDate = {};
   const lookup = {};  // slug → displayNo/id
 
-  // 中文版编号
+  // 同日内排序键：order>0 升序在前；无 order（=0）排最后；同为无 order 时按文件名
+  // 用一个大占位值让无 order 的排到所有有 order 的之后
+  const ORDER_SENTINEL = 1e6;
+  const orderKey = p => p.order > 0 ? p.order : ORDER_SENTINEL;
+
+  // 中文版编号：date 升序 → orderKey 升序 → 文件名升序
   const dated = zhPosts.slice().sort((a, b) => {
     if (a.date < b.date) return -1; if (a.date > b.date) return 1;
-    if (a.order !== b.order) return a.order - b.order;
+    const oa = orderKey(a), ob = orderKey(b);
+    if (oa !== ob) return oa - ob;
     return a.file < b.file ? -1 : 1;
   });
   dated.forEach(p => {
@@ -313,20 +319,30 @@ function assignNumbers(zhPosts, enPosts) {
     p.displayNo = `№ ${yr}.${mo}.${dy}-${String(p.seq).padStart(3, '0')}`;
     lookup[p.slug] = { id: p.id, displayNo: p.displayNo };
   });
-  zhPosts.sort((a, b) => a.id < b.id ? 1 : a.id > b.id ? -1 : 0);
+  // 首页排序：日期倒序，同日内按 seq 正序（即 order 升序在前）
+  zhPosts.sort((a, b) => {
+    if (a.date < b.date) return 1;   // 日期新的在前
+    if (a.date > b.date) return -1;
+    return a.seq - b.seq;            // 同日：seq 小的（order 小的）在前
+  });
 
   // 英文版继承编号
   enPosts.forEach(p => {
     const ref = lookup[p.slug];
-    if (ref) { p.id = ref.id; p.displayNo = ref.displayNo; }
+    if (ref) { p.id = ref.id; p.displayNo = ref.displayNo; p.seq = parseInt(ref.id.slice(-3), 10); }
     else {
       // 英文版独有（无中文配对）：自己编号
       const d = new Date(p.date + 'T00:00:00');
       p.id = p.date.replace(/-/g, '') + '001';
       p.displayNo = `№ ${d.getFullYear()}.${MONTHS[d.getMonth()]}.${String(d.getDate()).padStart(2,'0')}-001`;
+      p.seq = 1;
     }
   });
-  enPosts.sort((a, b) => a.id < b.id ? 1 : a.id > b.id ? -1 : 0);
+  enPosts.sort((a, b) => {
+    if (a.date < b.date) return 1;
+    if (a.date > b.date) return -1;
+    return (a.seq || 1) - (b.seq || 1);
+  });
 
   return lookup;
 }

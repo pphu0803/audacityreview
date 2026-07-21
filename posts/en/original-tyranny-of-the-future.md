@@ -1,7 +1,6 @@
 ---
 title: The Tyranny of the Future
-date: 2026-07-12
-order: -1
+date: 2026-07-13
 author: Liutao Hu
 category: Philosophy
 tags: essay,philosophy,future,legitimacy,politics-of-time,longtermism
