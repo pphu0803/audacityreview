@@ -1,0 +1,11 @@
+# Threshold Minimalism
+
+The composition begins with a single horizontal incision—a line that does not merely divide but transforms. Above and below are not zones of decoration but two states of being, separated by the thinnest possible membrane. This is visual philosophy rendered as geological fact: matter does not change gradually here, it changes nature.
+
+Color is deployed with the restraint of a archivist handling fragile documents. A single earth pigment dominates the lower register—raw umber, burnt sienna, or deep ochre—applied with the density of compressed sediment. The upper zone breathes in cream and off-white, the color of aged paper, of empty galleries, of space waiting to be activated. Between them, the threshold line carries the only moment of chromatic tension: a hairline of deep red, barely visible, like a vein of iron oxide in limestone.
+
+Texture is the carrier of meaning. Paper grain, risograph misregistration, the microscopic irregularity of hand-pulled prints—these are not imperfections but evidence of physical craft. The surface should feel as though it has passed through a press, as though ink has been absorbed into fiber rather than laid upon it. Sixty percent of the frame remains empty, not as absence but as presence: the weight of silence in a musical score, the white space that makes the note audible.
+
+Formal elements are reduced to their absolute minimum. No figures, no objects, no buildings, no text. The line is the only geometry. The grain is the only ornament. The ratio is 4:3—not wide enough for cinema, not square enough for the grid, but the proportion of the printed page, the academic journal, the quiet argument made in a small room.
+
+This is the aesthetic of the left intellectual tradition at its most austere: no slogans, no raised fists, no heroic workers. Just the material evidence of a boundary, and the implication that boundaries can be redrawn. The craftsmanship must be impeccable—every edge crisp, every texture deliberate, the composition balanced with the precision of someone who has spent years learning to see. The result should feel like an artifact recovered from an archive that does not yet exist: a diagram of a concept that has not yet been named, rendered with the care of a scientific illustration from a discipline that studies the invisible.
