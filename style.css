@@ -417,6 +417,47 @@ img { max-width: 100%; height: auto; display: block; }
 .article__content hr { border: 0; text-align: center; margin: 2.5em 0; clear: both; }
 .article__content hr::after { content: '❧'; color: var(--red); font-size: 1.2em; }
 
+/* 数学公式（build.js 内联渲染 LaTeX → HTML） */
+.article__content .math-inline {
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
+  font-style: italic;
+  white-space: nowrap;
+}
+.article__content .math-inline sub,
+.article__content .math-inline sup {
+  font-style: normal;
+  font-size: 0.75em;
+}
+.article__content .math-block {
+  margin: 1.8em auto;
+  padding: 1.2em 1.5em;
+  text-align: center;
+  font-family: 'EB Garamond', 'Noto Serif SC', serif;
+  font-size: 1.1rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+}
+.article__content .math-block .math-inline { font-style: normal; }
+/* 分式：块级用真分式（分子/横线/分母堆叠） */
+.article__content .math-frac {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  margin: 0 0.25em;
+  text-align: center;
+}
+.article__content .math-frac .math-num {
+  border-bottom: 1px solid var(--ink);
+  padding: 0 0.4em 0.1em;
+}
+.article__content .math-frac .math-den { padding: 0.1em 0.4em 0; }
+/* 内联分式退化成 a/b（在 build.js 里已加 math-frac--inline，内容是 "a/b" 字符串） */
+.article__content .math-frac--inline {
+  display: inline;
+  font-style: italic;
+}
+
 /* 文章底部 tags（带分隔线） */
 .article__tags { margin: 2.5rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--rule); display: flex; gap: 0.5rem; flex-wrap: wrap; clear: both; }
 /* 文章顶部 tags（标题上方，无分隔线） */

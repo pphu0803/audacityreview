@@ -183,7 +183,87 @@ function parseFrontMatter(src) {
 /* ============================================================
  * 3. Markdown 解析
  * ============================================================ */
+
+/* --- 极简 LaTeX → HTML 渲染器 ---------------------------------
+ * 支持：\rho \alpha \beta \gamma \delta \sigma \pi \mu \lambda \theta \omega 等希腊字母
+ *       \frac{a}{b} → 分式（块级用横线，内联用 /）
+ *       \text{...}  → 直立文字
+ *       \to → →，\rightarrow → →，\leq → ≤，\geq → ≥，\neq → ≠
+ *       _{xxx} → 下标，^{xxx} → 上标
+ * 这是手写替代 KaTeX 的轻量方案，覆盖当前文章用到的全部 LaTeX。
+ * 未来如果用到积分、矩阵、求和等复杂公式，再换 KaTeX。
+ */
+const GREEK = {
+  alpha: 'α', beta: 'β', gamma: 'γ', Gamma: 'Γ', delta: 'δ', Delta: 'Δ',
+  epsilon: 'ε', zeta: 'ζ', eta: 'η', theta: 'θ', Theta: 'Θ', iota: 'ι',
+  kappa: 'κ', lambda: 'λ', Lambda: 'Λ', mu: 'μ', nu: 'ν', xi: 'ξ', pi: 'π',
+  Pi: 'Π', rho: 'ρ', sigma: 'σ', Sigma: 'Σ', tau: 'τ', upsilon: 'υ',
+  phi: 'φ', Phi: 'Φ', chi: 'χ', psi: 'ψ', omega: 'ω', Omega: 'Ω',
+};
+const SYMBOLS = {
+  to: '→', rightarrow: '→', leftarrow: '←', leftrightarrow: '↔',
+  leq: '≤', geq: '≥', neq: '≠', approx: '≈', equiv: '≡',
+  in: '∈', notin: '∉', subset: '⊂', supset: '⊃', cup: '∪', cap: '∩',
+  forall: '∀', exists: '∃', neg: '¬', land: '∧', lor: '∨', implies: '⇒',
+  infty: '∞', partial: '∂', nabla: '∇', times: '×', div: '÷', cdot: '·',
+  sum: '∑', prod: '∏', int: '∫', sqrt: '√',
+};
+
+/** 内层渲染：用于 \frac 的参数（不递归处理 \frac，避免死循环） */
+function renderMathInner(s) {
+  // \text{...}
+  s = s.replace(/\\text\s*\{([^{}]*)\}/g, '$1');
+  // 希腊字母
+  s = s.replace(/\\([Aa]lpha|[Bb]eta|[Gg]amma|[Dd]elta|epsilon|zeta|eta|[Tt]heta|iota|kappa|[Ll]ambda|mu|nu|xi|[Pp]i|rho|sigma|tau|upsilon|[Pp]hi|chi|psi|[Oo]mega)(?![a-zA-Z])/g,
+    (_, name) => GREEK[name] || name);
+  // 符号
+  s = s.replace(/\\(to|rightarrow|leftarrow|leftrightarrow|leq|geq|neq|approx|equiv|in|notin|subset|supset|cup|cap|forall|exists|neg|land|lor|implies|infty|partial|nabla|times|div|cdot|sum|prod|int|sqrt)(?![a-zA-Z])/g,
+    (_, name) => SYMBOLS[name] || name);
+  // 上标
+  s = s.replace(/\^\{([^{}]*)\}/g, '<sup>$1</sup>');
+  s = s.replace(/\^([^\s\\{}_^]+)/g, '<sup>$1</sup>');
+  // 下标
+  s = s.replace(/_\{([^{}]*)\}/g, '<sub>$1</sub>');
+  s = s.replace(/_([^\s\\{}_^]+)/g, '<sub>$1</sub>');
+  return s;
+}
+
+function renderMath(latex, block) {
+  let s = latex;
+  // 先处理 \text{...}，把里面的内容解包成纯文本（这样后续的 \frac 正则可以正确匹配）
+  // \text{...} 内部不再有 LaTeX 命令，所以直接解包
+  s = s.replace(/\\text\s*\{([^{}]*)\}/g, '$1');
+  // \frac{a}{b}：现在 a/b 已经是纯文本（如果原来是 \text{...}），可以安全匹配
+  // 用循环处理潜在的嵌套 \frac（外层 \frac 的参数可能含内层 \frac）
+  let prev;
+  do {
+    prev = s;
+    s = s.replace(/\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g, (_, a, b) => {
+      const num = renderMathInner(a);
+      const den = renderMathInner(b);
+      return block
+        ? `<span class="math-frac"><span class="math-num">${num}</span><span class="math-den">${den}</span></span>`
+        : `<span class="math-frac math-frac--inline">${num}/${den}</span>`;
+    });
+  } while (s !== prev);
+  // 希腊字母 \rho \alpha 等（注意：\b 在 _ 前不触发，用 (?![a-zA-Z]) 替代）
+  s = s.replace(/\\([Aa]lpha|[Bb]eta|[Gg]amma|[Dd]elta|epsilon|zeta|eta|[Tt]heta|iota|kappa|[Ll]ambda|mu|nu|xi|[Pp]i|rho|sigma|tau|upsilon|[Pp]hi|chi|psi|[Oo]mega)(?![a-zA-Z])/g,
+    (_, name) => GREEK[name] || name);
+  // 符号 \to \leq 等
+  s = s.replace(/\\(to|rightarrow|leftarrow|leftrightarrow|leq|geq|neq|approx|equiv|in|notin|subset|supset|cup|cap|forall|exists|neg|land|lor|implies|infty|partial|nabla|times|div|cdot|sum|prod|int|sqrt)(?![a-zA-Z])/g,
+    (_, name) => SYMBOLS[name] || name);
+  // 上标 ^{xxx} 或 ^x
+  s = s.replace(/\^\{([^{}]*)\}/g, '<sup>$1</sup>');
+  s = s.replace(/\^([^\s\\{}_^]+)/g, '<sup>$1</sup>');
+  // 下标 _{xxx} 或 _x
+  s = s.replace(/_\{([^{}]*)\}/g, '<sub>$1</sub>');
+  s = s.replace(/_([^\s\\{}_^]+)/g, '<sub>$1</sub>');
+  return s;
+}
+
 function inline(s) {
+  // 内联 LaTeX：$...$  （$ 后不跟数字，排除 "$1.32" 这种美元金额）
+  s = s.replace(/\$(?!\d)([^$\n]+?)\$/g, (_, math) => `<span class="math-inline">${renderMath(math, false)}</span>`);
   s = s.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, src) =>
     `<img alt="${htmlEscape(alt)}" src="${htmlEscape(src)}" loading="lazy">`);
   s = s.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t, u) =>
@@ -212,6 +292,13 @@ function mdToHtml(md) {
       const lang = fence[1] ? ` class="language-${fence[1]}"` : '';
       out.push(`<pre><code${lang}>${htmlEscape(buf.join('\n'))}</code></pre>`);
       continue;
+    }
+    // 块级 LaTeX：一行就是 $$...$$
+    if (/^\s*\$\$([^$]*)\$\$\s*$/.test(line)) {
+      flushPara(); closeList();
+      const m = /^\s*\$\$([^$]*)\$\$\s*$/.exec(line);
+      out.push(`<div class="math-block">${renderMath(m[1].trim(), true)}</div>`);
+      i++; continue;
     }
     if (/^\s*$/.test(line)) { flushPara(); closeList(); i++; continue; }
     if (/^\s*(-{3,}|\*{3,}|_{3,})\s*$/.test(line)) { flushPara(); closeList(); out.push('<hr>'); i++; continue; }
