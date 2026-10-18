@@ -477,6 +477,7 @@ function shell({ title, description, bodyHtml, lang = 'zh', activeHref = '/', ac
   ${extraHead}
   <link rel="stylesheet" href="${STYLE_HREF}">
   <link rel="icon" type="image/png" href="/assets/logo.png">
+  <link rel="alternate" type="application/rss+xml" title="${SITE_NAME}" href="${b}/feed.xml">
 </head>
 <body${bodyAttr ? ' ' + bodyAttr : ''}>
   <header class="masthead">
