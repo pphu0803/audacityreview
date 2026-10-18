@@ -2,7 +2,7 @@
 title: 肉鸡的舒适：被圈养的社会不会有大型运动
 date: 2026-10-18
 order: 21
-author: 胡浏涛
+author: Liutao Hu
 category: 随笔
 tags: 随笔,福利资本主义,思想单一化,政治心理学
 cover: /assets/essay-broiler-comfort.png

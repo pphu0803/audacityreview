@@ -2,7 +2,7 @@
 title: 雷区与安全阀：西方左翼为什么"这也不能做，那也不能做"
 date: 2026-10-18
 order: 20
-author: 胡浏涛
+author: Liutao Hu
 category: 评论
 tags: 评论,西方左翼,身份政治,技术资本主义,阶级政治
 cover: /assets/essay-minefields-safety-valves.png

@@ -2,8 +2,8 @@
 title: Minefields and Safety Valves: Why the Western Left Can Do Neither This Nor That
 date: 2026-10-18
 order: 20
-author: 胡浏涛
-category: 评论
+author: Liutao Hu
+category: Politics
 tags: commentary, Western left, identity politics, techno-capitalism, class politics
 cover: /assets/essay-minefields-safety-valves.png
 excerpt: The Western Left does not lack depth of thought; what it lacks is ground on which to stand and act. The core questions — ownership, redistribution of wealth, digital infrastructure — are condemned at the level of foundational ethics, and anyone who touches them is judged mad. Meanwhile the causes that are permitted — gender, ecology, the external enemy — do not frighten capital in the least; capital can even turn a profit on them. And so the energy circulates through the safety valves: the ideas grow ever more radical, the actions ever more harmless.

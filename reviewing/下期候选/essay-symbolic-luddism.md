@@ -2,7 +2,7 @@
 title: 符号卢德主义：评《Current Affairs》的AI禁令
 date: 2026-10-18
 order: 19
-author: 胡浏涛
+author: Liutao Hu
 category: 评论
 tags: 评论,AI,卢德主义,劳工运动,技术资本主义,Current Affairs
 cover: /assets/essay-symbolic-luddism.png

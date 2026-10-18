@@ -2,8 +2,8 @@
 title: The Comfort of the Broiler: A Society in Captivity Will Not Produce Mass Movements
 date: 2026-10-18
 order: 21
-author: 胡浏涛
-category: 随笔
+author: Liutao Hu
+category: Thought
 tags: essay, welfare capitalism, intellectual monoculture, political psychology
 cover: /assets/essay-broiler-comfort.png
 excerpt: The most numerous bird on earth is not the sparrow but the broiler chicken on the farm. Captivity is more comfortable and more shock-resistant, but the breed grows ever more uniform — and thought grows ever more rigid. Look at Western society through this indelicate metaphor and much suddenly makes sense: why there are no mass movements, why the fence never comes down, and why this stability may itself be the deepest crisis.

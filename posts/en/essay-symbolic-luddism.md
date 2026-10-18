@@ -2,8 +2,8 @@
 title: Symbolic Luddism: On the Current Affairs AI Ban
 date: 2026-10-18
 order: 19
-author: 胡浏涛
-category: 评论
+author: Liutao Hu
+category: Tech & Society
 tags: Essay,AI,Luddism,Labor Movement,Techno-Capitalism,Current Affairs
 cover: /assets/essay-symbolic-luddism.png
 excerpt: Current Affairs has written the strictest anti-AI clauses in the industry into its union contract, to widespread applause. But a Luddism that swaps the hammer for a contract clause is Luddism turned symbol: it smashes no machines, and may well end up as a boutique "AI-free" brand. What is actually worth fighting for is ownership of the algorithms and of the returns they generate—not the moral hygiene of a single magazine.
