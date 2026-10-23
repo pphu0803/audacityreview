@@ -31,7 +31,7 @@ Compared to other forms of rent, this one has a peculiar defect: it **cannot rep
 
 Land rent reproduces through physical scarcity. Manhattan will not get any larger, so ground rent is stable. Intellectual property rent reproduces through legal enforcement. When a patent expires, another can be filed; legal protection only strengthens over time. Software rent reproduces through a labor moat. Open-source code can replace the software itself, but not the ongoing human labor of maintenance, customization, and integration that surrounds it.
 
-Capability gap rent has none of these. It has no physical scarcity (model weights copy at zero cost), no legal protection (API terms cannot stop distillation and reverse engineering), and no labor moat (once a capability is replicated in open source, there is no service layer that only the original provider can offer).
+Capability gap rent has none of these. It has no physical scarcity (model weights copy at zero cost), no legal protection (API terms cannot stop distillation and reverse engineering), and no labor moat. Once a capability is replicated in open source, there is no service layer that only the original provider can offer.
 
 Without stabilizers, rent erodes continuously.
 

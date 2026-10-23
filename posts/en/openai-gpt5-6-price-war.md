@@ -34,11 +34,11 @@ This reading sits in the "Power in the Architecture" series because the same new
 
 ## I. The Treadmill Accelerating
 
-"The People on the Treadmill" described the mechanism of capability gap rent, and one sentence from it deserves to be moved over here intact:
+"The People on the Treadmill" described the mechanism of capability gap rent, and one sentence from it deserves to be moved over here intact.
 
 > When the leader itself starts a price war, it admits one thing: **frontier migration can no longer open a wide enough gap.**
 
-The treadmill's logic runs like this. Frontier firms live on the capability gap — what the best closed model can do that open source cannot. To keep the gap, the leader keeps running into new dimensions: text, code, reasoning, agents. But open-source replication accelerates every cycle, and the windows narrow.
+The treadmill's logic runs like this. Frontier firms live on the capability gap: what the best closed model can do that open source cannot. To keep the gap, the leader keeps running into new dimensions: text, code, reasoning, agents. But open-source replication accelerates every cycle, and the windows narrow.
 
 When migration can no longer open a window wide enough, the leader has one lever left: price.
 
@@ -50,13 +50,13 @@ So the blog's phrase "advancing the price-performance frontier," translated into
 
 The most telling detail of this price cut is not how much was cut, but **which model was cut**.
 
-Sol, the flagship, did not move. The 80 percent cut fell on Luna — the cheapest, fastest model, the one that runs enormous volumes of simple tasks. The official positioning is explicit: Sol is the "brand and technology flagship"; Luna is the "revenue engine."
+Sol, the flagship, did not move. The 80 percent cut fell on Luna: the cheapest, fastest model, the one that runs enormous volumes of simple tasks. The official positioning is explicit: Sol is the "brand and technology flagship"; Luna is the "revenue engine."
 
 That division of labor contains an entire page of class relations.
 
-Sol keeps its price because it sells scarcity — the symbolic value of frontier capability, the irreplaceability of the hardest tasks. It represents the last layer of the capability gap rent's defenses: the most expensive product always keeps its moat, because what its buyers pay for is not the function but the fact that "only we can do this."
+Sol keeps its price because it sells scarcity: the symbolic value of frontier capability, the irreplaceability of the hardest tasks. It represents the last layer of the capability gap rent's defenses. The most expensive product always keeps its moat, because what its buyers pay for is not the function but the fact that "only we can do this."
 
-Luna's 80 percent cut is not charity. It is scale. Developers running simple tasks are extremely price-sensitive, and the volume is enormous. Cutting the price 80 percent locks in demand and turns enterprise workflows into path dependence — once your systems are grafted onto the GPT-5.6 API, migration costs become a pair of handcuffs.
+Luna's 80 percent cut is not charity. It is scale. Developers running simple tasks are extremely price-sensitive, and the volume is enormous. Cutting the price 80 percent locks in demand and turns enterprise workflows into path dependence. Once your systems are grafted onto the GPT-5.6 API, migration costs become a pair of handcuffs.
 
 The price fell; the control concentrated. This is how the feudalization of infrastructure operates: the ground rent can drop, but you cannot leave the ground.
 
@@ -66,13 +66,13 @@ The blog mentions a detail in passing: Sol "autonomously rewrote production kern
 
 The sentence is quiet, but it may be the most important information in the entire announcement.
 
-Before, cost reduction was done by engineers — human labor. Now the serving is optimized by the model itself. What does "models optimizing models" mean? It means the cost curve's rate of decline is itself accelerating, and the source of the acceleration is not human labor but AI's own iteration.
+Before, cost reduction was done by engineers: human labor. Now the serving is optimized by the model itself. What does "models optimizing models" mean? It means the cost curve's rate of decline is itself accelerating, and the source of the acceleration is not human labor but AI's own iteration.
 
 It looks beautiful. Costs down 20 percent, efficiency up 15 percent, all credited to AI itself.
 
-But from labor's side, the story has another face: **the job of "optimizing the production kernels" is being exited by human engineers.** When a model can rewrite its own serving kernels and run its own cost experiments, every step of the process transfers what used to be human judgment and skill into the model's parameters. This is not a footnote to technical progress. It is the latest scene of deskilling.
+But from labor's side, the story has another face: **the job of "optimizing the production kernels" is being exited by human engineers**. When a model can rewrite its own serving kernels and run its own cost experiments, every step of the process transfers what used to be human judgment and skill into the model's parameters. This is not a footnote to technical progress. It is the latest scene of deskilling.
 
-The treadmill accelerates itself — but the one running on it is, increasingly, not a person.
+The treadmill accelerates itself, but the one running on it is, increasingly, not a person.
 
 ## IV. Downstream: Whom the Price War Reaches
 
@@ -88,15 +88,15 @@ Luna, cut by 80 percent, and Sol, unmoved, are two postures of the same company 
 
 ## V. Editorial Note: Three Questions
 
-This official blog post is worth reading twice — not for what it says, but for what it does not. At least three things go unmentioned.
+This official blog post is worth reading twice: not for what it says, but for what it does not. At least three things go unmentioned.
 
-**First, how much labor has been replaced.** The post talks efficiency, price, "models optimizing models" — and never once says how many jobs cheaper, more automated capability makes redundant. This is not an oversight. It is a choice of narrative. The phrase "price-performance frontier" exists precisely so that the phrase "labor replacement" does not have to.
+**First, how much labor has been replaced.** The post talks efficiency, price, "models optimizing models", and never once says how many jobs cheaper, more automated capability makes redundant. This is not an oversight. It is a choice of narrative. The phrase "price-performance frontier" exists precisely so that the phrase "labor replacement" does not have to.
 
-**Second, where the rent goes.** Serving costs down 20 percent, token efficiency up 15 — into what do these gains finally settle? Into shareholder returns, into capital for the next, larger training run, into fuel for the data flywheel. Not a cent returns to the people whose data and whose open-source knowledge made the model possible. Efficiency up 20 percent; the distribution of algorithmic rent, untouched.
+**Second, where the rent goes.** Serving costs down 20 percent, token efficiency up 15. Into what do these gains finally settle? Into shareholder returns, into capital for the next, larger training run, into fuel for the data flywheel. Not a cent returns to the people whose data and whose open-source knowledge made the model possible. Efficiency up 20 percent; the distribution of algorithmic rent, untouched.
 
-**Third, who decides direction.** Which model gets cut, which price holds, where compute goes — all of these decisions were made inside OpenAI, with no participation by workers, users, or the public. The power structure of the architecture is visible from a single pricing announcement: owners decide everything; users accept everything.
+**Third, who decides direction.** Which model gets cut, which price holds, where compute goes: all of these decisions were made inside OpenAI, with no participation by workers, users, or the public. The power structure of the architecture is visible from a single pricing announcement: owners decide everything; users accept everything.
 
-Hence the title of this reading: OpenAI joins the treadmill. Not schadenfreude — clarity. When the leader starts the price war, the treadmill's speed has been turned up another notch.
+Hence the title of this reading: OpenAI joins the treadmill. Not schadenfreude: clarity. When the leader starts the price war, the treadmill's speed has been turned up another notch.
 
 ---
 

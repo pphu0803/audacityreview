@@ -6,21 +6,21 @@ author: Liutao Hu
 category: Thought
 tags: thought-experiment,philosophy,AI,political-economy,platform-capitalism,phase-transition,cognitive-production-means
 cover: /assets/paper-reclaiming-cognitive-means.png
-excerpt: The previous article diagnosed the concentrated structure of the means of cognitive production. This article asks how the dispossessed can act: individual technological exit is a dead end, and liberal action theory loses force under deep capture. The article formalizes the "Cognitive Coordination Trap" as a structure of multiple binding constraints, and organizes resistance into two tiers—intra-structure strategies hit an unbreakable ceiling; alternative production entities aim to change the property-rights structure itself.
+excerpt: The previous article diagnosed the concentrated structure of the means of cognitive production. This article asks how the dispossessed can act: individual technological exit is a dead end, and liberal action theory loses force under deep capture. The article formalizes the "Cognitive Coordination Trap" as a structure of multiple binding constraints, and organizes resistance into two tiers: intra-structure strategies hit an unbreakable ceiling; alternative production entities aim to change the property-rights structure itself.
 series: Means of Cognitive Production Trilogy
 seriesOrder: 2
 ---
 ## I. After the Diagnosis
 
-The previous paper closed a diagnostic chain: when compute, data, and model weights enter the functional transformation interval, they slide from tools into control variables; this happens on each of the three carriers and they reinforce one another; the result is a three-class structure; hyper-concentration distorts rules through institutional capture, constituting pro tanto injustice; and when distortion reaches cognitive exclusion, the injustice becomes a violation of fundamental rights. The diagnosis stopped at diagnosis. That was the honest thing to do.
+The previous paper closed a diagnostic chain: when compute, data, and model weights enter the functional transformation interval, they slide from tools into control variables. This happens on each of the three carriers and they reinforce one another. The result is a three-class structure. Hyper-concentration distorts rules through institutional capture, constituting pro tanto injustice; and when distortion reaches cognitive exclusion, the injustice becomes a violation of fundamental rights. The diagnosis stopped at diagnosis. That was the honest thing to do.
 
 But the question after diagnosis cannot be evaded. **What are the dispossessed to do?**
 
 If the hyper-concentration of the means of cognitive production has lost moral protection, is it legitimate to reclaim from it the conditions for participating in cognitive production? If legitimate, how do we keep that reclamation from sliding into disorganized technological Luddism? If illegitimate, or legitimate but impracticable, where is the way out?
 
-These questions push the argument out of the theoretical space of the previous paper. The moment action is touched, the tools used there—industrial organization, public choice, Rawlsian distributive justice—begin to falter. They can diagnose the injustice of institutions. Under the premise that institutions have been deeply captured, their capacity to guide how the dispossessed should act rapidly diminishes.
+These questions push the argument out of the theoretical space of the previous paper. The moment action is touched, the tools used there (industrial organization, public choice, Rawlsian distributive justice) begin to falter. They can diagnose the injustice of institutions. Under the premise that institutions have been deeply captured, their capacity to guide how the dispossessed should act rapidly diminishes.
 
-What takes over is the older tradition of collective action and class analysis: not because it is more "correct," but because it is the tradition that has most systematically developed the proposition of how the oppressed change structures through collective action. There is an additional difficulty here that did not appear in the comparable paper of the Wealth Trilogy: **the dispossessed in the AI era are harder to organize than traditional workers.** That difficulty is one of the central problems of this paper.
+What takes over is the older tradition of collective action and class analysis. Not because it is more "correct," but because it is the tradition that has most systematically developed the proposition of how the oppressed change structures through collective action. There is an additional difficulty here that did not appear in the comparable paper of the Wealth Trilogy: **the dispossessed in the AI era are harder to organize than traditional workers**. That difficulty is one of the central problems of this paper.
 
 ---
 
@@ -28,23 +28,23 @@ What takes over is the older tradition of collective action and class analysis: 
 
 First grant the premise: the dispossessed have the right to refuse participation in an unjust structure.
 
-This right follows directly from the diagnosis. If hyper-concentration already constitutes pro tanto injustice—algorithmic rents seizing co-production surplus, institutional capture distorting rules, cognitive exclusion depriving people of participatory rights—then refusing this structure is not breach of contract or free-riding. Refusal of a structure that has lost moral protection does not constitute moral fault, any more than resistance to a regime that has lost legitimacy constitutes rebellion. In the AI context the refusal takes many forms: refusing a closed-source model, refusing to contribute data, refusing to build on a particular base, turning to open source, withdrawing from AI use altogether.
+This right follows directly from the diagnosis. If hyper-concentration already constitutes pro tanto injustice (algorithmic rents seizing co-production surplus, institutional capture distorting rules, cognitive exclusion depriving people of participatory rights), then refusing this structure is not breach of contract or free-riding. Refusal of a structure that has lost moral protection does not constitute moral fault, any more than resistance to a regime that has lost legitimacy constitutes rebellion. In the AI context the refusal takes many forms: refusing a closed-source model, refusing to contribute data, refusing to build on a particular base, turning to open source, withdrawing from AI use altogether.
 
 The problem is not with the logic. The problem is with practice.
 
 ### 2.1 The Triple Dilemma of Individual Exit
 
-**Individual technological exit**—one person or a small group refusing to use a particular AI service—faces a triple dilemma.
+**Individual technological exit** (one person or a small group refusing to use a particular AI service) faces a triple dilemma.
 
-**Asymmetric costs.** Free inference is the core tool of incorporation: it eliminates the price barrier to use, making refusal irrational. A cognitive serf who refuses mainstream AI loses the cognitive gains with which peers compete. In a market where AI capability increasingly becomes a prerequisite for employment, education, and information access, the exit-er does not preserve purity; the exit-er is eliminated by competition. Compute lords lose nothing from individual exit; the exit-er loses a living space. Each person, after rational calculation, chooses to keep using—even knowing that use structurally incorporates them.
+**Asymmetric costs.** Free inference is the core tool of incorporation: it eliminates the price barrier to use, making refusal irrational. A cognitive serf who refuses mainstream AI loses the cognitive gains with which peers compete. In a market where AI capability increasingly becomes a prerequisite for employment, education, and information access, the exit-er does not preserve purity; the exit-er is eliminated by competition. Compute lords lose nothing from individual exit; the exit-er loses a living space. Each person, after rational calculation, chooses to keep using, even knowing that use structurally incorporates them.
 
 **Exit does not touch the structure.** Even if some individual bore the cost, their exit changes nothing. Compute remains concentrated, the data flywheel keeps spinning, weights stay sealed, the three-class structure stands. Individual exit is a gesture expressed within an unjust structure; the structure does not budge. It redistributes a few positions within an unjust structure. It is a symptom, not a cure.
 
-**Exit intensifies marginalization.** The cost of exit falls most heavily on the most vulnerable. A cognitive serf with abundant resources—highly skilled, with savings, with alternatives—might bear exiting a closed-source ecosystem. A barely-sustained serf, or a cognitively excluded person, cannot afford any form of exit. They struggle even to participate, let alone to exit. Individual exit as a "strategy of resistance" is open only to a small privileged group; far from mobilizing the dispossessed, it stratifies them. Those who can exit do; those who cannot are forced to stay; the gap widens.
+**Exit intensifies marginalization.** The cost of exit falls most heavily on the most vulnerable. A cognitive serf with abundant resources (highly skilled, with savings, with alternatives) might bear exiting a closed-source ecosystem. A barely-sustained serf, or a cognitively excluded person, cannot afford any form of exit. They struggle even to participate, let alone to exit. Individual exit as a "strategy of resistance" is open only to a small privileged group; far from mobilizing the dispossessed, it stratifies them. Those who can exit do; those who cannot are forced to stay; the gap widens.
 
 ### 2.2 The Modern Luddism
 
-If individual technological exit ever took collective form—a "refuse AI" movement—it would degenerate into a modern variant of Luddism.
+If individual technological exit ever took collective form (a "refuse AI" movement), it would degenerate into a modern variant of Luddism.
 
 The nineteenth-century Luddites smashed looms because they correctly identified machines as instruments that deprived them of livelihood. But smashing machines does not change capitalist relations of production: capitalists buy new machines, while Luddite workers are hanged or exiled. Their tragedy was not that their anger lacked justification. It was that they directed the attack at technology rather than structure. They smashed the symptom, not the cause.
 
