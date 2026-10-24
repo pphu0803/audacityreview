@@ -8,7 +8,7 @@ sourceUrl: https://newleftreview.org
 category: Cultural Criticism
 tags: reading,france,civilization,mediology,memory,debray
 cover: /assets/nlr159-debray-metamorphoses.png
-excerpt: Debray has written a memoir that crosses from the twentieth century into the twenty-first. To be French today, he says, is a little like being the Cheshire Cat: the smile remains, the cat is gone. Eight metamorphoses, one thread: after the future has receded, what is left of a civilization?
+excerpt: Debray has written a memoir that crosses from the twentieth century into the twenty-first. To be French today, he says, is a little like being the Cheshire Cat: the smile remains, the cat is gone. A string of metamorphoses, one thread: after the future has receded, what is left of a civilization?
 ---
 
 To be French today is a little like being the Cheshire Cat: the smile remains, the cat is gone.
@@ -39,7 +39,7 @@ One figure makes this evaporation tangible: the number of psychologists in Franc
 
 ## The Hollow Sign: From the Franc to the Euro
 
-The first hollow shell left behind by the receding future is the most tangible: money.
+The first hollow shell left behind by the receding future is the most tangible: money. In the age of the franc and the lira, monetary sovereignty still lay in each nation's own pocket, and the notes still bore the face of the nation; with the euro, even the face became anonymous.
 
 Debray performs a semiotic autopsy on the euro, with a coldness to rival a forensic report. What is on the euro notes? Windows, bridges, arches, aqueducts, viaducts ("obviously all allegories of the free circulation of goods"), but **not a single human figure**. No portrait, no motto, no date, no place.
 
@@ -49,7 +49,7 @@ Compare the dollar: Washington, Jefferson, Lincoln, Hamilton. The eagle's head (
 
 > Our notes, signifiers without signifieds, mirror our churches without altar boys, our parties without militants, our armies standing idle.
 
-There is a formal logic to this argument: **the wider the scope, the shallower the substance.** A symbolic system that tries to cover all of Europe cannot bear the concrete memory of any single nation. No political entity has ever been born of economic interest alone. Debray asks a cold question: is it really so hard to depict the nation without falling into nationalism, to depict Europe without falling into Eurocentrism? The European Central Bank later "improved" the design: future euros will bear rivers and birds, perhaps also artists and scientists. Debray's verdict: the central bankers "took pains to design what any seven-year-old could have thought up — and at far less expense."
+There is a formal logic to this argument: **the wider the scope, the shallower the substance.** A symbolic system that tries to cover all of Europe cannot bear the concrete memory of any single nation. No political entity has ever been born of economic interest alone. Debray asks a cold question: is it really so hard to depict the nation without falling into nationalism, to depict Europe without falling into Europeanism? The European Central Bank later "improved" the design: future euros will bear rivers and birds, perhaps also artists and scientists. Debray's verdict: the central bankers "took pains to design what any seven-year-old could have thought up — and at far less expense."
 
 ## The Triumph of the Visual Is Not the Triumph of Comprehensibility
 
@@ -81,7 +81,7 @@ Both transcendence narratives (the religious and the secular) have collapsed. Fr
 
 ## The Eternal Weakness of the Strong
 
-In the crevices between all these metamorphoses, Debray has also tucked a political observation about space. It forms a counterpoint to the "receding of time" above.
+In the crevices between all these metamorphoses, Debray has also tucked a political observation about space. It forms a counterpoint to "the ebb of the future" above.
 
 > Europe: a peninsula of time; America: a continent of space.
 

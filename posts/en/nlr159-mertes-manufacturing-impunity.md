@@ -89,16 +89,16 @@ This is not to say Beck's economic framework is entirely wrong; it is to say tha
 
 Beck's most disturbing judgment comes at the end: it would be wrong to regard the war on terror as a betrayal of American values.
 
-> In many ways, it has embodied them. With every passing year, every new border fence raised, every new surveillance database built, every drone strike and every Special Forces raid. It becomes one degree less likely that our descendants will use the word "American" to describe the solution they eventually find.
+> In many ways, it has embodied them. With every passing year, every new border fence raised, every new surveillance database built, every drone strike and every Special Forces raid, it becomes one degree less likely that our descendants will use the word "American" to describe the solution they eventually find.
 
 The Vietnam War at least produced institutional correctives: the War Powers Resolution (1973), the Foreign Intelligence Surveillance Act (1978). And the war on terror?
 
 > By contrast, congressional opposition to the war on terror has been feeble, and a similar rebalancing of power is unlikely to emerge in the foreseeable future.
 
-After Vietnam, at least one generation was wary of military adventurism. After the war on terror, no corrective mechanism has been left behind. Biden withdrew from Afghanistan, but he has been sharpening his blade over Taiwan and gives his full support to Israel as it destroys Gaza. The repression of the Palestine solidarity movement reuses precisely the Bush-era toolbox: speech restrictions, accusations of disloyalty, the equation of dissent with extremism.
+After Vietnam, at least one generation was wary of military adventurism. After the war on terror, almost no institutional correction has been left behind. Biden withdrew from Afghanistan, but he has been sharpening his blade over Taiwan and gives his full support to Israel as it destroys Gaza. The repression of the Palestine solidarity movement reuses precisely the Bush-era toolbox: speech restrictions, accusations of disloyalty, the equation of dissent with extremism.
 
 Mertens says one judgment in Beck's book needs revising: it "misreads the relationship between managing the global order and managing its dispossessed; after all, that is the job of the local police state." This revision is precise. Beck wants to fold everything into a single "project": overseas military violence and domestic police violence are one and the same thing. They are related, but they are not the same thing. Managing the global order is one thing; managing, through violent discipline, those cast off by that order is another. The latter is a **consequence** of the former, not a **component** of it.
 
 But Beck's main line of argument needs no revision. The war on terror is not a particular military operation that needs to be "ended"; it is a **permanent building**. A building for managing the consequences of empire during a long downturn. You do not "end" a building. You can only tear it down. But tearing it down requires tearing down the order it serves. Until then, there it sits. Renewing its budget every year, inflating its definitions every year, stuffing new groups into the ever-expanding category of "terrorist" every year.
 
-The 2026 counter-terrorism strategy folds "violent left-wing extremists, including anarchists and anti-fascists" into the terrorist category. A quarter of a century ago, that category contained only al-Qaeda. The building's tenants are being expanded.
+The 2026 counter-terrorism strategy folds "violent left-wing extremists, including anarchists and anti-fascists" into the terrorist category. A quarter of a century ago, that category originally pointed almost exclusively at al-Qaeda. The building's tenant list keeps expanding.

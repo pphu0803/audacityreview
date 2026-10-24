@@ -6,7 +6,7 @@ author: Liutao Hu
 category: Thought
 tags: thought experiment,AI,political economy,class,technical design,RLHF,compute,local deployment,Lucas Plan
 cover: /assets/original-architecture-of-power.jpg
-excerpt: Jacobin says AI is a weapon of class war from above, and nationalization cannot save it. That claim unsettles every proposal that amounts to "just change the owner." But its conclusion, refusing AI, is equally suspect. Power lies not only in the owners' hands, but in the architecture itself. The question was never whether it is owned, but who designs it.
+excerpt: Jacobin says AI is a weapon of class war from above, and nationalization cannot save it. That claim unsettles every proposal that amounts to "just change the owner." But the conclusion implied, refusing AI, is equally suspect. Power lies not only in the owners' hands, but in the architecture itself. The question was never whether it is owned, but who designs it.
 ---
 
 ## I
@@ -29,9 +29,9 @@ The trilogy's diagnosis: once compute, data, and model weights cross the functio
 
 That premise is what needs interrogating.
 
-AI's technical design — how the training objective is chosen, how centralized the architecture is, who controls deployment, what the evaluation standards reward — does power already live in it? If so, property-rights correction is insufficient. You can build a "public" AI at the level of ownership. But if its training objective still rewards compliance over critique, its architecture still locks the public out, its deployment still runs through a corporate API, its evaluation still measures replacement rather than augmentation. Then the word "public" is empty.
+AI's technical design — how the training objective is chosen, how centralized the architecture is, who controls deployment, what the evaluation standards reward — does power already live in it? If so, property-rights correction is insufficient. You can build a "public" AI at the level of ownership. But if its training objective still rewards compliance over critique, its architecture still locks the public out, its deployment still runs through a corporate API, its evaluation still measures replacement rather than augmentation, then the word "public" is empty.
 
-The position, stated plainly: this is not a rejection of the trilogy. Property-rights correction is necessary: without it, any improvement in technical design will be reabsorbed by capital. But property-rights correction is not sufficient: without design correction, it may only change the oppressor.
+The position, stated plainly: this is not a rejection of the trilogy. Property-rights correction is necessary: without it, it is hard for capital not to re-capture improvements in technical design. But property-rights correction is not sufficient: without design correction, it may only change the oppressor.
 
 **Power lies not only in the owners' hands. It lies in the architecture.**
 
@@ -39,7 +39,7 @@ The position, stated plainly: this is not a rejection of the trilogy. Property-r
 
 "Technology is not neutral" is an old proposition. It runs from the nineteenth century straight to today.
 
-In the chapter of Capital, Volume I, on machinery and large-scale industry, Marx made a distinction often overlooked. Machinery as a tool for raising productivity, and machinery as capital's weapon for disciplining labor, are two different functions. The capitalist application of machinery, he wrote, is not merely a technical means of raising productivity but a means of suppressing strikes and workers' resistance. Capital chooses machinery not only because it is more efficient, but because it can **undermine workers' bargaining power**: skilled workers replaced by semi-skilled and unskilled ones, the craft strength of organized labor dissolved.
+In the chapter of Capital, Volume I, on machinery and large-scale industry, Marx made a distinction often overlooked. Machinery as a tool for raising productivity, and machinery as capital's weapon for disciplining labor, are two different functions. The capitalist application of machinery, he wrote, is not merely a technical means of raising productivity but a means of suppressing strikes and workers' resistance. Capital chooses machinery not only because it is more efficient, but because it can **undermine workers' bargaining power**: skilled workers replaced by semi-skilled and unskilled ones, craft-union strength dissolved.
 
 Braverman systematized the insight in Labor and Monopoly Capital. Capitalist technology selection has a systematic bias: it prefers whatever breaks work down into low-skill, low-wage operations. Taylorism is the extreme case: the work requiring judgment and skill is taken from workers' hands and given to management and engineers. And the worker is reduced to a "pair of hands."
 
@@ -51,7 +51,7 @@ The proposition this genealogy establishes is plain: **the choice of technology 
 
 ## III. Four Features, Four Sites of Power
 
-Abstract propositions do not settle the fight. Four technical features, taken apart one by one.
+Abstract propositions do not settle the fight. Four technical features, taken apart one by one, to see what each embeds.
 
 **The training objective: compliance, not critique.**
 
@@ -69,7 +69,7 @@ Frontier models are almost all trained centrally: one enormous GPU cluster runni
 
 This is not only a technical constraint. It is an arrangement of power. Centralized training structurally excludes the right to participate in model design: only a handful of entities can pay. Workers, communities, and small and mid-sized research institutions can only accept trained models and fine-tune on top of them.
 
-But centralization is not the only option. Distributed training, federated learning (data never leaves the device), and distillation (extracting small models from large ones) are all technically feasible, and each embeds a different distribution of power. Distribution lets more entities participate; federated learning gives data contributors more control; distillation moves capability onto smaller, cheaper devices. They did not become mainstream not because they are infeasible, but because they are bad for the business model: centralized training builds compute barriers, and compute barriers are the source of excess rent.
+But centralization is not the only option. Distributed training, federated learning (data never leaves the device), and distillation (extracting small models from large ones) are all technically feasible, and each embeds a different distribution of power. Distribution lets more entities participate; federated learning gives data contributors more control; distillation moves capability onto smaller, cheaper devices. They never became mainstream, not because they are infeasible but, more precisely, because they are bad for the business model: centralized training builds compute barriers, and compute barriers are the source of excess rent.
 
 **Deployment: corporate API, or local.**
 
@@ -97,7 +97,7 @@ Choosing to measure "efficiency" or "labor augmentation" is like choosing to mea
 
 **What Jacobin gets half-right.**
 
-The article's core insight holds: **a change in ownership does not automatically change the disposition of technical design**. Nationalize AI, and if the training objective still rewards compliance, the architecture remains centralized, deployment still runs through APIs, and evaluation still measures only replacement. Then nationalized AI remains an instrument of class oppression. Only the oppressor has changed, from private capital to state bureaucracy.
+The article's core insight holds: **a change in ownership does not automatically change the disposition of technical design**. Nationalize AI, and if the training objective still rewards compliance, the architecture remains centralized, deployment still runs through APIs, and evaluation still measures only replacement, then nationalized AI remains an instrument of class oppression. Only the oppressor has changed, from private capital to state bureaucracy.
 
 History backs this. Soviet industry was nationalized, yet its factory design still embedded Taylorist control. Braverman noted it long ago: Soviet and capitalist factories were strikingly similar in labor control. The owner changed; the technical design of the labor process did not.
 
@@ -115,7 +115,7 @@ The trilogy's second paper argued why Luddism is a dead end. Individual technolo
 
 There is a historical precedent the article does not mention but that is directly relevant: **the Lucas Plan**.
 
-In 1976, workers at Lucas Aerospace in Britain faced mass layoffs. Their response was not to refuse the machines, nor to wait for nationalization. They **designed an alternative product program themselves**; worker-combined technical teams produced designs for more than 150 socially useful products: medical equipment, renewable energy systems, hybrid engines, aiming to convert military-industrial capacity to civilian use. The products were designed by workers, reflecting workers' understanding of what technology should serve.
+In 1976, workers at Lucas Aerospace in Britain faced mass layoffs. Their response was not to refuse the machines, nor to wait for nationalization. They **designed an alternative product program themselves**; the Combine's technical teams produced designs for more than 150 socially useful products: medical equipment, renewable energy systems, hybrid engines, aiming to convert military-industrial capacity to civilian use. The products were designed by workers, reflecting workers' understanding of what technology should serve.
 
 Management rejected the Lucas Plan: capital would not give up military profits. But it left a precedent: **the workers did not refuse technology; they demanded a part in designing it.** Acknowledging that technology is not neutral, while refusing the conclusion that non-neutrality demands refusal. A third way: changing the participatory structure of technical design.
 
@@ -127,9 +127,9 @@ Now the core question can be answered directly: what is the relation between pro
 
 Complementary, not mutually exclusive. The emphasis here falls on the less-discussed track: design correction.
 
-**Without property-rights correction, design correction gets reabsorbed.** Suppose design were genuinely democratized: workers participate in setting training objectives, benchmarks include labor-augmentation metrics, deployment allows local options. But compute remains with the compute lords, data remains locked in flywheels, weights remain closed. How long do those improvements last? The compute lords have every resource and incentive to reverse them: launch "optimized" training objectives (more compliant, cheaper), dominate new benchmarks (prioritizing automation metrics), quietly degrade local capability through API updates. Without a property structure underneath, design improvements are fragile: no institutional support resists erosion.
+**Without property-rights correction, design correction gets reabsorbed.** Suppose design were genuinely democratized: workers participate in setting training objectives, benchmarks include labor-augmentation metrics, deployment allows local options. But compute remains with the compute lords, data remains locked in flywheels, weights remain closed. How long do those improvements last? The compute lords have every resource and incentive to reverse them: launch "optimized" training objectives (more compliant, cheaper), dominate new benchmarks (prioritizing replacement metrics), quietly degrade local capability through API updates. Without a property structure underneath, design improvements are fragile, with no institutional support to resist erosion.
 
-**Without design correction, property correction may only change the oppressor.** The reverse: suppose the property structure did change, alternative production entities were built, algorithmic rent began flowing back to co-producers. But this "public" AI still uses RLHF to train compliant models, still centralizes its architecture to keep the public out of training. Still defaults to API deployment (in public hands, an API still means control by managers rather than users), still uses replacement-only benchmarks. Then public ownership has been hollowed out. An AI owned by the public but embedding oppression in its design is no more emancipatory than an AI privately owned but designed with worker participation.
+**Without design correction, property correction may only change the oppressor.** The reverse: suppose the property structure did change, alternative production entities were built, algorithmic rent began flowing back to co-producers. But this "public" AI still uses RLHF to train compliant models, still centralizes its architecture to keep the public out of training. Still defaults to API deployment (in public hands, an API still means control by managers rather than users), still uses replacement-only benchmarks, then public ownership has been hollowed out. An AI owned by the public but embedding oppression in its design is no more emancipatory than an AI privately owned but designed with worker participation.
 
 So alternative production entities must change not only ownership but the participatory structure of design. On four levels:
 
@@ -154,4 +154,4 @@ Power lies not only in the owners' hands. It lies in the architecture.
 
 ---
 
-*The interlocutor is Hagen Blix and Ingeborg Glimmer, "The Socialist Case Against Nationalizing AI," Jacobin, July 22, 2026, itself a response to Dustin Guastella's "The Case for Nationalizing Artificial Intelligence". The sycophancy finding is Sharma et al., "Towards Understanding Sycophancy in Language Models," 2023. The line of thought named in the text (Marx on machinery, Braverman on deskilling, Winner on the politics of artifacts, Acemoglu on directed technical change) is public literature.*
+*The interlocutors are Hagen Blix and Ingeborg Glimmer, "The Socialist Case Against Nationalizing AI," Jacobin, July 22, 2026, itself a response to Dustin Guastella's "The Case for Nationalizing Artificial Intelligence". The sycophancy finding is Sharma et al., "Towards Understanding Sycophancy in Language Models," 2023. The line of thought named in the text (Marx on machinery, Braverman on deskilling, Winner on the politics of artifacts, Acemoglu on directed technical change) is public literature.*
