@@ -90,7 +90,7 @@ The lead essay of this series, "Power in the Architecture," argues that AI's tec
 
 The rope of power can be loosened by property correction and design correction (see the lead essay). The rope of capacity has no institutional fix. It asks each generation to choose again whether to keep the inefficient, painful, and for that very reason irreplaceable habit of writing and thinking for oneself.
 
-The significance of Eggers's lecture at OpenAI is not that he scolded AI. It is that he chose the one angle no economic analysis can reach, and said the one sentence no earnings call will ever contain:
+The significance of Eggers's lecture at OpenAI is not that he scolded AI. It is that he chose the one angle no economic analysis can reach, and said the one sentence no earnings call will ever contain.
 
 Some things, once stolen, you will not even know ever existed.
 

@@ -31,7 +31,7 @@ def scan(path, lang):
     # 直接引语（> 引用块）为原文照录，不可为闸值改写：硬闸豁免引用块。
     # 替换为句号占位以插入句界，避免引用块前后的正文被拼成一句（黏连假阳性）。
     body = "\n".join(
-        "。" if ln.lstrip().startswith(">") else ln for ln in body.split("\n")
+        "。." if ln.lstrip().startswith(">") else ln for ln in body.split("\n")
     )
     cap, dlimit = (60, 3) if lang == "zh" else (40, 3)
     if lang == "zh":
