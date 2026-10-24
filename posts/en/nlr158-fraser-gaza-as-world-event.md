@@ -19,7 +19,7 @@ A few days later came a second notice: the rector wished her to "clarify" her vi
 
 A third-generation representative of critical theory was blacklisted by a country whose founding creed is "facing the past," in the name of "defending historical memory".
 
-Fraser did not turn this into an indictment. In NLR 158 she uses the experience to do something bolder: she defines Gaza as a "world event": not a regional conflict but a mirror, in which every country sees only itself.
+Fraser did not turn this into an indictment. In NLR 158 she uses the experience to do something bolder: she defines Gaza as a "world event": not a regional conflict but a mirror, in which every society sees only itself.
 
 ## Germany's Reason of State: A Misplaced Reparation
 
