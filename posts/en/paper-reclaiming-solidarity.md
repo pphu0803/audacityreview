@@ -23,7 +23,7 @@ If excess wealth has already lost moral protection (if the argument of the prece
 
 These questions push us from the theoretical space of the preceding article into another space. Once action is touched upon, all the tools used in the preceding article (Rawls, public choice theory, Nozick, innovation economics) begin to show their inadequacy. They can diagnose the injustice of institutions, but under the premise that "institutions are deeply captured," their guiding power for "how the deprived should act" declines rapidly.
 
-The discourse shifts accordingly. The preceding article completed its critique within the liberal tradition; this article departs from the boundaries of liberalism and moves toward the Marxist tradition. Anarcho-syndicalism, social democracy, and Arendtian republicanism all have theoretical resources on collective action. But anarcho-syndicalism lacks organizational persistence in history, social democracy depends on institutional channels, and the preceding article has already argued that these channels are blocked. The Marxist tradition is most pertinent here because, in historical experience, it has most systematically developed the proposition of "how the oppressed change structures through collective action" and has developed it into a sustained theoretical tradition rather than scattered insights.
+The discourse shifts accordingly. The preceding article completed its critique within the liberal tradition; this article departs from the boundaries of liberalism and moves toward the Marxist tradition. This is not because Marxism is more "correct," nor because it is the only intellectual tradition that addresses this problem. Anarcho-syndicalism, social democracy, and Arendtian republicanism all have theoretical resources on collective action. But anarcho-syndicalism lacks organizational persistence in history, social democracy depends on institutional channels, and the preceding article has already argued that these channels are blocked. The Marxist tradition is most pertinent here because, in historical experience, it has most systematically developed the proposition of "how the oppressed change structures through collective action" and has developed it into a sustained theoretical tradition rather than scattered insights.
 
 ---
 
@@ -47,13 +47,13 @@ Two layers of argument need to be distinguished. The first layer is empirical: a
 
 But the second layer of argument is logical and does not depend on empirical probability. **Even if individual reclaiming maintained precision in some impossible manner (even if every actor precisely reclaimed only the deprived amount from true excess holders), it still would not change anything.** Because it does not touch the structure. It redistributes a little resource within an unjust structure, but the structure itself remains unmoved. Excess holders will reaccumulate through the same institutional channels tomorrow. The deprived will be deprived again tomorrow. Individual reclaiming is a symptom rather than a treatment: it proves the injustice of the structure without changing the structure itself. This layer of argument does not depend on any empirical assumptions about human behavior; it is a deduction of structural logic.
 
-Plunder does not possess legitimacy. Individualized seizure cannot structurally acquire legitimacy: it can neither distinguish itself from robbery in practice, nor distinguish itself from disorderly resource transfer in outcome.
+Plunder does not possess legitimacy. Individualized seizure cannot structurally acquire legitimacy: it can neither distinguish itself from robbery in practice, nor distinguish itself from disorderly resource transfer in outcome. It only brings chaos.
 
 ### 2.3 The Rejection of Anarchism
 
 Anarchism is also not a solution. Anarchism promises oppression-free autonomy, free association in horizontal networks. This ideal is beautiful. But it cannot answer a most basic question: **In a world without order, who wins?**
 
-The answer is: the most violent person wins.
+The answer is not "the most just person," not "the most oppressed person," and not "the person most in need of resources." The answer is: the most violent person wins.
 
 The outcome of anarchism is a tournament of violence. And in this tournament, those with the most resources naturally occupy an advantage. Excess holders can hire private armed forces, purchase security systems, and buy violence itself. Far from threatening excess holders, anarchism removes the last institutional constraint on them. In a world without rules, the combination of capital and violence is more reckless than in any institutional order.
 
@@ -83,7 +83,7 @@ Liberal theories of action are powerful under the presupposition of institutiona
 
 ## IV. The Coordination Dilemma: Why the Deprived Have Not United
 
-Liberal theories of action decline in efficacy under deep capture. But there is also a more basic question here: why do the deprived not unite? The reason is that uniting itself faces a structural dilemma.
+Liberal theories of action decline in efficacy under deep capture. But there is also a more basic question here: why do the deprived not unite? The reason is not that they see no problem with institutions, but that uniting itself faces a structural dilemma.
 
 ### 4.1 The Paradox of Collective Action
 
@@ -99,7 +99,7 @@ The deprived face exactly this dilemma. Fear of unemployment. Fear of imprisonme
 
 ### 4.3 The Relationship between the Coordination Dilemma and Structural Protection
 
-The coordination dilemma explains why the deprived, even when they recognize the injustice of institutions, do not automatically unite. It constitutes the foundational layer of the structure's self-protection mechanisms. Cultural hegemony makes people not question the legitimacy of the structure (consent); exhaustion leaves people without energy to resist (exhaustion); coercion makes people afraid to resist (coercion). But beneath these mechanisms, there is an even more fundamental layer: even if a person has questioned, has energy, and dares to resist, the coordination dilemma still leads him to choose to wait. Hegemony, exhaustion, and coercion are the explicit protective layers of the structure; the coordination dilemma is the implicit protective layer of the structure: it requires no designer, operating automatically through the deprived's respective rational calculations.
+The coordination dilemma explains why the deprived, even when they recognize the injustice of institutions, do not automatically unite. It constitutes the foundational layer of the structure's self-protection mechanisms. Cultural hegemony makes people not question the legitimacy of the structure (consent); exhaustion leaves people without energy to resist; coercion makes people afraid to resist. But beneath these mechanisms, there is an even more fundamental layer: even if a person has questioned, has energy, and dares to resist, the coordination dilemma still leads him to choose to wait. Hegemony, exhaustion, and coercion are the explicit protective layers of the structure; the coordination dilemma is the implicit protective layer of the structure: it requires no designer, operating automatically through the deprived's respective rational calculations.
 
 What is needed to break the coordination dilemma? A signal is needed (a signal that enough people see simultaneously) that lets everyone know "others are also moving." Historically, this signal is often a triggering event of hegemonic failure. An economic crisis makes everyone simultaneously realize that "the narrative is disconnected from reality". A landmark event makes everyone simultaneously see that "the structure can be challenged". A spontaneous action makes everyone simultaneously discover that "I am not the only one who thinks this way." Breaking the coordination dilemma does not require everyone to be persuaded. It only requires enough people to cross the threshold simultaneously, and this is precisely the moment when solidarity forms.
 
@@ -119,7 +119,7 @@ Excess wealth is presented as a reward for ability, a return on diligence, a nec
 
 The power of hegemony lies in defining what counts as "credible". When a deprived person attempts to question the legitimacy of excess wealth, what he faces is not only the suppression of power but also the exclusion by the entire meaning system. His questioning will be categorized as "envy," "unrealistic," "ignorant of economics." Hegemony does not need to persuade everyone; it only needs to ensure that alternative imaginaries are not produced, or that if produced, they are not taken seriously.
 
-But hegemony is not a monolith; it has fissures and times when it fails. Economic crises cause material experience to disconnect from ideological narratives: the narrative of "the economy is growing" contradicts the experience of actually declining wages, and hegemony's explanatory power begins to crack. Generational replacement causes ruptures in hegemony's reproduction: the new generation does not share the previous generation's acceptance of the "natural order"; their lived experience provides a different frame of reference. Specific triggering events (wars, pandemics, financial crises) expose the structure's fragility, making alternatives that were originally "unthinkable" suddenly thinkable. Hegemonic failure is possible, though neither inevitable nor controllable, and solidarity is generated in these fissures: the collective action opportunity seized by the deprived when hegemony begins to loosen.
+But hegemony is not a monolith; it has fissures and times when it fails. Economic crises cause material experience to disconnect from ideological narratives: the narrative of "the economy is growing" contradicts the experience of actually declining wages, and hegemony's explanatory power begins to crack. Generational replacement causes ruptures in hegemony's reproduction: the new generation does not share the previous generation's acceptance of the "natural order"; their lived experience provides a different frame of reference. Specific triggering events (wars, pandemics, financial crises) expose the structure's fragility, making alternatives that were originally "unthinkable" suddenly thinkable. Hegemonic failure is possible, though neither inevitable nor controllable, and solidarity is generated in these fissures: not a conscious union built from scratch, but the collective action opportunity seized by the deprived when hegemony begins to loosen.
 
 ### 5.2 Exhaustion: The Deprivation of Time and Energy
 
@@ -127,7 +127,7 @@ Beyond ideological protection, there is more material protection: **exhaustion**
 
 A person who works fourteen hours a day just to barely support a family has no time to study how rules are distorted, no energy to organize the community, no surplus capacity to participate in politics. The oppression of the structure deprives the oppressed not only of resources but also of the time and energy to resist oppression.
 
-This is part of the structure. One of the strategies of institutional capture is to ensure that the deprived are always in a state of "exhausted from seeking survival, with no time to resist". Low wages, long hours, precarious employment, a social safety net that may break at any moment: these are part of the structure's immune system, not merely "economic problems." A person exhausted from seeking survival will not resist. A person who does not resist will not change the structure. An unchanged structure continues to produce people exhausted from seeking survival.
+This is part of the structure. One of the strategies of institutional capture is to ensure that the deprived are always in a state of "exhausted from seeking survival, with no time to resist". Low wages, long hours, precarious employment, a social safety net that may break at any moment: these are part of the structure's immune system, not merely "economic problems." A person exhausted from seeking survival will not resist. A person who does not resist will not change the structure. An unchanged structure continues to produce people exhausted from seeking survival. The cycle closes.
 
 ### 5.3 Coercion: The Last Line of Defense
 
@@ -157,7 +157,7 @@ But conditions need to be distinguished. The common premise of the above cases i
 
 - One person cannot refuse unjust rules, but a million can.
 - One person cannot make institutions respond, but a social movement can.
-- One person is dispersed by police, but a million people dispersed becomes a revolution.
+- One person is dispersed by police, but a million people dispersed becomes something close to a revolution.
 
 Piven and Cloward systematically argued this point: the reason the poor cannot improve their situations through conventional political channels is precisely because they most lack the resources required for conventional politics (money, organizational networks, political connections, time). Their fundamental bargaining chip is **disruption** (strikes, occupations, boycotts, disobedience). And disruption is effective only at a collective scale. One worker's strike is merely unemployment; a million workers' strike is a shutdown. The power of disruption comes from scale, and scale comes from solidarity.
 
@@ -189,9 +189,9 @@ Are there other points of interruption? Technological change may break the exist
 
 ### 7.2 Class Struggle Is Not an Option but a Condition
 
-Marx's judgment in the *Communist Manifesto*, that "the history of all hitherto existing society is the history of class struggles", is an analytical framework rather than a slogan. The transformation of social structures is driven by collective interest conflicts, not by ideas or moral persuasion. Ideas still matter, as Gramsci's hegemony theory precisely demonstrates. But the struggle of ideas ultimately serves structural change rather than replacing it.
+Marx's judgment in the *Communist Manifesto*, that "the history of all hitherto existing society is the history of class struggles", is an analytical framework rather than a slogan. The transformation of social structures is driven by collective interest conflicts, not by ideas or moral persuasion. Ideas still matter, as Gramsci's hegemony theory precisely demonstrates. But within Marx's framework, the struggle of ideas ultimately serves structural change rather than replacing it.
 
-Class struggle is a condition rather than an option: "Shall we engage in class struggle or not?" The collective action of the oppressed is their fundamental way out within the structure. If they do not, the structure will continue to operate and they will continue to be deprived. If they do, there is no guarantee of success, but at least the possibility of change exists.
+Class struggle is a condition rather than an option: "Shall we engage in class struggle or not?" This question is itself wrongly posed. The collective action of the oppressed is their fundamental way out within the structure. If they do not, the structure will continue to operate and they will continue to be deprived. If they do, there is no guarantee of success, but at least the possibility of change exists.
 
 Men make their own history, but they do not make it under circumstances of their own choosing. The deprived did not choose their structural position; they were born into it. But under given conditions, what they can do (fundamentally) is unite and collectively change these conditions.
 
@@ -237,11 +237,11 @@ This forms a closure with the logic of the preceding article. The preceding arti
 
 Struggle is an exit.
 
-Not the only exit: if there is still space in the channels of institutional reform, if gradual reform can still advance, those are more preferable paths. No one "wants" rebellion. Rebellion is not an ideal or aspiration. It is the release after endurance has reached its limit, the last crevice that pressure finds when all other exits have been closed.
+Not the only exit: if there is still space in the channels of institutional reform, if gradual reform can still advance, those are more preferable paths. No one "wants" rebellion. Rebellion is not an ideal, not a goal, not an aspiration. It is the release after endurance has reached its limit, the last crevice that pressure finds when all other exits have been closed.
 
 But when a structure leaves people no space for peaceful change (when institutional channels are captured, individual action crushed, and organizers of solidarity punished), rebellion becomes a consequence produced by the structure itself.
 
-Arendt points out in *On Violence*: violence is the opposite of power: when genuine political power (the capacity for collective action) fails, violence fills the vacuum. On this specific question of the relationship between violence and power, Arendt's analysis is consistent with the argument: individual violence is a symptom of structural failure rather than a solution. It should be noted that Arendt's republican political philosophy has deeper disagreements with the Marxist tradition of class struggle. She would not agree with the judgment that "class struggle is a fundamental historical mechanism for changing structures." But this disagreement does not affect the validity of her specific judgment that violence fills the power vacuum. Arendt's argument also suggests the other side: when the capacity for collective action is restored, the "necessity" of violence recedes. Solidarity is a force that replaces violence: it transforms individual, chaotic, self-destructive violence into collective, directed, structure-changing action.
+Arendt points out in *On Violence*: violence is the opposite of power, and when genuine political power (the capacity for collective action) fails, violence fills the vacuum. On this specific question of the relationship between violence and power, Arendt's analysis is consistent with the argument: individual violence is a symptom of structural failure rather than a solution. It should be noted that Arendt's republican political philosophy has deeper disagreements with the Marxist tradition of class struggle. She would not agree with the judgment that "class struggle is a fundamental historical mechanism for changing structures." But this disagreement does not affect the validity of her specific judgment that violence fills the power vacuum. Arendt's argument also suggests the other side: when the capacity for collective action is restored, the "necessity" of violence recedes. Solidarity is a force that replaces violence: it transforms individual, chaotic, self-destructive violence into collective, directed, structure-changing action.
 
 Nagasaki Hiroshi's rebellion is precisely this transformed collective action: the action of the masses using collective power to break the structure and rebuild order. Its legitimacy derives from oppression and its form from solidarity; its target is the structure that produced that oppression.
 

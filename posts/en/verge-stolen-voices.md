@@ -46,15 +46,15 @@ The real value of writing was never in the delivered text. It is in what the pro
 
 That process is thinking itself. The text is only thinking's by-product, the footprints it leaves behind.
 
-When AI performs the passage from thought to text for you, what you save was never the typing. What you skip is the stretch of thinking that only slow, solitary writing can force out of you. You believe you outsourced the drudgery. You outsourced the mind.
+When AI performs the passage from thought to text for you, what you save is never the typing. What you skip is the stretch of thinking that only slow, solitary writing can force out of you. You believe you outsourced the drudgery. You outsourced the mind.
 
 This is what "the voice is stolen" actually means. Voice is not a matter of style; it is a matter of cognition. A person's voice is a fingerprint of thought, ground out over years of writing, deleting, starting over. Cancel the process, and the fingerprint never forms. A generation grows up fluent, and unable to say anything that is truly its own.
 
 Which also explains why Eggers calls AI-generated text "pastiche nonsense."
 
-The judgment sounds harsh. It is precise. AI's text is never "without style." On the contrary, it can imitate any style, write more smoothly and more neatly than most people. What it lacks is not form but the living person behind the form. A person's voice is not the sentence patterns they choose; it is the angle on the world grown over decades of reading, of being wrong, of changing one's mind. It cannot be copied by style transfer, because it is not a coat that can be taken off. It soaks through every sentence. It is the person.
+The judgment sounds harsh. It is precise. AI's text is never "without style." On the contrary, it can imitate nearly any style, write more smoothly and more neatly than most people. What it lacks is not form but the living person behind the form. A person's voice is not the sentence patterns they choose; it is the angle on the world grown over decades of reading, of being wrong, of changing one's mind. It cannot be copied by style transfer, because it is not a coat that can be taken off. It soaks through every sentence. It is the person.
 
-AI can produce impeccable text. What it cannot produce is the thing behind the impeccability: a person who has actually thought, and actually changed their mind. So the text reads all-correct and empty. Form complete, voice absent. That is Eggers's "nonsense": not because something in it is wrong, but because there is no one behind it.
+AI can produce impeccable text. What it cannot produce is the thing behind the impeccability: a person who has actually thought, and actually changed their mind. So the text reads correct in every way, and empty. Form complete, voice absent. That is Eggers's "nonsense": not because something in it is wrong, but because there is no one behind it.
 
 ## IV. Why "Catastrophic"
 
@@ -68,13 +68,13 @@ That is the weight of "catastrophic." It is not that the workload grew. It is th
 
 ## V. A Destruction More Quiet than Job Loss
 
-Eggers calls AI-assisted writing "the biggest tragedy of all." The judgment deserves a pause.
+Eggers calls students having AI compose for them "the biggest tragedy of all." The judgment deserves a pause.
 
 The earlier essays in this series described what AI does to external structures: how it forced the question of ownership onto the table, how it remade pricing and rent, how it disciplines labor. All of these are changes in the relations between people: who owns what, who pays rent to whom, who manages whom.
 
 Eggers speaks of a different quadrant: AI's transformation of a person's relation to themselves.
 
-Job loss, however severe, is an external problem: you lost a job; you can retrain, change tracks; society can argue about redistribution. The atrophy of cognition is another matter. It is not that you lost something. It is that something never grew. A generation that has never truly written will not know the ache of "I thought I understood until I tried to write it," and that ache is precisely the road thinking must take to mature.
+Job loss, however severe, is an external problem: you lost a job; you can retrain, change tracks; society can argue about redistribution. The atrophy of cognition is another matter. It is not that you lost something. It is that something never grew. A generation that has never truly written will not know the ache of "I thought I understood until I tried to write it," and that ache is precisely a road thinking usually takes to mature.
 
 This is a more hidden expropriation than unemployment. Unemployment you can see, rage at, organize against. The disappearance of the voice is silent: you cannot even mourn a capacity you never had. That is where Eggers's fear concentrates: AI does not take away people's voices. It makes the voice unnecessary before it is ever found.
 
@@ -82,9 +82,9 @@ This is a more hidden expropriation than unemployment. Unemployment you can see,
 
 Placing this reading last in the series was deliberate.
 
-The previous essays took AI apart as a problem of political economy: property, rent, labor. Those analyses are right, and necessary. But stop at that layer and the picture is incomplete, as if the only thing about AI worth caring about is how it redistributes money and power.
+The previous essays took AI apart as a problem of political economy: property, rent, labor. Those analyses are right as far as they go, and necessary. But stop at that layer and the picture is incomplete, as if the only thing about AI worth caring about is how it redistributes money and power.
 
-Eggers turns the camera ninety degrees. He reminds us that AI is not only redistributing between people; it is changing people themselves. It is reshaping whether a generation can write, can think, has a voice of its own. This change will appear in no report on "the economic impact of AI," because it is not something economic indicators can capture. Yet it may decide, more deeply than any economic impact, what future people are.
+Eggers turns the camera ninety degrees. He reminds us that AI is not only redistributing between people; it is changing people themselves. It is reshaping whether a generation can write, can think, has a voice of its own. This change will appear in no report on "the economic impact of AI," because it is not something economic indicators can capture. Yet it may decide, more deeply than any economic impact, what future people will be.
 
 The lead essay of this series, "Power in the Architecture," argues that AI's technical architecture embeds class dispositions. Eggers's warning supplies the other side: the architecture also embeds a quieter, gentler discipline. It persuades people that they no longer need the strenuous thinking that only slow, solitary writing can force out. The first is the discipline of power. The second is the discipline of capacity. Two ropes: one around the outside, one around the inside.
 
@@ -92,7 +92,7 @@ The rope of power can be loosened by property correction and design correction (
 
 The significance of Eggers's lecture at OpenAI is not that he scolded AI. It is that he chose the one angle no economic analysis can reach, and said the one sentence no earnings call will ever contain.
 
-Some things, once stolen, you will not even know ever existed.
+Some things, once stolen, you will not even know they ever existed.
 
 ---
 

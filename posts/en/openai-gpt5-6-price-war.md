@@ -9,7 +9,7 @@ sourceUrl: https://openai.com/index/advancing-the-price-performance-frontier-wit
 category: Political Economy
 tags: reading,AI,pricing,capability gap rent,treadmill,OpenAI,GPU,API
 cover: /assets/openai-gpt5-6-price-war.jpg
-excerpt: OpenAI cut its cheapest model by 80 percent, and the official blog calls it "advancing the price-performance frontier." But this site said it once before: when the leader itself starts a price war, it admits one thing: frontier migration can no longer open a wide enough gap. This is not progress. It is the sound of the treadmill accelerating.
+excerpt: OpenAI cut its cheapest model by 80 percent, and the official blog calls it "advancing the price-performance frontier." But this site said it once before: when the leader itself starts a price war, it is closer to admitting one thing: it is increasingly hard for frontier migration to open a wide enough gap. This is not progress. It is the sound of the treadmill accelerating.
 ---
 
 ## The Numbers First
@@ -36,7 +36,7 @@ This reading sits in the "Power in the Architecture" series because the same new
 
 "The People on the Treadmill" described the mechanism of capability gap rent, and one sentence from it deserves to be moved over here intact.
 
-> When the leader itself starts a price war, it admits one thing: **frontier migration can no longer open a wide enough gap.**
+> When the leader itself starts a price war, it is closer to admitting one thing: **it is increasingly hard for frontier migration to open a wide enough gap.**
 
 The treadmill's logic runs like this. Frontier firms live on the capability gap: what the best closed model can do that open source cannot. To keep the gap, the leader keeps running into new dimensions: text, code, reasoning, agents. But open-source replication accelerates every cycle, and the windows narrow.
 
