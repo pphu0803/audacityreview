@@ -1,25 +1,25 @@
 ---
 title: The War on Terror Is a Permanent Building
 date: 2026-07-14
-author: Tom Mertes
+author: Tom Mertens
 translator: Editor
 source: New Left Review 159, 2026
 sourceUrl: https://newleftreview.org
 category: Political Science
 tags: reading,war-on-terror,imperialism,united-states,arrighi
 cover: /assets/nlr159-mertes-manufacturing-impunity.png
-excerpt: In *Homeland*, Richard Beck argues that the war on terror is not a betrayal of American values but their expression. In NLR 159, Mertes highlights its most insightful strand, that domestic police violence and overseas military violence are one and the same project, but also faults it for underestimating the autonomy of geopolitics and ideology. The war on terror is not a war that needs to be ended; it is a permanent building that will not dismantle itself.
+excerpt: In *Homeland*, Richard Beck argues that the war on terror is not a betrayal of American values but their expression. In NLR 159, Mertens highlights its most insightful strand, that domestic police violence and overseas military violence are one and the same project, but also faults it for underestimating the autonomy of geopolitics and ideology. The war on terror is not a war that needs to be ended; it is a permanent building that will not dismantle itself.
 ---
 
 In May 2026, the White House released a new counter-terrorism strategy, "driven by the principle that America is our homeland". It further inflated the definition of "terrorist", folding in drug dealers, transnational gangs, and "violent left-wing extremists, including anarchists and anti-fascists".
 
 A quarter of a century has passed since 9/11. The machine George W. Bush assembled back then has hardened into permanent infrastructure. Its parts: the Department of Homeland Security and its ICE branch (now funded through 2036), the Patriot Act (slightly amended but intact), the 2001 Authorization for Use of Military Force (still in effect), Section 702 of FISA warrantless surveillance.
 
-The US military budget has doubled, from roughly $300 billion a year in the 1990s to over $1 trillion. Intelligence spending has nearly tripled, from about $37 billion in 2001 to more than $100 billion. The alternation of parties from Bush to Trump did not interrupt this process; it accelerated it.
+The US military budget has more than tripled, from roughly $300 billion a year in the 1990s to over $1 trillion. Intelligence spending has nearly tripled, from about $37 billion in 2001 to more than $100 billion. The alternation of parties from Bush to Trump did not interrupt this process; it accelerated it.
 
 Richard Beck's *Homeland* sets out to answer a question: why did a military operation initially directed at a particular terrorist organization become a global war that has now lasted a quarter of a century? And why did it change America itself?
 
-Tom Mertes, in his NLR 159 review, offers this verdict: Beck has written a book with totalizing ambitions; its central thesis is the most insightful part of it, but there is also a key gap.
+Tom Mertens, in his NLR 159 review, offers this verdict: Beck has written a book with totalizing ambitions; its central thesis is the most insightful part of it, but there is also a key gap.
 
 ## The Activation of the Frontier Myth
 
@@ -37,7 +37,7 @@ The force of this argument lies in how it **de-exceptionalizes** the war on terr
 
 ## One Project, Two Faces of Violence
 
-The most striking thesis in Beck's book, and the part Mertes most admires, is this.
+The most striking thesis in Beck's book, and the part Mertens most admires, is this.
 
 > Police violence against poor Black people at home, military violence against poor people abroad, and the ever-widening global wealth inequality that is the necessary consequence of America's continuing asset-price Keynesianism are **one and the same project**. One and the same larger effort — the preservation of American hegemony at the expense of the global poor.
 
@@ -69,19 +69,19 @@ This is Beck's most provocative political judgment:
 
 Trump is not an anomalous by-product of the war on terror but its logical endpoint. His election was owed in large part to public discontent with elite impunity. His political record reflects a political culture already accustomed to cruelty, executive prerogative, contempt for the media, and the criminalization of dissent. His Muslim ban is of a piece with the post-9/11 biases.
 
-Mertes adds a key observation here: the Occupy movement and Black Lives Matter were more successful than the antiwar mobilization of 2003 because they targeted the **primary symptoms** of the long downturn. On the one hand, rising inequality and precarious employment; on the other, the racialized policing of those left behind. They are "the first protest movements of the twenty-first century to identify and target the real foundations of the war on terror."
+Mertens adds a key observation here: the Occupy movement and Black Lives Matter were more successful than the antiwar mobilization of 2003 because they targeted the **primary symptoms** of the long downturn. On the one hand, rising inequality and precarious employment; on the other, the racialized policing of those left behind. They are "the first protest movements of the twenty-first century to identify and target the real foundations of the war on terror."
 
-## Mertes's Critique: Missing Mechanisms
+## Mertens's Critique: Missing Mechanisms
 
-But Mertes also points to a key gap in Beck's framework.
+But Mertens also points to a key gap in Beck's framework.
 
 Beck argues persuasively for the link between "surplus populations" and the war on terror, but he is weak in **connecting counterinsurgency to overcapacity and inter-state competition through concrete mechanisms**. This weakness traces back to his eclectic use of Arrighi and Brenner. Both converge on slowing growth and financialization, but they **diverge on the causal mechanism**. Arrighi treats financial expansion and military overreach as cyclical signals of systemic transition; Brenner focuses on the profit rate and competitive pressure at the core of capitalism.
 
 Beck's account lacks **concrete intermediate links** (alliance coordination, weapons transfers, trade agreements) to connect economic distress with grand strategy.
 
-The most glaring example is Israel. Beck calls the Jewish state "indispensable" to America's Middle East strategy, a model client, suggesting Washington's affinity for a "kindred settler colonizer". But he does not discuss the **domestic political incentives** behind this special relationship, whose utility in advancing American interests is far from self-evident. Mertes's counter is sharp:
+The most glaring example is Israel. Beck calls the Jewish state "indispensable" to America's Middle East strategy, a model client, suggesting Washington's affinity for a "kindred settler colonizer". But he does not discuss the **domestic political incentives** behind this special relationship, whose utility in advancing American interests is far from self-evident. Mertens's counter is sharp:
 
-> For the young Egyptians and Saudis who flew planes into buildings, America's imperial plunder on Muslim lands, its support for Israeli expansionism, mattered far more than the socioeconomic structural stagnation of Middle Eastern societies. Bin Laden himself was radicalized at fourteen by television footage of American troops in Lebanon, weeping.
+> For the young Egyptians and Saudis who flew planes into buildings, America's imperial plunder on Muslim lands, its support for Israeli expansionism, mattered far more than the socioeconomic structural stagnation of Middle Eastern societies. Bin Laden himself later recalled that he was radicalized by television footage of American troops entering Lebanon in 1982, weeping.
 
 This is not to say Beck's economic framework is entirely wrong; it is to say that geopolitics, religion, and ideology have **a momentum of their own**, and cannot be wholly reduced to "the management of surplus populations".
 
@@ -97,7 +97,7 @@ The Vietnam War at least produced institutional correctives: the War Powers Reso
 
 After Vietnam, at least one generation was wary of military adventurism. After the war on terror, no corrective mechanism has been left behind. Biden withdrew from Afghanistan, but he has been sharpening his blade over Taiwan and gives his full support to Israel as it destroys Gaza. The repression of the Palestine solidarity movement reuses precisely the Bush-era toolbox: speech restrictions, accusations of disloyalty, the equation of dissent with extremism.
 
-Mertes says one judgment in Beck's book needs revising: it "misreads the relationship between managing the global order and managing its dispossessed; after all, that is the job of the local police state." This revision is precise. Beck wants to fold everything into a single "project": overseas military violence and domestic police violence are one and the same thing. They are related, but they are not the same thing. Managing the global order is one thing; managing, through violent discipline, those cast off by that order is another. The latter is a **consequence** of the former, not a **component** of it.
+Mertens says one judgment in Beck's book needs revising: it "misreads the relationship between managing the global order and managing its dispossessed; after all, that is the job of the local police state." This revision is precise. Beck wants to fold everything into a single "project": overseas military violence and domestic police violence are one and the same thing. They are related, but they are not the same thing. Managing the global order is one thing; managing, through violent discipline, those cast off by that order is another. The latter is a **consequence** of the former, not a **component** of it.
 
 But Beck's main line of argument needs no revision. The war on terror is not a particular military operation that needs to be "ended"; it is a **permanent building**. A building for managing the consequences of empire during a long downturn. You do not "end" a building. You can only tear it down. But tearing it down requires tearing down the order it serves. Until then, there it sits. Renewing its budget every year, inflating its definitions every year, stuffing new groups into the ever-expanding category of "terrorist" every year.
 

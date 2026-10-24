@@ -61,7 +61,7 @@ Koskenniemi cites the research of Katharina Pistor to drive the point home: capi
 
 > Public international law is supplemented, and at times overridden, by a wide-ranging network of unequally distributed private rights, powers, and privileges.
 
-So when you stare at the UN Security Council and sigh that "international law is useless," a transnational corporation is, through an ISDS tribunal, siphoning hundreds of millions of dollars of public funds out of some developing country. Pursuant to an investment treaty signed twenty years ago, drafted by a Washington law firm, adjudicated in Washington, under Washington law. This process requires no Security Council approval and no "public" procedure of any kind. It is quiet, efficient, legal. It is the real domination.
+So when you stare at the UN Security Council and sigh that "international law is useless," a transnational corporation is, through an ISDS tribunal, siphoning hundreds of millions of dollars of public funds out of some developing country. Its basis is an investment treaty signed twenty years ago, drafted by a Washington law firm, adjudicated in Washington, under Washington law. This process requires no Security Council approval and no "public" procedure of any kind. It is quiet, efficient, legal. It is the real domination.
 
 ## The Brussels Effect: Even Law Is a Kind of Export
 

@@ -15,7 +15,7 @@ In May 2020, George Floyd was killed by a knee on his neck. Overnight, the sloga
 
 Then the Black community leaders and residents of Minneapolis (the city where Floyd died, the epicenter of the movement) came out against "defunding the police."
 
-Out-of-town activists were dismayed. They did not understand, or would not understand, that the communities most harmed by over-policing are also the communities most harmed by crime. These two "most deeps" overlap in the very same population. And what that population wants is not the absence of police but **neither to be beaten to death by the police nor to be beaten to death by the drug dealers**.
+Out-of-town activists were dismayed. They did not understand, or would not understand, that the communities most harmed by over-policing are also the communities most harmed by crime. These two "worst-hit" categories overlap in the very same population. And what that population wants is not the absence of police but **neither to be beaten to death by the police nor to be beaten to death by the drug dealers**.
 
 In NLR issue 158, Loïc Wacquant has written a rather unwelcome piece. He has not come to defend the police: he is the author of *Punishing the Poor*, one of the sharpest critics of the penal state. He has come to give the left's abolitionism a check-up. The diagnosis is not good: philosophically seductive, logically inconsistent, sociologically untenable, and politically a dead end.
 
@@ -55,7 +55,7 @@ One of abolitionism's most popular narratives is the "Prison-Industrial Complex"
 
 Wacquant says: nearly every link in it is wrong.
 
-To draw an analogy between the PIC and the Military-Industrial Complex (MIC) is a fundamental error. The MIC is genuinely profit-driven: defense contractors dominate research, development, and production, spend billions on lobbying, and employ millions. But prisons? Private prisons in the United States house only about 8 percent of all inmates. Private security firms employ roughly 40,000, while the public system has about 500,000 employees. The total inmate population is about 2 million, but the overwhelming majority are held in public facilities.
+To draw an analogy between the PIC and the Military-Industrial Complex (MIC) is a fundamental error. The MIC is genuinely profit-driven: defense contractors dominate research, development, and production, spend billions on lobbying, and employ millions. But prisons? Private prisons in the United States house only about 8 percent of all inmates. Private prison companies employ roughly 40,000, while the public system has about 500,000 employees. The total inmate population is about 2 million, but the overwhelming majority are held in public facilities.
 
 The prison is not a profit center; it is a **public policy choice**. Its expansion is not the result of capital chasing profit but of political decisions: "law and order" populism, the war on drugs, the tightening of sentencing laws. The trouble with the PIC narrative is not only that it is factually inaccurate but that it **obscures the political nature of the penal leviathan**. When you suppose that prisons are the business of capitalists, you aim your fire at the private prison companies. Yet private prisons account for only 8 percent, and what truly runs is a public bureaucracy driven by political logic, not the logic of profit. You have hit the wrong target.
 

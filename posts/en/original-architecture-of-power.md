@@ -29,7 +29,7 @@ The trilogy's diagnosis: once compute, data, and model weights cross the functio
 
 That premise is what needs interrogating.
 
-AI's technical design — how the training objective is chosen, how centralized the architecture is, who controls deployment, what the evaluation standards reward — is power already embedded in it? If so, property-rights correction is insufficient. You can build a "public" AI at the level of ownership. But if its training objective still rewards compliance over critique, its architecture still locks the public out, its deployment still runs through a corporate API, its evaluation still measures replacement rather than augmentation. Then the word "public" is empty.
+AI's technical design — how the training objective is chosen, how centralized the architecture is, who controls deployment, what the evaluation standards reward — does power already live in it? If so, property-rights correction is insufficient. You can build a "public" AI at the level of ownership. But if its training objective still rewards compliance over critique, its architecture still locks the public out, its deployment still runs through a corporate API, its evaluation still measures replacement rather than augmentation. Then the word "public" is empty.
 
 The position, stated plainly: this is not a rejection of the trilogy. Property-rights correction is necessary: without it, any improvement in technical design will be reabsorbed by capital. But property-rights correction is not sufficient: without design correction, it may only change the oppressor.
 
@@ -45,7 +45,7 @@ Braverman systematized the insight in Labor and Monopoly Capital. Capitalist tec
 
 Winner, in his 1980 essay "Do Artifacts Have Politics?", gave the sharpest formulation. He distinguished two arguments. One: certain technical systems are "inherently political" (their internal features strongly favor particular political arrangements); nuclear power demands centralized safety regulation, solar allows decentralized democratic control. The other: technologies act as "instruments of power" (designed to serve particular groups); Robert Moses's low bridges in New York, deliberately built too low for buses, keeping low-income minorities away from Jones Beach. AI occupies both: centralized training architecture (inherently favoring concentration of power), and corporate-controlled deployment (an instrument of capital power).
 
-Acemoglu's directed technical change theory translated the Marx-Braverman insight into economics. Technology does not develop along a "socially optimal" path; it develops along the direction pointed by relative prices and power asymmetries. Whoever makes technology's decisions, technology serves. With decision rights in capital's hands, AI prioritizes "automating human judgment" over "augmenting human judgment," not because it is technically superior, but because capital has stronger incentives to invest in labor replacement than in raising workers' bargaining power.
+Acemoglu's directed technical change theory translated the Marx-Braverman insight into economics. Technology does not develop along a "socially optimal" path; it develops along the direction pointed by relative prices and power asymmetries. Technology serves whoever makes the decisions about it. With decision rights in capital's hands, AI prioritizes "automating human judgment" over "augmenting human judgment," not because it is technically superior, but because capital has stronger incentives to invest in labor replacement than in raising workers' bargaining power.
 
 The proposition this genealogy establishes is plain: **the choice of technology reflects the power interests of the chooser.** Not a conspiracy theory. It requires no one plotting in the dark, only the ordinary observation that technology tends to serve whoever has the resources to decide it. In AI, the deciders are the compute lords, so AI's technical design tends to serve the compute lords' interests.
 
@@ -91,7 +91,7 @@ They do not answer "labor augmentation or labor replacement." A model with a per
 
 This is not speculation. Acemoglu and Restrepo showed that current AI investment is overly concentrated in replacement-type applications rather than augmentation-type ones. The bias partly comes from the benchmarks' guidance: a model that scores high on "replacing human judgment" and is never evaluated on "augmenting human judgment" is naturally the one companies develop first.
 
-Choosing to measure "efficiency" or "labor augmentation" is like choosing to measure GDP or well-being: it defines what counts as progress. And those who design the benchmarks are OpenAI, Google, Anthropic. Evaluation standards naturally reflect the interests of their designers.
+Choosing to measure "efficiency" or "labor augmentation" is like choosing to measure GDP or well-being: it defines what counts as progress. The design of mainstream benchmarks is dominated by OpenAI, Google, Anthropic, and affiliated institutions. Evaluation standards tend to reflect the interests of their designers.
 
 ## IV. Nationalization Is Not Enough — and Neither Is Refusal
 
@@ -107,7 +107,7 @@ But the article conceals an unfinished inference: if changing ownership is not e
 
 The conclusion is understandable. In practice it slides toward Luddism.
 
-The trilogy's second paper argued why Luddism is a dead end. Individual technological exit touches no structure; a collective "refuse AI" movement will be exploited by the compute lords, its opponents painted as "anti-progress" Luddites. And in a market where AI capability increasingly conditions employment, education, and access to information, refusal equals withdrawing from the competition.
+The trilogy's second paper argued why Luddism is a dead end. Individual technological exit touches no structure; a collective "refuse AI" movement will be exploited by the compute lords, its participants painted as "anti-progress" Luddites. And in a market where AI capability increasingly conditions employment, education, and access to information, refusal equals withdrawing from the competition.
 
 "Refusal" has a deeper problem: it presumes AI's class disposition **cannot be corrected**. If technical design essentially and immutably embeds oppression, refusal is the only way out. But if these dispositions are identifiable, arguable, redesignable, refusal is too passive.
 

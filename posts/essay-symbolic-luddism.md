@@ -6,13 +6,13 @@ author: Liutao Hu
 category: 评论
 tags: 评论,AI,卢德主义,劳工运动,技术资本主义,Current Affairs
 cover: /assets/essay-symbolic-luddism.png
-excerpt: 《Current Affairs》把最严格的反AI条款写进了工会合同，赢得一片喝彩。但把铁锤换成合同条款的卢德主义，只是卢德主义的符号化：它砸不到任何机器，反而可能把自己变成"无AI"的轻奢品牌。真正值得争的是算法的所有权和收益权，而不是一本杂志的道德洁癖。
+excerpt: 《Current Affairs》把最严格的反AI条款之一写进了工会合同，赢得一片喝彩。但把铁锤换成合同条款的卢德主义，只是卢德主义的符号化：它砸不到任何机器，反而可能把自己变成"无AI"的轻奢品牌。真正值得争的是算法的所有权和收益权，而不是一本杂志的道德洁癖。
 source: Current Affairs, 2026-10-15
 sourceUrl: https://www.currentaffairs.org/news/why-were-banning-ai
 ---
 ## 引子：一份体面的禁令
 
-2026 年 10 月，左翼杂志《Current Affairs》的主编 Nathan J. Robinson 发表编辑声明。新签的工会合同里写入了出版业最严格的反 AI 政策：AI 生成的文本不登，AI 生成的图不用。读者翻开杂志，读到的将是人类的思想，看到的是人类的手艺。
+2026 年 10 月，左翼杂志《Current Affairs》的主编 Nathan J. Robinson 发表编辑声明。新签的工会合同里写入了出版业最严格的反 AI 政策之一：AI 生成的文本不登，AI 生成的图不用。读者翻开杂志，读到的将是人类的思想，看到的是人类的手艺。
 
 声明写得坦率，甚至动人。Robinson 承认自己当年也玩过 DALL-E。"有一瞬间忘了我们活在资本主义底下，那里每种新技术都会被统治阶级用来搞垮工人"。他引民谣里的约翰·亨利自况：在让蒸汽钻打败我们之前，我们会握着锤子死去。
 

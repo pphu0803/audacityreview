@@ -9,7 +9,7 @@ sourceUrl: https://www.currentaffairs.org/news/my-day-in-the-gig-economy
 category: Political Economy
 tags: reading,gig economy,algorithmic management,ratings,piecework,platforms,labor
 cover: /assets/ca-gig-economy-day.jpg
-excerpt: Twenty years of craft, one screwdriver, three furniture jobs, eleven hours, about $120 net. Algorithmic dispatch, customer ratings, the platform's cut. The platform did not invent gig work. What it invented was a system that makes gig work measurable and exploitable.
+excerpt: Twenty years of craft, one screwdriver, three furniture jobs, eleven hours, about $120 before expenses. Algorithmic dispatch, customer ratings, the platform's cut. The platform did not invent gig work. What it invented was a system that makes gig work measurable and exploitable.
 ---
 
 ## A Craftsman, After the Job Disappeared
@@ -50,7 +50,7 @@ Your entire professional capital becomes a single number. The algorithm uses tha
 
 ## III. Piecework, Digital Edition
 
-That day McMahon worked roughly eleven hours and cleared about $120. Subtract $16.50 for the fare and $8 for lunch, and the hourly rate comes to under ten dollars.
+That day McMahon worked roughly eleven hours and took home about $120 before expenses. Subtract $16.50 for the fare and $8 for lunch, and the hourly rate comes to under ten dollars.
 
 He offers a reference point. In 1995, at twenty-five, doing the same work, he made at least $25 an hour, plus $300 to $400 a week in tips.
 

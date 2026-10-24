@@ -59,7 +59,7 @@ The first round, a stalemate. The ceasefire of April 8 was widely understood as 
 
 The most original part of Zevin's essay is his analysis of the "war–market rhythm". He cites Baudrillard's 1991 *The Gulf War Did Not Take Place*, once derided as postmodern nonsense, in 2026 it reads almost like prophecy.
 
-> Just as wealth is no longer measured by the flamboyant display of wealth but by the clandestine circulation of speculative capital. So war is no longer measured by whether it is waged, but by its speculative unfolding in the abstract space of the electronic and the informational.
+> Just as wealth is no longer measured by the flamboyant display of wealth but by the clandestine circulation of speculative capital, so war is no longer measured by whether it is waged, but by its speculative unfolding in the abstract space of the electronic and the informational.
 
 The war of the Trump era has a peculiar rhythm. Before the opening bell or at the start of the week, the president predicts the war's imminent end or hints at progress in negotiations, in order to "reassure the markets". After the close or during a lull, the exterminatory threats and ultimatums are issued, or an attack is launched outright. The war proceeds to the rhythm of the stock market.
 
@@ -99,4 +99,4 @@ From 1991 to 2026, what has changed is not the pattern but the quality. George H
 
 Randolph Bourne wrote that "war is the health of the state". Zevin's conclusion is its mirror image: what this war exposes is not the health of the state but its **oligarchic feature**: that thing "hidden behind the smoke-screen of democratic principles". The decisions of war are outsourced to Tel Aviv. The firepower of the Israel lobby in Congress, the media, and higher education. The State Department fires Iran experts who criticize the White House line. Witkoff and Kushner do not understand nuclear science, but that is precisely the key to ensuring the Israeli line is carried through: you need not understand, you need only obey.
 
-Trump may halt this phase, or he may escalate. But the American-Israeli war against Iran that he began in June 2025 is unlikely to end soon. The "perfect victory" of the last Gulf War took twenty years to bear all of its fruit, and most of it was bitter. This time, the harvest has only just begun to form on the branch.
+Trump may halt this phase, or he may escalate. But the American-Israeli war against Iran that he began in February 2026 is unlikely to end soon. The "perfect victory" of the last Gulf War took twenty years to bear all of its fruit, and most of it was bitter. This time, the harvest has only just begun to form on the branch.

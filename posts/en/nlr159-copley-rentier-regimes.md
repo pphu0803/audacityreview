@@ -21,13 +21,13 @@ The conclusion is an unsettling one: capital is not saved up — it is grabbed. 
 
 Mitchell opens with Uber. When it went public in 2019, it was valued at $82 billion. What did that dizzying figure reflect? The thrift of its owners? The breakthrough of its technology?
 
-Neither. Uber burned through investors' money for a decade and never turned a profit. Its app was nothing out of the ordinary. It owned not a single car. Its attempts at autonomous driving were a flop. The technologies it relied on (the smartphone, GPS, the internet) were partly developed with public funds.
+Neither. Uber burned through investors' money for a decade and never turned a profit in the first decade after its IPO. Its app was nothing out of the ordinary. It owned not a single car. Its attempts at autonomous driving were a flop. The technologies it relied on (the smartphone, GPS, the internet) were partly developed with public funds.
 
 So what did that $82 billion valuation represent? Mitchell's answer is cold and precise: it represented **the monopoly position that Uber was projected to establish over the coming years**. Through predatory pricing (subsidized by venture capital), the manipulation of municipal regulations, and the sabotage of local public transport, it drove its competitors out of the market and then began to extract from both drivers and passengers at once. By 2023 the profits finally flowed in, redeeming the valuation of years past.
 
 > Human beings and the planet were left to pick up the bill.
 
-Uber's story is no special case; it is the epitome of a **pattern**. Every one of those dazzling valuations you see is not a measure of "value created" but a receipt for the "capture of the future". Whether it is an unprofitable tech company, an oilfield that produces no oil, or a building no one lives in.
+Uber's story is no special case; it is the epitome of a **pattern**. Every one of those dazzling valuations you see is not a measure of "value created" but a receipt for the "capture of the future". The same is true whether it is an unprofitable tech company, an oilfield that produces no oil, or a building no one lives in.
 
 ## The Paradigm Shift: From "Saving" to "Capture"
 

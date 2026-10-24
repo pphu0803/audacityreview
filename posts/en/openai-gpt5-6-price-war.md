@@ -92,7 +92,7 @@ This official blog post is worth reading twice: not for what it says, but for wh
 
 **First, how much labor has been replaced.** The post talks efficiency, price, "models optimizing models", and never once says how many jobs cheaper, more automated capability makes redundant. This is not an oversight. It is a choice of narrative. The phrase "price-performance frontier" exists precisely so that the phrase "labor replacement" does not have to.
 
-**Second, where the rent goes.** Serving costs down 20 percent, token efficiency up 15. Into what do these gains finally settle? Into shareholder returns, into capital for the next, larger training run, into fuel for the data flywheel. Not a cent returns to the people whose data and whose open-source knowledge made the model possible. Efficiency up 20 percent; the distribution of algorithmic rent, untouched.
+**Second, where the rent goes.** Serving costs down 20 percent, token efficiency up 15. Into what do these gains finally settle? Into shareholder returns, into capital for the next, larger training run, into fuel for the data flywheel. Not a cent returns to the people whose data and whose open-source knowledge made the model possible. Costs down 20 percent; the distribution of algorithmic rent, untouched.
 
 **Third, who decides direction.** Which model gets cut, which price holds, where compute goes: all of these decisions were made inside OpenAI, with no participation by workers, users, or the public. The power structure of the architecture is visible from a single pricing announcement: owners decide everything; users accept everything.
 

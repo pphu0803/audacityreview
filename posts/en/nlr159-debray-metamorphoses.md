@@ -49,7 +49,7 @@ Compare the dollar: Washington, Jefferson, Lincoln, Hamilton. The eagle's head (
 
 > Our notes, signifiers without signifieds, mirror our churches without altar boys, our parties without militants, our armies standing idle.
 
-There is a formal logic to this argument: **the wider the scope, the shallower the substance.** A symbolic system that tries to cover all of Europe cannot bear the concrete memory of any single nation. No political entity has ever been born of economic interest alone. Debray asks a cold question: is it really so hard to depict the nation without falling into nationalism, to depict Europe without falling into Eurocentrism? The European Central Bank later "improved" the design: future euros will bear rivers and birds, perhaps also artists and scientists. Debray's verdict: the central bankers "took pains to design what any seven-year-old could have thought up — and at far greater expense."
+There is a formal logic to this argument: **the wider the scope, the shallower the substance.** A symbolic system that tries to cover all of Europe cannot bear the concrete memory of any single nation. No political entity has ever been born of economic interest alone. Debray asks a cold question: is it really so hard to depict the nation without falling into nationalism, to depict Europe without falling into Eurocentrism? The European Central Bank later "improved" the design: future euros will bear rivers and birds, perhaps also artists and scientists. Debray's verdict: the central bankers "took pains to design what any seven-year-old could have thought up — and at far less expense."
 
 ## The Triumph of the Visual Is Not the Triumph of Comprehensibility
 
@@ -85,7 +85,7 @@ In the crevices between all these metamorphoses, Debray has also tucked a politi
 
 > Europe: a peninsula of time; America: a continent of space.
 
-We think ourselves unique. Perhaps we are merely **behind**, and then caught up. The cowboy became the astronaut. America exports language, hot dogs, movies, AI; Europe gratefully imports them. "Geography has killed fewer people than history."
+We think ourselves unique. Perhaps we are merely **behind**. The cowboy became the astronaut. America exports language, hot dogs, movies, AI; Europe gratefully imports them. "Geography has killed fewer people than history."
 
 Debray tells a personal story. When he was an adviser to Mitterrand, an American presidential delegation came to lunch at the Élysée, and he was asked to hide. From a window he watched the Secret Service take over the palace: "sturdy, relaxed young men" shouldering aside the "pot-bellied" French police. The ladder of power: when the French president visits his "Zulu counterpart," French security does the same to others.
 

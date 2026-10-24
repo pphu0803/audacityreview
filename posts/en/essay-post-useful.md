@@ -19,11 +19,11 @@ An intriguing thought experiment follows: if AI comprehensively surpasses human 
 
 The allure of this deduction is obvious. If instrumental rationality rules by forcing humans to serve as instruments (you are a production unit in a factory, a performance unit in a corporation, an optimizable data point on a platform). Then when AGI takes over all instrumental work, humans no longer need to be instruments. The cage's logic loses its object of operation. The return of value rationality becomes the inevitable, the only path forward.
 
-It is a clean, forceful proposition. But it equates
+It is a clean, forceful proposition. But it equates "instrumental rationality's domination of humans" too narrowly with "humans being used as instruments in production."
 
 ## The Cage Has More Than One Door
 
-"instrumental rationality's domination of humans" too narrowly with "humans being used as instruments in production." If domination only operated in the domain of labor, AGI might indeed pull the rug out from under it. But Weber's iron cage extends far beyond the workplace.
+If domination only operated in the domain of labor, AGI might indeed pull the rug out from under it. But Weber's iron cage extends far beyond the workplace.
 
 At the end of *The Protestant Ethic and the Spirit of Capitalism*, Weber wrote a passage that has been endlessly quoted. "Specialists without spirit, sensualists without heart; this nullity imagines that it has attained a level of civilization never before achieved." Notice: he is not describing the suffering of the exploited worker. He is describing **two personality types coexisting inside the iron cage**. The highly rationalized specialist (who masters the logic of efficiency) and the mass consumer immersed in pleasure (whose life is organized by that same efficiency logic to be comfortable, convenient, and thought-free). Neither has escaped instrumental rationality's domination. They merely occupy different sides of the cage.
 
@@ -31,7 +31,7 @@ If AGI renders humans completely useless in efficiency terms, what happens under
 
 A tiny minority (the specialists) continue to collaborate with AI, optimizing systems, tuning parameters, keeping the machine running. They remain the executors of instrumental rationality, the tools have simply become smarter tools. The vast majority are no longer needed as producers, but became "objects of care": AI plans your optimal diet, your optimal romantic relationships, your optimal entertainment, your optimal life path. You don't have to work anymore, but every dimension of your life may be instrumentalized with even greater precision. You haven't escaped the iron cage. You've simply moved into the deluxe suite.
 
-It conflates **labor alienation** with **colonization of the lifeworld.** AGI might dismantle the former, but it could perfectly well intensify the latter in even more insidious ways. When "the pursuit of meaning" is quantified as a "happiness optimization program," you can't even find a handhold for resistance, because everything is arranged too comfortably.
+The original deduction conflates **labor alienation** with **colonization of the lifeworld.** AGI might dismantle the former, but it could perfectly well intensify the latter in even more insidious ways. When "the pursuit of meaning" is quantified as a "happiness optimization program," you can't even find a handhold for resistance, because everything is arranged too comfortably.
 
 ## The Dimension of Power
 

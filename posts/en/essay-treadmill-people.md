@@ -13,7 +13,7 @@ excerpt: In a single week, Kimi K3 matched Anthropic's flagship, and Anthropic i
 
 In the week of July 2026, the AI industry had big news again. Moonshot AI released Kimi K3. Total parameter count: 2.8 trillion, using a mixture-of-experts architecture, with performance matching or surpassing Anthropic's flagship model on multiple benchmarks. The capital markets reacted sharply. Some have already begun calling it "DeepSeek Shock 2.0."
 
-Kimi K3's pricing is not the low-price DeepSeek model. Its API prices are comparable to those of tier-one players like Anthropic and OpenAI. A challenger emerging from China's open-source camp chose, at the moment of pricing, the logic of a leader.
+Kimi K3's pricing is not DeepSeek-style low pricing. Its API prices are comparable to those of tier-one players like Anthropic and OpenAI. A challenger emerging from China's open-source camp chose, at the moment of pricing, the logic of a leader.
 
 Meanwhile, Anthropic itself released Opus 5. The headline feature of this new model is not that it is stronger, but that it is cheaper: performance close to its own flagship, at substantially reduced cost. A company that sells "frontier capability" has begun putting "value for money" in its press release headlines.
 

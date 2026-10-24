@@ -6,13 +6,13 @@ author: Liutao Hu
 category: Tech & Society
 tags: Essay,AI,Luddism,Labor Movement,Techno-Capitalism,Current Affairs
 cover: /assets/essay-symbolic-luddism.png
-excerpt: Current Affairs has written the strictest anti-AI clauses in the industry into its union contract, to widespread applause. But a Luddism that swaps the hammer for a contract clause is Luddism turned symbol: it smashes no machines, and may well end up as a boutique "AI-free" brand. What is actually worth fighting for is ownership of the algorithms and of the returns they generate, not the moral hygiene of a single magazine.
+excerpt: Current Affairs has written one of the strictest anti-AI clauses in publishing into its union contract, to widespread applause. But a Luddism that swaps the hammer for a contract clause is Luddism turned symbol: it smashes no machines, and may well end up as a boutique "AI-free" brand. What is actually worth fighting for is ownership of the algorithms and of the returns they generate, not the moral hygiene of a single magazine.
 source: Current Affairs, 2026-10-15
 sourceUrl: https://www.currentaffairs.org/news/why-were-banning-ai
 ---
 ## A Respectable Ban
 
-In October 2026, Nathan J. Robinson, editor of the left-wing magazine *Current Affairs*, published an editorial announcement: the magazine's newly signed union contract contained the strictest anti-AI policy in publishing. No AI-generated text would be printed, no AI-generated images used. Open the magazine and you would read the thoughts of humans, see the work of human hands.
+In October 2026, Nathan J. Robinson, editor of the left-wing magazine *Current Affairs*, published an editorial announcement: the magazine's newly signed union contract contained one of the strictest anti-AI policies in publishing. No AI-generated text would be printed, no AI-generated images used. Open the magazine and you would read the thoughts of humans, see the work of human hands.
 
 The statement is candid, even moving. Robinson admits he once played around with DALL-E himself. He "forgot for a moment that we live under capitalism, where every new technology will be used by the ruling class to fuck over workers." He invokes John Henry from the folk ballad. Before we let that steam drill beat us, we will die with our hammer in our hand.
 
@@ -52,7 +52,7 @@ This is the greatest danger of symbolic resistance. It does not frighten the ene
 
 ## IV. Where the Real Leverage Lies
 
-Set beside it another labor action from the same period. The 2023 Hollywood writers' strike did not end in "ban AI" but in bringing AI under labor control: AI could assist, but credit and residuals belonged to human writers, and whether to use it was the writer's decision. What the writers won was not purity but ownership and returns: the machines keep running, but who owns their output was written into the contract.
+Set beside it another labor action from the same period. The 2023 Hollywood writers' strike did not end in "ban AI" but in bringing AI under labor control. Companies could not force writers to use AI, AI-generated material could not be treated as source material, and human writers' credit and compensation were written into the contract.
 
 This is precisely the direction argued in the "means of cognitive production" trilogy. Compute, data, and weights constitute the means of cognitive production of the AI age, and their returns are undergoing a phase-transition-like concentration into the hands of a vanishingly small class of controllers. The corresponding action is not retreat into the artisanal past but the socialization of algorithmic rents, the common ownership of training data, collective bargaining over digital infrastructure. That road is hard, but at least it aims at the relations of production themselves, not at consumer choice.
 

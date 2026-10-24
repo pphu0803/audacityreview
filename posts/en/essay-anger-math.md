@@ -6,14 +6,14 @@ author: Liutao Hu
 category: Tech & Society
 tags: essay, algorithms, anger, platforms, negativity bias, attention economy, emotional commodity
 cover: /assets/essay-anger-math.png
-excerpt: Facebook admitted it cannot distinguish between anger-inducing content and genuinely interesting content: their data patterns look too similar. This is not an algorithmic flaw. It is a structural problem, locked in place by commercial incentives, sitting at the intersection of human neurology. And the most unsettling part: we may be actively seeking to be angered.
+excerpt: Facebook admitted it cannot distinguish between anger-inducing content and genuinely interesting content: their data patterns look too similar. This is not an algorithmic flaw. It is a structural problem rooted in human neurology, locked in place by commercial incentives. And the most unsettling part: we may be actively seeking to be angered.
 ---
 
 It began with a technical confession.
 
 Facebook's internal research team discovered something: from an algorithm's perspective, a post that provokes anger and a post that is genuinely interesting produce nearly identical data. High engagement, high forwarding, high dwell time: anger and interest look exactly the same in the metrics. The algorithm cannot tell them apart. This confession was later leaked and became a centerpiece of the case against platforms for "amplifying hate for profit".
 
-What it reveals is not the failure of one platform, but a structural blind spot in an entire system. A blind spot that sits precisely at the intersection of human neurology's evolutionary legacy, the design philosophy of platform metrics, and the incentive structure of the advertising economy. These three lock each other in place. Reform any one of them in isolation, and the other two bounce it back.
+What it reveals is not the failure of one platform, but a structural blind spot in an entire system. A blind spot that sits precisely at the intersection of human neurology's evolutionary legacy, the design philosophy of platform metrics, the incentive structure of the advertising economy, and users' active seeking of the experience of anger. These four lock each other in place. Reform any one of them in isolation, and the other three bounce it back.
 
 Start at the bottom: why does anger run so fast in the data?
 
@@ -37,9 +37,9 @@ If the problem were merely that "engagement intensity as a metric has a structur
 
 The problem is that this blind spot is not mere ignorance. Facebook's internal research team not only discovered that anger bait boosted engagement; they also understood that adjusting the algorithm would harm short-term business metrics. They ultimately made no fundamental change. Not because they couldn't. Because they wouldn't.
 
-This is the second layer of lock-in: **commercial incentives have welded the metric's structural blind spot shut.** Platform revenue centers on advertising. Advertising value depends on users' dwell time and engagement frequency. Anger happens to be the emotion that pushes both metrics up simultaneously, it has become the hardest currency in the attention economy. You can design a healthier optimization target, but as long as you monetize through advertising, you have no incentive to actually implement it. This is not a moral failing of any particular product manager. It is a structural constraint of the business model.
+This is the third layer of lock-in: **commercial incentives have welded the metric's structural blind spot shut.** Platform revenue centers on advertising. Advertising value depends on users' dwell time and engagement frequency. Anger happens to be the emotion that pushes both metrics up simultaneously, it has become the hardest currency in the attention economy. You can design a healthier optimization target, but as long as you monetize through advertising, you have no incentive to actually implement it. This is not a moral failing of any particular product manager. It is a structural constraint of the business model.
 
-At this point, the narrative is fairly complete. We have a causal chain: evolutionary psychology gave human brains negativity bias → platforms optimize distribution using short-cycle engagement metrics. Negativity bias gains a systematic advantage under those metrics → commercial incentives weld shut the motivation to correct the blind spot. This chain is clean, empirically supported, and requires no moral deficiency on anyone's part. It is a purely structural explanation.
+At this point, the narrative is fairly complete. We have a causal chain: evolutionary psychology gave human brains negativity bias, and platforms optimize distribution using short-cycle engagement metrics. Under those metrics, negativity bias gains a systematic advantage, and commercial incentives weld shut the motivation to correct the blind spot. This chain is clean, empirically supported, and requires no moral deficiency on anyone's part. It is a purely structural explanation.
 
 But this explanation has always felt like it's missing something.
 
@@ -59,7 +59,7 @@ This perspective does not overturn the earlier causal chain. It adds a layer of 
 
 This is neither "human evil unleashed" nor "algorithms unilaterally doing harm." It is a co-construction of demand and supply. Platforms identified users' real demand for high-intensity emotion, then converted that demand into a profit engine using engagement metrics.
 
-Put all three layers together, and you get a picture more complex, and more honest, than "are people bad or are algorithms bad".
+Put all four layers together, and you get a picture more complex, and more honest, than "are people bad or are algorithms bad".
 
 The human brain's negativity bias gives anger a natural attention advantage: this is not a moral failing, it is evolutionary legacy. Platforms' short-cycle engagement metrics systematically monetize this advantage: this is not algorithmic malice, it is the structural blindness of a measurement design that cannot capture the quality of experience. The advertising business model welds shut the motivation to correct the blind spot: this is not ignorance, it is an incentive structure. And users themselves, in safe, low-cost environments, actively seek experiences of anger, consuming it as an emotional commodity: this is not passive victimhood, it is active participation.
 

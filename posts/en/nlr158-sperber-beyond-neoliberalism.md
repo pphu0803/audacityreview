@@ -75,7 +75,7 @@ Then Sperber writes a sentence so calm it doesn't sound like a verdict:
 
 > Seen from the top — from the vantage point of the capitalists themselves — the mode of production is in rude health.
 
-In rude health. Four words heavier than ten thousand theoretical articles.
+In rude health. Three words heavier than ten thousand theoretical articles.
 
 ## Two Theorists Who Walked Into a Left Hook
 

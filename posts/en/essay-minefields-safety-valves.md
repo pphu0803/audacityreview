@@ -17,7 +17,7 @@ But the front of action presents a different picture. Mass movements are difficu
 
 The gap between depth of thought and capacity for action is wide enough to stuff in the frustrations of an entire era.
 
-## II. The Invisible Fence
+## II. The Unspoken Fence
 
 A popular explanation is "lack of consciousness." That explanation is too lazy. The inhabitants of the enclosure can in fact see the fence: in public discussion they skirt it carefully and skilfully. The problem is not that it cannot be seen; it is that no one dares touch it, until, over time, there is no need to.
 
