@@ -23,11 +23,11 @@ Mitchell opens with Uber. When it went public in 2019, it was valued at $82 bill
 
 Neither. Uber burned through investors' money for a decade and never turned a profit in the first decade after its IPO. Its app was nothing out of the ordinary. It owned not a single car. Its attempts at autonomous driving were a flop. The technologies it relied on (the smartphone, GPS, the internet) were partly developed with public funds.
 
-So what did that $82 billion valuation represent? Mitchell's answer is cold and precise: it represented **the monopoly position that Uber was projected to establish over the coming years**. Through predatory pricing (subsidized by venture capital), the manipulation of municipal regulations, and the sabotage of local public transport, it drove its competitors out of the market and then began to extract from both drivers and passengers at once. By 2023 the profits finally flowed in, redeeming the valuation of years past.
+So what did that $82 billion valuation represent? Mitchell's answer is cold and precise: it represented **the monopoly position that Uber was projected to establish over the coming years**. Through predatory pricing (subsidized by venture capital), the manipulation of municipal regulations, and the sabotage of local public transport, it drove its competitors out of the market and then began to extract from both drivers and passengers at once. By 2023 the profits finally flowed in, starting to make good on the valuation of years past.
 
 > Human beings and the planet were left to pick up the bill.
 
-Uber's story is no special case; it is the epitome of a **pattern**. Every one of those dazzling valuations you see is not a measure of "value created" but a receipt for the "capture of the future". The same is true whether it is an unprofitable tech company, an oilfield that produces no oil, or a building no one lives in.
+Uber's story is no special case; it is the epitome of a **pattern**. Every one of those dazzling valuations you see is, in Mitchell's account, not a measure of "value created" but a receipt for the "capture of the future". The same is true whether it is an unprofitable tech company, an oilfield that produces no oil, or a building no one lives in.
 
 ## The Paradigm Shift: From "Saving" to "Capture"
 
@@ -43,7 +43,7 @@ The key mechanism is called "capitalization": the conversion of a stream of futu
 
 In other words: **the valuations of the stock market are not an index of productivity but a plan for the plunder of the future.**
 
-The force of this thesis lies in how it rewrites your intuition about "wealth." You are not looking at "value created"; you are looking at "deprivation planned." Those S&P 500 numbers, those headlines about trillion-dollar market caps. Translated, they say: a group of people has already calculated how much they will take, over how many years, from another group of people, and pasted that number onto today.
+The force of this thesis lies in how it rewrites your intuition about "wealth." You are not looking at "value created"; you are looking at "deprivation planned". Those S&P 500 numbers and those headlines about trillion-dollar market caps translate as: a group of people has already calculated how much they will take, over how many years, from another group of people, and pasted that number onto today.
 
 ## The Ghost of Veblen: Sabotage
 
@@ -55,11 +55,11 @@ Copley acutely observes that in reactivating Veblen, Mitchell is doing a piece o
 
 This accords with Keynes's intuition. Keynes once said that for capitalists, productive investment is *contra natura*, contrary to nature. They would rather hold liquid assets and avoid the uncertainty of long-term investment. If capitalism did achieve productive expansion, it was not because it did so "naturally," but because some external force (the state, war, social movements) forced it to.
 
-**[Editor's Note]** But here a more precise distinction is required than the one Mitchell and Copley offer. They treat "innovation" and "rent" as two perennial faces of capitalism: one a mask, the other the true face. But in fact their relation is **dynamic**, and there is a phase-transition threshold.
+**[Editor's Note]** But here a more precise distinction is required than the one Mitchell and Copley offer. They treat "innovation" and "rent" as two perennial faces of capitalism: one a mask, the other the true face, at least in Mitchell's telling. But in fact their relation is **dynamic**, and there is a phase-transition threshold.
 
 Before capital has crossed the threshold (when its holders still need to accumulate through innovation, when competition remains genuine, when market access has not yet been sealed off), laissez-faire toward capital does favor innovation and social vitality. At this stage the profit motive is not an "alibi"; it is a genuine engine. In this sense neoliberalism had a legitimate window: deregulate the excesses, release competition, let capital seek out the highest-return productive uses.
 
-But once capital crosses the threshold (when the holder's direct use is already saturated, when additional wealth can no longer improve the holder's own life), the engine stalls. The attraction of innovation to capital drops sharply, because innovation means uncertainty, and excess capital prefers the certainty of control. At this stage, the former instruments of innovation (patents, mergers and acquisitions, R&D) become weapons of rent-seeking (patent thickets sealing off competitors, killer acquisitions that buy up and then shelve, R&D budgets devoted to maintaining monopoly rather than breaking frontiers). The incentive myth was not a myth from the start: it became one only after the phase transition.
+But once capital crosses the threshold (when the holder's direct use of wealth (consumption) is already saturated, when additional wealth can no longer improve the holder's own life), the engine stalls. The attraction of innovation to capital drops sharply, because innovation means uncertainty, and excess capital prefers the certainty of control. At this stage, the former instruments of innovation (patents, mergers and acquisitions, R&D) become weapons of rent-seeking (patent thickets sealing off competitors, rivals bought up and shelved through killer acquisitions, R&D budgets devoted to maintaining monopoly rather than breaking frontiers). The incentive myth was not a myth from the start: it became one only after the phase transition.
 
 This distinction matters because it explains a fact that embarrasses a merely anti-capitalist stance: capitalism has indeed produced astonishing productive achievements. To deny this is not critique; it is blindness. But to take those achievements as evidence of capital's "intrinsic nature" is equally blind: they are the expressions of the sub-threshold phase, not the eternal feature of capitalism.
 
@@ -79,7 +79,7 @@ Copley is not unqualified in his praise. He raises a sharp question that Mitchel
 
 If profit comes chiefly from rent and monopoly rather than from innovation and production, then how do you explain the enormous productive vitality that capitalism has **in fact** displayed? The industrial revolution, the electrical revolution, the digital revolution: these are not fictions. Mitchell calls "innovation" the "alibi" of capitalism, implying that it is merely a rhetorical cover. But if innovation did not exist at all, what has capitalism lived on for two hundred years?
 
-Mitchell's answer is implicit: **productive vitality is not an intrinsic attribute of capital but the result of state intervention under specific historical conditions.** The postwar boom did not come about because capital suddenly grew industrious. It came about because of Cold War military spending, the construction of the welfare state, and the pressure of the labor movement: forces that compelled capital toward productive investment. When those forces receded (after the 1970s), capital immediately reverted to its more comfortable posture: financialization, rent, asset bubbles.
+Mitchell's answer is implicit: **productive vitality is not an intrinsic attribute of capital but the result of state intervention under specific historical conditions.** The postwar boom did not come about because capital suddenly grew industrious. It came about because of Cold War military spending, the construction of the welfare state, and the pressure of the labor movement: forces that compelled capital toward productive investment. When those forces receded (after the 1970s), capital reverted over the following decades to its more comfortable posture: financialization, rent, asset bubbles.
 
 This answer has explanatory power, but Copley points to a gap: Mitchell is so intent on the rentier side that he makes productive investment sound almost wholly passive, something "induced" from the outside. Yet historical innovation (from the steam engine to the semiconductor to AI) has a momentum of its own, not entirely "forced out" by the state. Mitchell's framework here appears too flat.
 
@@ -89,7 +89,7 @@ This is the most worth savoring aspect of Copley's review: he admires Mitchell, 
 
 Mitchell's contribution is decisive: he redefines "capital" from a static "thing" into a **temporal operation**: captured from the future, then discounted into the present. Once you grasp this redefinition, there is no going back. The next time you see a company "valued at a hundred billion," you will not automatically think "it has created a hundred billion in value". You will ask: from whom, over how long, and by what means does it plan to take that money?
 
-But Copley reminds you: do not, because the insight is so sharp, mistake it for the whole answer. Capitalism does have a productive side: to acknowledge this is not to defend capitalism but to diagnose it accurately. If rent were all there were, how would you explain the semiconductor, the rocket, the mRNA vaccine? These are not rent; they are genuine innovation. The question is not whether innovation exists, but: **is innovation the master of capital or its servant? Does capital serve innovation, or does innovation serve rent?**
+But Copley reminds you: do not, because the insight is so sharp, mistake it for the whole answer. Capitalism does have a productive side: to acknowledge this is not to defend capitalism but to diagnose it accurately. If rent were all there were, how would you explain the semiconductor, the rocket, the mRNA vaccine? These are more often genuine innovation than rent. The question is not whether innovation exists, but: **is innovation the master of capital or its servant? Does capital serve innovation, or does innovation serve rent?**
 
 The answer to this question may be more complex than Mitchell allows. But at the very least, he has dug up the most fundamental question, the one that mainstream economics has hidden for over a hundred years:
 

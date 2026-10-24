@@ -29,7 +29,7 @@ How does a man who campaigned on "no more stupid wars" end up launching the bigg
 
 ## The Old Fantasy of Air Power
 
-Defense Secretary Pete Hegseth (that muscle-bound former Fox News host) is the "id-like embodiment" of this lust for war. In Zevin's words, he is in effect "an actor hired to play the Secretary of War". His rhetoric is an exhibition of performative violence: he threatens to "bring death and destruction from the skies around the clock". He mimics the Iranian leaders who "look up and see nothing but our air power and Israel's, every minute, every second". He piles up threats in parallel constructions: "find, fix, finish"; "dismantle, degrade, destroy, defeat." And then boasting to reporters: "This is not a fair fight, we strike them as they go down, and that is exactly as it should be".
+Defense Secretary Pete Hegseth (that muscle-bound former Fox News host) is the "id-like embodiment" of this lust for war. In Zevin's words, he is in effect "an actor hired to play the Secretary of War". His rhetoric is an exhibition of performative violence: he threatens to "bring death and destruction from the skies around the clock". He mimics the Iranian leaders who "look up and see nothing but our air power and Israel's, every minute, every second". He piles up threats in parallel constructions: "find, fix, finish"; "dismantle, degrade, destroy, defeat". And then he boasted to reporters: "This is not a fair fight, we strike them as they go down, and that is exactly as it should be".
 
 Behind this rhetoric lies an old fantasy: that air power can win a war on its own.
 
@@ -57,7 +57,7 @@ The first round, a stalemate. The ceasefire of April 8 was widely understood as 
 
 ## War in the Rhythm of the Market
 
-The most original part of Zevin's essay is his analysis of the "war–market rhythm". He cites Baudrillard's 1991 *The Gulf War Did Not Take Place*, once derided as postmodern nonsense, in 2026 it reads almost like prophecy.
+The most original part of Zevin's essay is his analysis of the "war–market rhythm". He cites Baudrillard's 1991 *The Gulf War Did Not Take Place*, once derided as postmodern nonsense; in 2026 it reads almost like prophecy.
 
 > Just as wealth is no longer measured by the flamboyant display of wealth but by the clandestine circulation of speculative capital, so war is no longer measured by whether it is waged, but by its speculative unfolding in the abstract space of the electronic and the informational.
 
@@ -67,7 +67,7 @@ Then there is the insider trading. On March 23, mere minutes before Trump posted
 
 > Today, market manipulation is itself the reason of state. The commander-in-chief's accomplices revel in their status as insider traders.
 
-This is not metaphor. The decisions of war have been saturated by market logic (when to strike, when to pause, when to float a rumor); all follow the candlestick chart. And the daily war briefing the president receives is a two-minute video clip of "things exploding". The society of the spectacle has reached its terminal form: war crimes can no longer hold public attention for more than a few flickering moments. One hundred and fifty schoolgirls were killed by a missile strike on a school in Minab (the same school was struck twice). Trump said "I can live with that," and within days most of the media had learned to live with it too.
+This is not metaphor. In Zevin's telling, the decisions of war have been saturated by market logic (when to strike, when to pause, when to float a rumor); all follow the candlestick chart. And the daily war briefing the president receives is a two-minute video clip of "things exploding". The society of the spectacle has reached its terminal form: war crimes can no longer hold public attention for more than a few flickering moments. One hundred and fifty schoolgirls were killed by a missile strike on a school in Minab (the same school was struck twice). Trump said "I can live with that," and within days most of the media had learned to live with it too.
 
 ## The Complicity of the Democrats
 
@@ -91,7 +91,7 @@ But what was the outcome? The CIA-backed Shia uprising was brutally suppressed b
 
 The "perfect war" of 1991 sowed twenty years of disaster. What will this one of 2026 sow?
 
-Drawing on the concept of Giovanni Arrighi, Zevin situates this war as a **"signal crisis"** of American hegemony: the crisis provoked by a declining hegemon as it attempts to defend its position. A declining hegemon always has many options, but every option carries its adverse side, and every adverse side accelerates the decline. Trump's dilemma is structural: hold out to the end, and oil prices and inflation embed themselves in the world economy for years; negotiate a ceasefire, and it means retreat and the acknowledgment of some of Iran's demands. Whichever road is taken, the United States is heading more rapidly toward the very decline it sought to delay.
+Drawing on the concept of Giovanni Arrighi, Zevin situates this war as a **"signal crisis"** of American hegemony: the crisis provoked by a declining hegemon as it attempts to defend its position. A declining hegemon often has many options, but every option carries its adverse side, and every adverse side tends to accelerate the decline. Trump's dilemma is structural: hold out to the end, and oil prices and inflation embed themselves in the world economy for years; negotiate a ceasefire, and it means retreat and the acknowledgment of some of Iran's demands. Whichever road is taken, the United States is heading more rapidly toward the very decline it sought to delay.
 
 > The principal lesson of these historical precedents (a "signal crisis" in Arrighi's vocabulary) is their unintended duration.
 

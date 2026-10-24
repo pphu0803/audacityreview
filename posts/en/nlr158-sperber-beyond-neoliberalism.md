@@ -8,7 +8,7 @@ sourceUrl: https://newleftreview.org
 category: Political Economy
 tags: reading,neoliberalism,class,financialization,state-intervention
 cover: /assets/nlr158-sperber-beyond-neoliberalism.png
-excerpt: Every few years the left holds a funeral for neoliberalism. The ideology is indeed rotting, the policies have changed their face, but Sperber is right in NLR 158: the coffin is empty. The layer that decides who eats meat and who drinks soup hasn't been touched at all.
+excerpt: Every few years the left holds a funeral for neoliberalism. The ideology is indeed rotting, the policies have changed their face, but Sperber argues in NLR 158: the coffin is empty. The layer that decides who eats meat and who drinks soup hasn't been touched at all.
 ---
 
 The left has a peculiar ritual: every few years, it holds a funeral for neoliberalism.
@@ -21,13 +21,13 @@ Sperber does something rather unwelcome in NLR issue 158. He walks up to the cof
 
 It's empty.
 
-## Three Skins: You've Only Peeled Off the Wallpaper
+## Three Layers: You've Only Peeled Off the Wallpaper
 
 Sperber's argument is not complex, but it is sharp enough. He says: stop asking "is neoliberalism dead or not". That question is like asking "is winter over," and the answer depends on whether you're at the equator or the pole. Neoliberalism is not one thing; it's an entire structure, at least three layers deep. You have to look at each one.
 
 **The first layer: ideology.** This one is indeed rotting.
 
-Thatcher's "there is no such thing as society," recited today, sounds like a joke told at the wrong occasion. Not that it isn't funny, but the setting is wrong. Friedman's sermons, once the background music of Western politics, now sound more like a late-night radio rerun: still playing, but nobody's listening. Gerbaudo gave its successor a name: "Neo-statism" (sovereignty, protection, control). Three words replacing freedom, market, efficiency. It sounds like a change of priests: the sermon text changed, but it's the same church.
+Thatcher's "there is no such thing as society," recited today, sounds like a joke told at the wrong time. Not that it isn't funny, but the setting is wrong. Friedman's sermons, once the background music of Western politics, now sound more like a late-night radio rerun: still playing, but nobody's listening. Gerbaudo gave its successor a name: "Neo-statism" (sovereignty, protection, control). Three words replacing freedom, market, efficiency. It sounds like a change of priests: the sermon text changed, but it's the same church.
 
 More telling is generational turnover. Hayek's students retired, Friedman's disciples entered the grave, Buchanan's chair sits empty. The "collective intellectual" that once inserted neoliberal thought into the halls of power has died of natural causes. Today's politicians and CEOs grew up with the memory of neoliberalism's **crises**, not its **triumphs**. It's like an army where the veterans went home decades ago and the new recruits have only heard stories. Do you expect them to maintain the same faith?
 
@@ -45,7 +45,7 @@ The industrial strategy section is even more savor-worthy. The Biden administrat
 
 > Without the precedent of the Chinese state doing the same thing, the Inflation Reduction Act's ambition to accelerate green technology development would not have taken this form.
 
-He coined a term for this imitation: "Competitive Isomorphism." Roughly translated: denouncing the opponent from the podium while secretly copying their homework at the desk below, and doing so with an extremely solemn expression.
+He coined a term for this imitation: "Competitive Isomorphism." Roughly, it means: denouncing the opponent from the podium while secretly copying their homework under the table, and doing so with an extremely solemn expression.
 
 **But the third layer is where the entire article truly lands.**
 
@@ -55,11 +55,11 @@ The French Regulation School makes a distinction: the mode of regulation (instit
 
 Has the tax structure changed? Corporate tax rates are still that low, capital gains taxes still that generous, workers' income taxes still that solid, consumption taxes still dutifully collected. This pipeline system that pumps wealth upward hasn't changed a single pipe in twenty years.
 
-The labor market? Employment protection frameworks are basically untouched, the transnational gradient of labor rights is unchanged, the army of precarious workers keeps growing. Corporate governance? Big-company executives still faithfully execute "shareholder value maximization": the short-term speculation game invented in 1970s America and exported globally in the 1980s.
+The labor market? Employment protection frameworks are basically untouched, the transnational gradient of labor rights is unchanged, the army of precarious workers keeps growing. Corporate governance? Big-company executives still faithfully execute "shareholder value maximization": the playbook invented in 1970s America and exported globally in the 1980s.
 
-And financialization? **More rampant than ever.** Debt outpaces GDP growth, derivatives pile up, cross-border capital flows freely, the "Masters of the Universe" sit in their New York towers issuing orders with the same tone as twenty years ago.
+And financialization? Sperber devotes long passages to it, like running an ECG on a body that seems dead but whose heart is still beating. Debt keeps rising, derivatives pile up, cross-border capital flows freely, the "Masters of the Universe" sit in their New York towers issuing orders with the same tone as twenty years ago.
 
-All the "post-neoliberal" stories you've heard happen in the first two layers, rhetoric and policy. But the third layer, the material foundation of capital accumulation, hasn't loosened a single brick.
+In the "post-neoliberal" stories you hear, they all happen in the first two layers, rhetoric and policy. But the third layer, the material foundation of capital accumulation, hasn't loosened a single brick.
 
 Then Sperber pulls out his data. No rhetoric, no emotion, just numbers.
 
@@ -73,7 +73,7 @@ In 2024, US corporate profits hit $3.8 trillion, 13% of GDP: a continuously risi
 
 Then Sperber writes a sentence so calm it doesn't sound like a verdict:
 
-> Seen from the top — from the vantage point of the capitalists themselves — the mode of production is in rude health.
+> Seen from the top, from the vantage point of the capitalists themselves, the mode of production is in rude health.
 
 In rude health. Three words heavier than ten thousand theoretical articles.
 
@@ -81,7 +81,7 @@ In rude health. Three words heavier than ten thousand theoretical articles.
 
 If the article had stopped at diagnosis, it would already be powerful enough. But Sperber also takes care of two heavyweight academics, and that's the most entertaining part, because he uses debate, not invective.
 
-**Wolfgang Streeck**, the German sociologist, spiritual pillar of left-wing theory. He tells a four-stage decline story: postwar golden age, then inflation, then debt, then post-2008 central bank dictatorship. The ending is called "the interregnum": legitimacy evaporated, society dissolving, but capital still lingering like a body nobody has unplugged.
+**Wolfgang Streeck**, the German sociologist, a spiritual pillar of left-wing theory. He tells a four-stage decline story: postwar golden age, then inflation, then debt, then post-2008 central bank dictatorship. The ending is called "the post-capitalist interregnum": legitimacy evaporated, society dissolving, but capital still lingering like a body nobody has unplugged.
 
 Sperber's rebuttal is technical, and that's where its force lies. He says: Streeck's entire narrative rests on an unstated premise. He treats the postwar three decades (Keynesianism, welfare state, moderate equality) as the "normal state" of capitalism, and uses it as a yardstick to measure everything after. Measured against it, of course everything looks like decline.
 
@@ -89,7 +89,7 @@ But what if the postwar three decades were the **exception**? What if capitalism
 
 **Branko Milanovic**, former World Bank star economist. He offers another narrative: globalization created a class of "Homoploutic Elites", people with both high income and high capital; China's rise pushed American workers down. The conclusion: neoliberalism is being replaced by "national market liberalism" (liberal at home, mercantilist abroad).
 
-Sperber's response: four points, each cutting to the quick. The domestic/international boundary is impossible to draw clearly (which industrial policy today isn't both?). The "elite" definition is so broad it could include half of society. Calling Trump an "anti-plutocrat" requires considerable imagination, given that the White House-Wall Street relationship can only be described as "intimate". Most fundamentally, Milanovic attributes everything to class reshuffling and China's rise, while ignoring that capitalists have their own material interests in industrial policy, and that geopolitics weighs far more than electoral politics.
+Sperber's response: four points, each cutting to the quick. The domestic/international boundary is impossible to draw clearly (which industrial policy today isn't both?). The "elite" definition is so broad it could include half of society. Calling Trump an "anti-plutocrat" requires considerable imagination, given that describing the White House-Wall Street relationship as "intimate" would be, if anything, an understatement. Most fundamentally, Milanovic attributes everything to class reshuffling and China's rise, while ignoring that capitalists have their own material interests in industrial policy, and that geopolitics weighs far more than electoral politics.
 
 This isn't to say Milanovic is entirely wrong, but that his framework is too narrow to contain reality.
 
@@ -107,4 +107,4 @@ This is what Sperber truly wants to say. You can celebrate the obsolescence of n
 
 So the next time someone tells you neoliberalism is dead, it's worth asking a follow-up. Ask what? Three questions: Whose assets shrank? Whose profits declined? Whose power was diminished?
 
-If all three answers are "nobody", then the ones holding the funeral are not neoliberalism's relatives, but those spectators who keep thinking *this time it's really different*. The coffin is empty. The inheritance has been collected. The banquet continues. They just changed the menu.
+If all three answers are "nobody", then the ones holding the funeral are probably not neoliberalism's relatives, but those spectators who keep thinking *this time it's really different*. The coffin is empty. The inheritance has been collected. The banquet continues. They just changed the menu.

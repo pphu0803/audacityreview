@@ -17,7 +17,7 @@ A few days later came a second notice: the rector wished her to "clarify" her vi
 
 "Clarify" is a decorous word. Its actual meaning was: publicly retract your views. Fraser refused. The appointment was withdrawn. The rector denounced her publicly to the German press. Then the hate mail poured in, one piece from Israel, worded with considerable imagination: "Even the descendants of the Nazis can't stand you, you Kapo bitch".
 
-A third-generation representative of critical theory, blacklisted by a country whose founding creed is "facing the past," in the name of "defending historical memory".
+A third-generation representative of critical theory was blacklisted by a country whose founding creed is "facing the past," in the name of "defending historical memory".
 
 Fraser did not turn this into an indictment. In NLR 158 she uses the experience to do something bolder: she defines Gaza as a "world event": not a regional conflict but a mirror, in which every country sees only itself.
 
@@ -59,7 +59,7 @@ In the spring of 2024, tents went up on the campuses of more than 140 universiti
 
 Then came June. The knife fell.
 
-The repression was a multi-party collaboration. Right-wing Zionist organizations weaponized the charge of "antisemitism," conservative politicians issued orders, militarized police cleared the encampments. Universities expelled students, banned student organizations, and withheld degrees, major law firms rescinded job offers to graduates, and online trolls tracked protesters and reported anyone suspected of being of Arab descent to immigration authorities.
+The repression was a multi-party collaboration. Right-wing Zionist organizations weaponized the charge of "antisemitism," conservative politicians issued orders, militarized police cleared the encampments. Universities expelled students, banned student organizations, and withheld degrees; major law firms rescinded job offers to graduates; and online trolls tracked protesters and reported anyone suspected of being of Arab descent to immigration authorities.
 
 All of this was carried out in the name of "combating antisemitism". And the definition of "antisemitism" had been quietly rewritten to mean: criticizing Israel, or expressing solidarity with Palestinians.
 
@@ -87,7 +87,7 @@ Judaism is founded on a fundamental contradiction: it worships a god who belongs
 
 The question facing diaspora Jews is this: how to relate to Israel? The community is splitting along a clear fault line. On one end is a growing anti-Zionist camp: "Not in our name!", the slogan of organizations such as Jewish Voice for Peace and Not In Our Name. Looking upon a regime conducting ethnic cleansing in the name of a Jewish state, they feel an ontological nausea. To compress the rich tradition of Jewish thought into an apologia for Netanyahu's messianic nationalism is itself an erasure of Jewish history.
 
-In this passage Fraser does something academically beautiful: she excavates a genealogy of a buried "another Judaism". It was not invented after the fact; it has been there all along. Certain Orthodox currents opposed Zionist state-building from the very start, regarding it as "idolatry" that pre-empted the Messiah. Reform Judaism insisted that Jews were not a "nation" in the nation-state sense but a faith-based community. The mass Bundist movement of Poland and Russia rejected Zionism: they saw it as defeatism and bourgeois escapism, and advocated Jewish cultural autonomy within a multicultural workers' state. Jews of the Middle East and North Africa regarded Zionism as an extension of European colonialism and constructed an Arab-Jewish identity. Even "cultural Zionists" such as Martin Buber opposed the establishment of an ethno-nationalist settler-colonial state.
+In this passage Fraser does something academically beautiful: she excavates a buried genealogy of "another Judaism". It was not invented after the fact; it has been there all along. Certain Orthodox currents opposed Zionist state-building from the very start, regarding it as "idolatry" that pre-empted the Messiah. Reform Judaism insisted that Jews were not a "nation" in the nation-state sense but a faith-based community. The mass Bundist movement of Poland and Russia rejected Zionism: they saw it as defeatism and bourgeois escapism, and advocated Jewish cultural autonomy within a multicultural workers' state. Jews of the Middle East and North Africa regarded Zionism as an extension of European colonialism and constructed an Arab-Jewish identity. Even "cultural Zionists" such as Martin Buber opposed the establishment of an ethno-nationalist settler-colonial state.
 
 > For us, to reduce Jewish thought to the messianic delirium of the Israeli far right and its American enablers is a negation of our reality and our history.
 
@@ -103,7 +103,7 @@ The cleverness of this observation lies in its being a contrast. In the United S
 
 ## What Is a "World Event"
 
-Fraser does not give a strict definition of "world event," but from her usage one may infer it: a world event is a crisis so large that it cannot be absorbed by any single frame. It is at once military, moral, political, and identitarian. Every country that looks into it sees its own lesion. Germany sees a historical debt not yet paid off, misdirected; America sees that the autonomy of civil society is a scrap of paper; the Jewish community sees the tearing of identity.
+Fraser does not give a strict definition of "world event," but from her usage one may infer it: a world event is a crisis so large that it cannot be absorbed by any single frame. It is at once military, moral, political, and identitarian. Every society that looks into it sees its own lesion. Germany sees a historical debt not yet paid off, misdirected; America sees that the autonomy of civil society is a scrap of paper; the Jewish community sees the tearing of identity.
 
 Gaza is a world event precisely because it **cannot be contained within the image of "Auschwitz"**. The entire logic of philosemitic McCarthyism rests on a single premise: to protect Jews = to support Israel; to question Israel = to march toward Auschwitz. Gaza has blown this equation apart. As footage of the Israeli Defense Forces' bombardment, of starving children, of destroyed neighborhoods floods every screen, the moral ledger of "who is the victim and who is the perpetrator," once seemingly settled, is reopened everywhere, and with violent intensity.
 

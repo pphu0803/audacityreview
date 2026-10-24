@@ -47,7 +47,7 @@ Every time you remove a regulatory rule, you are not creating a "free blank spac
 
 > Every removal of a regulatory obligation is accompanied by the establishment of a rule that authorizes someone to do what was previously forbidden.
 
-The beauty of this argument lies in its extreme simplicity and its irrefutability. You cannot produce a single example of "deregulation" that cannot be redescribed as "laying down a new rule for the other side." Relaxing the regulation of banks = granting banks new freedoms. Weakening the bargaining position of unions = granting employers new privileges. Law never disappears; it merely changes whom it serves.
+The beauty of this argument lies in its extreme simplicity and its near-irrefutability. It is almost impossible to produce a single example of "deregulation" that cannot be redescribed as "laying down a new rule for the other side." Relaxing the regulation of banks = granting banks new freedoms. Weakening the bargaining position of unions = granting employers new privileges. Law never disappears; it merely changes whom it serves.
 
 ## Anderson Stares at the Front Desk; the Real Domination Is in the Back Office
 
@@ -55,13 +55,13 @@ Back to Anderson. The things he critiques (the UN, the International Court of Ju
 
 Koskenniemi invites you to walk past the front desk and into the kitchen.
 
-What runs in the kitchen is a different legal machinery: trade law, investment law, debt-management law, intellectual-property law, financial regulation. These laws are not weak. An arbitral tribunal of the International Centre for Settlement of Investment Disputes (ICSID) can order a sovereign state to pay a transnational corporation billions of dollars, and enforce that order. The WTO's dispute settlement mechanism may be paralyzed, but private contract arbitration operates efficiently, and in total secrecy. Sovereign debt restructuring has no proper legal framework? No matter: the "collective action clauses" embedded in bond contracts will do the job for you (drafted, needless to say, by the creditors' lawyers).
+What runs in the kitchen is a different legal machinery: trade law, investment law, debt-management law, intellectual-property law, financial regulation. These laws are not weak. An arbitral tribunal of the International Centre for Settlement of Investment Disputes (ICSID) can order a sovereign state to pay a transnational corporation billions of dollars, and enforce that order. The WTO's dispute settlement mechanism may by now be paralyzed, but private contract arbitration operates efficiently, and in total secrecy. Sovereign debt restructuring has no proper legal framework? No matter: the "collective action clauses" embedded in bond contracts will do the job for you (drafted, needless to say, by the creditors' lawyers).
 
 Koskenniemi cites the research of Katharina Pistor to drive the point home: capital is not a natural phenomenon; it is a creature of law. A building, a plot of land, a patent: in the physical sense, they are simply themselves. It is law that endows them with "priority" (who gets paid first in bankruptcy) and "enforceability" (capable of being protected by courts). It is law that endows them with "transferability" (capable of being traded across jurisdictions), "universality" (binding on all), and "convertibility" (capable of being transformed into other forms). It is these five legal attributes that turn a physical existence into "capital."
 
 > Public international law is supplemented, and at times overridden, by a wide-ranging network of unequally distributed private rights, powers, and privileges.
 
-So when you stare at the UN Security Council and sigh that "international law is useless," a transnational corporation is, through an ISDS tribunal, siphoning hundreds of millions of dollars of public funds out of some developing country. Its basis is an investment treaty signed twenty years ago, drafted by a Washington law firm, adjudicated in Washington, under Washington law. This process requires no Security Council approval and no "public" procedure of any kind. It is quiet, efficient, legal. It is the real domination.
+So when you stare at the UN Security Council and sigh that "international law is useless," a transnational corporation is, through an investor-state dispute settlement (ISDS) tribunal, siphoning hundreds of millions of dollars of public funds from some developing country. Its basis is an investment treaty signed twenty years ago, drafted by a Washington law firm, adjudicated in Washington, under Washington law. This process requires no Security Council approval and no "public" procedure of any kind. It is quiet, efficient, legal. It is the real domination.
 
 ## The Brussels Effect: Even Law Is a Kind of Export
 
@@ -91,7 +91,7 @@ More cunningly, the meaning of a right is itself indeterminate. It depends on ho
 
 This is not to say rights are useless. It is to say that when the only tool in your hand is the language of rights, the scope of what you can demand is already circumscribed. You are permitted to be angry, but only in the ways the law permits.
 
-**[Editor's Note]** At this point, Koskenniemi's analysis has touched a political judgment deeper than jurisprudence: establishment reformism is destined to fall into a bureaucratic trap. The thing this precision-engineered legal system does best is not resolve conflicts but **dismantle them**, breaking an irreconcilable confrontation over who should own what into innumerable tiny cases that can be litigated, mediated, "balanced". Each case offers you a verdict; added together, they change nothing. The revolutionary fervor of a roaring fire is thus dissolved into the helpless resignation of a frog in slowly warming water. You think you are fighting for your rights through the law; in truth, you are merely helping the machine prove that it still runs.
+**[Editor's Note]** At this point, Koskenniemi's analysis has touched a political judgment deeper than jurisprudence: establishment reformism is perhaps destined to fall into a bureaucratic trap. The thing this precision-engineered legal system does best is not resolve conflicts but **dismantle them**, breaking an irreconcilable confrontation over who should own what into innumerable tiny cases that can be litigated, mediated, "balanced". Each case offers you a verdict; added together, they change nothing. The revolutionary fervor of a roaring fire is thus dissolved into the helpless resignation of a frog in slowly warming water. You think you are fighting for your rights through the law; in truth, you are merely helping the machine prove that it still runs.
 
 ## The Legal Empire: No Emperor, but Omnipresent
 
@@ -105,7 +105,7 @@ The most formidable feature of this empire is that **compliance with it is non-o
 
 The essay closes on Trump, an unexpected yet apt landing point.
 
-Looking back from 2025, the golden age of international law in the 1990s seems to be drawing to a close. The WTO is paralyzed, the assembly line of multilateral treaties has stopped, the United States is attacking and ignoring international institutions. It looks as though the "Legal Empire" is coming apart.
+Looking back from 2025, the golden age of international law in the 1990s seems to be drawing to a close. The WTO may by now be paralyzed, the assembly line of multilateral treaties has stopped, the United States is attacking and ignoring international institutions. It looks as though the "Legal Empire" is coming apart.
 
 Koskenniemi says: not so fast.
 
