@@ -9,12 +9,12 @@ sourceUrl: https://www.currentaffairs.org/news/my-day-in-the-gig-economy
 category: Political Economy
 tags: reading,gig economy,algorithmic management,ratings,piecework,platforms,labor
 cover: /assets/ca-gig-economy-day.jpg
-excerpt: Twenty years of craft, one screwdriver, three furniture jobs, eleven hours, about $120 before expenses. Algorithmic dispatch, customer ratings, the platform's cut. The platform did not invent gig work. What it invented was a system that makes gig work measurable and exploitable.
+excerpt: Twenty years of craft, one screwdriver, three furniture jobs, eleven hours, about $120 before expenses. Algorithmic dispatch, customer ratings, the platform's cut. The platform did not invent gig work. What it invented was a system that makes gig work measurable and capitalizable.
 ---
 
 ## A Craftsman, After the Job Disappeared
 
-John McMahon has worked with his hands for twenty years. He spent half a lifetime in New York's art handling and installation trade: galleries, fairs, collectors, all of them his clients. Then his former employer went under, and he was out of work.
+John McMahon entered the trade in the 1990s and has worked with his hands for nearly three decades. He spent half a lifetime in New York's art handling and installation trade: galleries, fairs, collectors, all of them his clients. Then his former employer went under, and he was out of work.
 
 In 2026 he decided to try a gig platform. Not because he wanted to, but because he had no other road. He registered on an app called Handy and took furniture-assembly jobs. Then he wrote down one working day, exactly as it happened, for Current Affairs: "My Day in the Gig Economy."
 
@@ -22,9 +22,9 @@ His day was filled by three jobs, three households, three class-spaces. Read tho
 
 ## I. Three Jobs
 
-**First job, 9 a.m., Chelsea.** Assembling an IKEA six-drawer dresser. The 7 train was down; he arrived thirteen minutes late. The clients' apartment was small, a baby was crying, and the husband came home and swung the door open. He finished early, fifteen minutes early, and the husband looked at his watch. The meaning of the look was clear: we paid for two hours, and you worked one hour forty-five.
+**First job, 9 a.m., Chelsea.** Assembling an IKEA six-drawer dresser. The 7 train was down; he arrived thirteen minutes late. The clients' apartment was small, a baby was crying, and the husband came home and swung the door open. He finished early, fifteen minutes early, and the husband looked at his watch. The meaning of that watch-check was clear: we paid for two hours, and you worked one hour forty-five.
 
-**Second job, 1 p.m., the Ingersoll Houses, Brooklyn.** Installing a seven-foot glass-mirrored sideboard. The family did not look wealthy, but they were warm. They filmed him working on a phone. McMahon thought the cabinet itself was badly made; the assembly service had been "added on" at checkout as a website promotion. In other words, the worker had been bundled into the product and sold alongside it.
+**Second job, 1 p.m., the Ingersoll Houses, Brooklyn.** Installing a seven-foot glass-mirrored sideboard. The family did not look wealthy, but they were warm. They took out a phone and filmed him working. McMahon thought the cabinet itself was badly made; the assembly service had been "added on" at checkout as a website promotion. In other words, the worker had been bundled into the product and sold alongside it.
 
 **Third job, 3 p.m., a Midtown penthouse.** The client, a pregnant young woman, wanted a nursing chair assembled and a ten-foot glass-topped cabinet carried up to the second floor. Midway she left to pick up the dog and left McMahon waiting in the lobby. He negotiated an extra forty dollars for the additional work; she paid by check and hurried him out the door.
 
@@ -62,19 +62,19 @@ In the nineteenth century, Marx called the mechanism piecework: payment by the p
 
 In the second half of the article, McMahon pulls the camera back and offers a projection more unsettling than "gig work is miserable."
 
-The logic of Web 2.0, he says, is dragging knowledge work into the same global auction. A writer can bid for work from a village in Thailand while a New York editor chooses the cheapest bidder on earth. Teachers, writers, programmers: the further a person's work sits from the physical world, the more easily it is dropped into a single global competition. Manual work retains one floor (someone still has to carry the cabinet downstairs), but every component of knowledge work can be outsourced to the lowest bidder on the other side of the planet.
+The logic of Web 2.0, he says, is dragging knowledge work into the same global auction. A writer can bid for work from a village in Thailand while a New York editor chooses the cheapest bidder on earth. Teachers, writers, programmers: the further a person's work sits from the physical world, the more easily it is dropped into a single global competition. Manual work retains one floor (someone still has to carry the cabinet downstairs), but nearly every component of knowledge work can be outsourced to the lowest bidder on the other side of the planet.
 
-This is not science fiction. It is gig logic's natural extension. **Work stripped from the person, turned into a commodity that can be auctioned globally, paid by the piece, and allocated by algorithm.** The gig-ification of manual labor is complete; the gig-ification of knowledge labor is underway. Its finished form is the phrase we keep hearing in every AI discussion: labor replacement.
+This is not science fiction. It is gig logic's natural extension. **Work stripped from the person, turned into a commodity that can be auctioned globally, paid by the piece, and allocated by algorithm.** The gig-ification of manual labor is largely complete; the gig-ification of knowledge labor is underway. Its finished form is the phrase we keep hearing in every AI discussion: labor replacement.
 
 ## V. Editorial Note
 
 This reading sits in the "Power in the Architecture" series in a particular place: it supplies the experience-based evidence the series most lacked.
 
-When the series' lead essay, "Power in the Architecture," argues that deployment determines power relations, the theory is solid but the micro-evidence has been thin. What algorithmic management actually looks like needed a concrete scene. McMahon's day is that scene. Handy's dispatch algorithm, rating system, and commission structure are two generations of the same thing as AI-era algorithmic management. **The algorithm replaces the manager, control hides inside code, and what the worker faces is no longer a person but a system that cannot be negotiated with.**
+When the series' lead essay, "Power in the Architecture," argues that deployment determines power relations, the theory is solid but the micro-evidence has been thin. What algorithmic management actually looks like needed a concrete scene. McMahon's day is that scene. Handy's dispatch algorithm, rating system, and commission structure are the earlier generation of what AI-era algorithmic management has become. **The algorithm replaces the manager, control hides inside code, and what the worker faces is no longer a person but a system that cannot be negotiated with.**
 
-This is also why the series treats deployment as one of the hinges of design correction. A platform's essence is not technical; it is property plus power. Who defines the rating, who sets the commission, who decides the dispatch. The answers determine what a craftsman's eleven hours are worth.
+This is also why the series treats deployment as one of the hinges of design correction. A platform's essence is not technical; it is property plus power: who defines the rating, who sets the commission, who decides the dispatch. The answers determine what a craftsman's eleven hours are worth.
 
-Twenty years of craft, eleven hours, a hundred and twenty dollars. The algorithm did not invent gig work, but it invented an arithmetic that keeps gig work cheap forever. The value of McMahon's essay is that he gives that arithmetic a name and a face.
+Twenty years of craft, eleven hours, a hundred and twenty dollars. The algorithm did not invent gig work, but it invented an arithmetic that keeps driving gig prices down. The value of McMahon's essay is that he gives that arithmetic a name and a face.
 
 ---
 
